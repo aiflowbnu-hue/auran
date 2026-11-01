@@ -5,6 +5,7 @@ API key is read from the AI33_KEY environment variable (never commit it).
 
 Usage:
   python3 tools/ai33.py sfx "cartoon whoosh" out.mp3 --duration 1.0 [--influence 0.5] [--loop]
+  python3 tools/ai33.py tts script.txt out.mp3 --voice elevenlabs_TX3LPaxmHKxFdv7VOQHJ [--speed 1.0]
 """
 import argparse, json, os, sys, time, urllib.error, urllib.request
 
@@ -58,6 +59,23 @@ def sfx(text, out, duration=None, influence=0.5, loop=False):
     print(f"{out}  (credits used {t.get('credit_cost')}, remaining {r.get('ec_remain_credits')})")
 
 
+def tts(text, out, voice, speed=1.0):
+    """ElevenLabs (or any provider-prefixed voice) via the unified v3 endpoint. ~1 credit per character."""
+    key = os.environ.get("AI33_KEY") or sys.exit("AI33_KEY is not set")
+    boundary = "----ai33boundary"
+    parts = [("text", text), ("voice_id", voice), ("speed", str(speed))]
+    body = "".join(f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'
+                   for k, v in parts) + f"--{boundary}--\r\n"
+    req = urllib.request.Request("https://api.ai33.pro/v3/text-to-speech", data=body.encode(), method="POST",
+                                 headers={"xi-api-key": key, **UA,
+                                          "Content-Type": f"multipart/form-data; boundary={boundary}"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        task_id = json.load(r)["task_id"]
+    t = wait(task_id)
+    download(t["metadata"]["audio_url"], out)
+    print(f"{out}  (credits used {t.get('credit_cost')})")
+
+
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -66,6 +84,12 @@ if __name__ == "__main__":
     s.add_argument("--duration", type=float)
     s.add_argument("--influence", type=float, default=0.5)
     s.add_argument("--loop", action="store_true")
+    t = sub.add_parser("tts")
+    t.add_argument("text_file"); t.add_argument("out")
+    t.add_argument("--voice", required=True)
+    t.add_argument("--speed", type=float, default=1.0)
     a = p.parse_args()
     if a.cmd == "sfx":
         sfx(a.text, a.out, a.duration, a.influence, a.loop)
+    elif a.cmd == "tts":
+        tts(open(a.text_file).read(), a.out, a.voice, a.speed)
