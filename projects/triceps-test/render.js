@@ -54,6 +54,7 @@ async function video(from, to, out) {
 
 function mixAudio(cues, out) {
   const inputs = [], filters = [], vo = [], sfx = [];
+  const T = timeline.total;
   const addIn = f => { inputs.push('-i', f); return inputs.length / 2 - 1; };
   timeline.scenes.forEach(s => {
     const i = addIn(path.join(HERE, s.file));
@@ -66,8 +67,7 @@ function mixAudio(cues, out) {
     sfx.push(`[s${i}]`);
   });
   const mi = addIn(path.join(HERE, '..', '..', 'assets', 'music', 'bouncy_rep_timer.mp3'));
-  const T = timeline.total;
-  filters.push(`${vo.join('')}amix=inputs=${vo.length}:normalize=0,asplit=2[vo][vokey]`);
+  filters.push(`${vo.join('')}amix=inputs=${vo.length}:normalize=0,apad,atrim=0:${T},asplit=2[vo][vokey]`);
   filters.push(`[${mi}:a]aresample=44100,aformat=channel_layouts=stereo,atrim=0:${T},volume=0.22,afade=t=in:d=0.5,afade=t=out:st=${T - 1.5}:d=1.5[mraw]`);
   filters.push(`[mraw][vokey]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=350[music]`);
   filters.push(`${sfx.join('')}amix=inputs=${sfx.length}:normalize=0[fx]`);

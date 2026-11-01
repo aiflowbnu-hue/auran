@@ -253,8 +253,8 @@ const SCENES = {
         ctx.beginPath(); ctx.arc(E[0], E[1], 34, deg(-80), deg(10)); ctx.stroke(); ctx.restore();
       }
     });
-    popText(ctx, 'HANDS ON BENCH', 330, 150, 44, t - at('dips_how', 'Hands on a bench'), { until: at('dips_how', 'legs out') - at('dips_how', 'Hands on a bench') + 0.6 });
-    popText(ctx, 'FINGERS FORWARD', 330, 215, 36, t - at('dips_how', 'fingers forward'), { color: C.red, until: at('dips_how', 'legs out') - at('dips_how', 'fingers forward') + 0.6 });
+    popText(ctx, 'HANDS ON BENCH', 240, 300, 44, t - at('dips_how', 'Hands on a bench'), { until: at('dips_how', 'legs out') - at('dips_how', 'Hands on a bench') + 0.6 });
+    popText(ctx, 'FINGERS FORWARD', 240, 360, 36, t - at('dips_how', 'fingers forward'), { color: C.red, until: at('dips_how', 'legs out') - at('dips_how', 'fingers forward') + 0.6 });
     popText(ctx, 'LEGS OUT', 1000, 560, 48, t - at('dips_how', 'legs out'), { until: at('dips_how', 'Lower until') - at('dips_how', 'legs out') + 0.4 });
     badge(ctx, 'ELBOWS 90°', 960, 160, 54, t - at('dips_how', 'ninety degrees'), C.red);
     if (t > at('dips_how', 'push back up')) arrow(ctx, 1040, 330, 1040, 230 - 20 * Math.sin(t * 6), C.green);
