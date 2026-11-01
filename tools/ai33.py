@@ -105,7 +105,7 @@ def image(prompt, out, model="gemini-3-pro-image-preview", aspect="3:4", res="2K
                                  headers={"xi-api-key": key, "Content-Type": ctype, **UA})
     with urllib.request.urlopen(req, timeout=180) as r:
         task_id = json.load(r)["task_id"]
-    t = wait(task_id, timeout=600)
+    t = wait(task_id, timeout=1500)
     m = t["metadata"]
     res = m.get("result_images") or []
     if not res:
