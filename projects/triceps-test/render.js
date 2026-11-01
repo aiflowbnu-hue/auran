@@ -10,6 +10,7 @@ const path = require('path');
 const HERE = __dirname;
 const BUILD = path.join(HERE, 'build');
 const FPS = 30;
+const SCENES_FILE = 'scenes_v2.js';
 const args = process.argv.slice(2);
 const opt = k => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : null; };
 const timeline = JSON.parse(fs.readFileSync(path.join(BUILD, 'timeline.json'), 'utf8'));
@@ -19,9 +20,20 @@ async function page() {
   const pg = await browser.newPage({ viewport: { width: 1280, height: 720 } });
   pg.on('pageerror', e => { console.error('PAGE ERROR', e.message); process.exit(1); });
   const js = f => fs.readFileSync(path.join(HERE, 'anim', f), 'utf8');
-  await pg.setContent(`<html><body style="margin:0"><canvas id="c" width="1280" height="720"></canvas>
-    <script>window.TIMELINE=${JSON.stringify(timeline)};</script><script>${js('rig.js')}</script><script>${js('scenes.js')}</script></body></html>`);
-  await pg.evaluate(() => document.fonts.ready);
+  const sprites = JSON.parse(fs.readFileSync(path.join(BUILD, 'sprites', 'manifest.json'), 'utf8'));
+  const html = `<!doctype html><html><head><meta charset="utf-8"></head><body style="margin:0"><canvas id="c" width="1280" height="720"></canvas>
+    <script>window.TIMELINE=${JSON.stringify(timeline)};window.SPRITES=${JSON.stringify(sprites)};</script>
+    <script>${js('rig.js')}</script><script>${js(SCENES_FILE)}</script></body></html>`;
+  // serve page + sprites from one origin so the canvas is not tainted
+  await pg.route('http://render.local/**', route => {
+    const u = new URL(route.request().url());
+    if (u.pathname === '/index.html') return route.fulfill({ contentType: 'text/html; charset=utf-8', body: html });
+    const f = path.join(BUILD, decodeURIComponent(u.pathname));
+    if (f.startsWith(BUILD) && fs.existsSync(f)) return route.fulfill({ path: f });
+    return route.fulfill({ status: 404, body: '' });
+  });
+  await pg.goto('http://render.local/index.html');
+  await pg.evaluate(async () => { await document.fonts.ready; if (window.ready) await window.ready; });
   return { browser, pg };
 }
 
@@ -86,7 +98,7 @@ function mixAudio(cues, out) {
   if (from || opt('--to')) return;
   const audio = path.join(BUILD, 'audio.m4a');
   mixAudio(cues, audio);
-  const final = path.join(BUILD, 'triceps_test.mp4');
+  const final = path.join(BUILD, 'triceps_test_v2.mp4');
   execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', silent, '-i', audio, '-c:v', 'copy', '-c:a', 'copy', '-shortest', final]);
   console.log('wrote', final);
 })();

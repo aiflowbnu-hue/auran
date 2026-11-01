@@ -1,0 +1,60 @@
+{
+ "style": "The character is BLAZE from @img1: a muscular man with deep crimson-red skin, bald head, minimal face with two bold white almond eyes with small black pupils and a determined brow, bright orange forehead sweatband, white athletic tape on both wrists, black training shorts with an orange side stripe, barefoot. Keep his design, colors and proportions exactly like @img1. Same art style as @img1: clean comic-book anatomy illustration, thick black ink outlines with varied line weight, cel shading with 2-3 tones plus glossy highlights, detailed stylized muscles. Plain flat solid light grey-blue background (#E4E9F2) filling the whole frame, no scenery, no floor texture, no text, no logo, no watermark, only a small soft grey contact shadow under him.",
+ "items": [
+  {
+   "id": "dips",
+   "aspect": "21:9",
+   "prompt": "(already generated)"
+  },
+  {
+   "id": "push",
+   "aspect": "21:9",
+   "prompt": "A two-panel ANIMATION KEYFRAME SHEET: two panels side by side separated by a thin empty gap, with the SAME camera angle, SAME scale and SAME position of the character and props in both panels, so the two frames can be swapped as animation. Only the described body parts change between panels.\nBoth panels: side view (facing right) of Blaze doing a diamond push-up on the floor, toes on the ground at the left, both hands together directly under his chest forming a diamond, body in one straight line from head to heels, plain black shorts.\nLEFT panel = TOP position: arms fully straight, body high, focused eyes.\nRIGHT panel = BOTTOM position: chest lowered to just above the floor, elbows bent sharply and tucked back along his ribs, triceps flexed, straining eyes and gritted teeth. The height difference of his chest between panels must be large and obvious."
+  },
+  {
+   "id": "knee",
+   "aspect": "21:9",
+   "prompt": "A two-panel ANIMATION KEYFRAME SHEET: two panels side by side separated by a thin empty gap, with the SAME camera angle, SAME scale and SAME position of the character and props in both panels, so the two frames can be swapped as animation. Only the described body parts change between panels.\nBoth panels: side view (facing right) of Blaze doing the easier KNEE push-up variation: knees resting on the floor, lower legs lifted behind him with feet crossed, hands together under his chest, body straight from head to knees, plain black shorts.\nLEFT panel = TOP position: arms straight.\nRIGHT panel = BOTTOM position: chest lowered close to the floor with elbows bent back, and his eyes glance sideways toward the viewer with a suspicious look."
+  },
+  {
+   "id": "ohe",
+   "aspect": "21:9",
+   "prompt": "A two-panel ANIMATION KEYFRAME SHEET: two panels side by side separated by a thin empty gap, with the SAME camera angle, SAME scale and SAME position of the character and props in both panels, so the two frames can be swapped as animation. Only the described body parts change between panels.\nBoth panels: side view (facing right) of Blaze standing tall doing an overhead triceps extension with one dumbbell held in both hands, upper arms pointing straight up beside his head with elbows pointing at the ceiling, plain black shorts, full body visible from head to feet.\nLEFT panel = BOTTOM position: forearms bent down behind his head, the dumbbell behind his neck, deep stretch.\nRIGHT panel = TOP position: arms fully extended straight up, the dumbbell high above his head, triceps flexed."
+  },
+  {
+   "id": "hook",
+   "aspect": "21:9",
+   "prompt": "A two-panel ANIMATION KEYFRAME SHEET: two panels side by side separated by a thin empty gap, with the SAME camera angle, SAME scale and SAME position of the character and props in both panels, so the two frames can be swapped as animation. Only the described body parts change between panels.\nBoth panels: Blaze in three-quarter view facing right, full body visible from head to feet, standing, plain black shorts.\nLEFT panel: proudly flexing his raised right biceps, chest puffed out, smug confident eyes.\nRIGHT panel: the same raised arm has gone limp and floppy like cooked spaghetti, drooping down in a wavy noodle shape, his eyes wide and embarrassed, blue sweat drops near his head."
+  },
+  {
+   "id": "shirt",
+   "aspect": "21:9",
+   "prompt": "A two-panel ANIMATION KEYFRAME SHEET: two panels side by side separated by a thin empty gap, with the SAME camera angle, SAME scale and SAME position of the character and props in both panels, so the two frames can be swapped as animation. Only the described body parts change between panels.\nBoth panels: Blaze in three-quarter view facing right, full body visible from head to feet, wearing a tight teal t-shirt and plain black shorts, flexing his raised right arm.\nLEFT panel: the t-shirt sleeve on the flexed arm is straining with stress lines, about to burst over his huge triceps, determined eyes.\nRIGHT panel: that sleeve has ripped apart, torn teal fabric pieces flying off, exposing his huge red flexed arm, comic impact lines, proud eyes."
+  },
+  {
+   "id": "shrug",
+   "aspect": "16:9",
+   "prompt": "Side view (facing right) close-up of Blaze's head and shoulders while doing a bench dip with WRONG form: his shoulders are shrugged up to his ears so his neck disappears like a turtle hiding in its shell, worried eyes. Upper body only, centered."
+  },
+  {
+   "id": "backpack",
+   "aspect": "16:9",
+   "prompt": "Side view (facing right) of Blaze standing tall doing an overhead triceps extension, holding a stuffed orange school backpack full of books behind his head with both hands instead of a dumbbell, a couple of book corners poking out, upper arms pointing straight up beside his head, plain black shorts, full body visible from head to feet, centered."
+  },
+  {
+   "id": "diamond_hands",
+   "aspect": "16:9",
+   "prompt": "Top-down close-up view of Blaze's two red hands flat on the floor forming a diamond shape between them: thumbs touching at the bottom and index fingers touching at the top, other fingers spread, white athletic tape on both wrists. The hands fill most of the frame, centered."
+  },
+  {
+   "id": "fistpump",
+   "aspect": "16:9",
+   "prompt": "Blaze in front view jumping slightly with both fists pumped up in the air, excited, mouth open shouting, plain black shorts, full body visible from head to feet, centered, occupying about 80% of the frame height."
+  },
+  {
+   "id": "point",
+   "aspect": "16:9",
+   "prompt": "Blaze in front view, full body from head to feet, confidently pointing his index finger straight at the viewer with one arm, the other fist on his hip, smirking eyes, plain black shorts. Centered, occupying about 85% of the frame height."
+  }
+ ]
+}

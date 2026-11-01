@@ -107,10 +107,10 @@ def image(prompt, out, model="gemini-3-pro-image-preview", aspect="3:4", res="2K
         task_id = json.load(r)["task_id"]
     t = wait(task_id, timeout=600)
     m = t["metadata"]
-    urls = [u for u in json.dumps(m).split('"') if u.startswith("http") and any(x in u for x in (".png", ".jpg", ".jpeg", ".webp"))]
-    if not urls:
-        sys.exit(f"no image url in task: {json.dumps(m)[:800]}")
-    download(urls[0], out)
+    res = m.get("result_images") or []
+    if not res:
+        sys.exit(f"no result image in task: {json.dumps(m)[:800]}")
+    download(res[0]["imageUrl"], out)  # not assetR2Keys: those are the uploaded reference images
     print(f"{out}  (credits used {t.get('credit_cost')})")
 
 
