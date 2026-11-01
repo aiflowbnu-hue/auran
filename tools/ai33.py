@@ -83,6 +83,37 @@ def tts(text, out, voice, speed=1.0):
     print(f"{out}  (credits used {t.get('credit_cost')})")
 
 
+def _multipart(fields, files=()):
+    boundary = "----ai33boundary7x"
+    out = b""
+    for k, v in fields:
+        out += f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode()
+    for k, path in files:
+        ctype = "image/png" if path.lower().endswith(".png") else "image/jpeg"
+        out += (f'--{boundary}\r\nContent-Disposition: form-data; name="{k}"; filename="{os.path.basename(path)}"\r\n'
+                f"Content-Type: {ctype}\r\n\r\n").encode() + open(path, "rb").read() + b"\r\n"
+    return out + f"--{boundary}--\r\n".encode(), f"multipart/form-data; boundary={boundary}"
+
+
+def image(prompt, out, model="gemini-3-pro-image-preview", aspect="3:4", res="2K", assets=()):
+    """Generate one image; `assets` are reference image paths, referenced as @img1, @img2... in the prompt."""
+    key = os.environ.get("AI33_KEY") or sys.exit("AI33_KEY is not set")
+    body, ctype = _multipart([("prompt", prompt), ("model_id", model), ("generations_count", "1"),
+                              ("model_parameters", json.dumps({"aspect_ratio": aspect, "resolution": res}))],
+                             [("assets", a) for a in assets])
+    req = urllib.request.Request("https://api.ai33.pro/v1i/task/generate-image", data=body, method="POST",
+                                 headers={"xi-api-key": key, "Content-Type": ctype, **UA})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        task_id = json.load(r)["task_id"]
+    t = wait(task_id, timeout=600)
+    m = t["metadata"]
+    urls = [u for u in json.dumps(m).split('"') if u.startswith("http") and any(x in u for x in (".png", ".jpg", ".jpeg", ".webp"))]
+    if not urls:
+        sys.exit(f"no image url in task: {json.dumps(m)[:800]}")
+    download(urls[0], out)
+    print(f"{out}  (credits used {t.get('credit_cost')})")
+
+
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -95,8 +126,15 @@ if __name__ == "__main__":
     t.add_argument("text_file"); t.add_argument("out")
     t.add_argument("--voice", required=True)
     t.add_argument("--speed", type=float, default=1.0)
+    im = sub.add_parser("image")
+    im.add_argument("prompt_file"); im.add_argument("out")
+    im.add_argument("--model", default="gemini-3-pro-image-preview")
+    im.add_argument("--aspect", default="3:4"); im.add_argument("--res", default="2K")
+    im.add_argument("--asset", action="append", default=[])
     a = p.parse_args()
     if a.cmd == "sfx":
         sfx(a.text, a.out, a.duration, a.influence, a.loop)
     elif a.cmd == "tts":
         tts(open(a.text_file).read(), a.out, a.voice, a.speed)
+    elif a.cmd == "image":
+        image(open(a.prompt_file).read(), a.out, a.model, a.aspect, a.res, a.asset)
