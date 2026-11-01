@@ -25,7 +25,7 @@ def _req(method, path, body=None):
             with urllib.request.urlopen(req, timeout=120) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            if e.code < 500 or attempt == 4:
+            if (e.code != 429 and e.code < 500) or attempt == 4:
                 raise
             time.sleep(2 * (attempt + 1))
 
@@ -69,8 +69,15 @@ def tts(text, out, voice, speed=1.0):
     req = urllib.request.Request("https://api.ai33.pro/v3/text-to-speech", data=body.encode(), method="POST",
                                  headers={"xi-api-key": key, **UA,
                                           "Content-Type": f"multipart/form-data; boundary={boundary}"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        task_id = json.load(r)["task_id"]
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                task_id = json.load(r)["task_id"]
+            break
+        except urllib.error.HTTPError as e:
+            if (e.code != 429 and e.code < 500) or attempt == 5:
+                raise
+            time.sleep(5 * (attempt + 1))  # rate limited / server busy
     t = wait(task_id)
     download(t["metadata"]["audio_url"], out)
     print(f"{out}  (credits used {t.get('credit_cost')})")

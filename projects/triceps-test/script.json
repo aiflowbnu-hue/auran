@@ -1,0 +1,23 @@
+{
+  "title": "3 Tricep Moves for Bigger Arms",
+  "voice": "elevenlabs_QhpsGjDKZmM9qRYdMhBD",
+  "scenes": [
+    {"id": "hook",      "text": "Everybody trains biceps. Then they wonder why their arms still look like cooked spaghetti."},
+    {"id": "fact",      "text": "Here's the secret. Your triceps make up two thirds of your upper arm. Train them, and your sleeves start begging for mercy."},
+    {"id": "promise",   "text": "Three moves. No fancy equipment. Let's go."},
+    {"id": "dips_t",    "text": "First up, bench dips."},
+    {"id": "dips_how",  "text": "Hands on a bench behind you, fingers forward, legs out. Lower until your elbows hit ninety degrees, then push back up."},
+    {"id": "dips_err",  "text": "Keep your back close to the bench, and don't let your shoulders creep up to your ears. You're a lifter, not a turtle."},
+    {"id": "dips_sets", "text": "Three sets of twelve."},
+    {"id": "dia_t",     "text": "Next, diamond push-ups."},
+    {"id": "dia_how",   "text": "Make a diamond with your thumbs and index fingers, right under your chest. Lower slow, press up hard."},
+    {"id": "dia_easy",  "text": "Too hard? Drop to your knees. Nobody's watching. Well, I am."},
+    {"id": "dia_sets",  "text": "Three sets of eight to ten."},
+    {"id": "ohe_t",     "text": "Last one, overhead extensions."},
+    {"id": "ohe_how",   "text": "Grab a dumbbell, or a backpack full of books, and hold it behind your head. Elbows point at the ceiling. Extend up, then lower slow."},
+    {"id": "ohe_burn",  "text": "Feel that stretch? That's where the growth happens."},
+    {"id": "ohe_sets",  "text": "Three sets of twelve."},
+    {"id": "recap",     "text": "That's it. Three moves, three sets, twice a week. Give it a month, and watch those sleeves suffer."},
+    {"id": "outro",     "text": "Subscribe, and I'll see you on the next rep."}
+  ]
+}
