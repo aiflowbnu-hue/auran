@@ -1,0 +1,4 @@
+.ai33env
+.env
+*.env
+__pycache__/
