@@ -22,7 +22,7 @@ macro = {
     "height": 0.62, "cupsize": 0.5, "firmness": 1.0,
     "race": {"asian": 0.2, "caucasian": 0.3, "african": 0.5},
 }
-body = HumanService.create_human(mask_helpers=True, detailed_helpers=False, extra_vertex_groups=True,
+body = HumanService.create_human(mask_helpers=True, detailed_helpers=True, extra_vertex_groups=True,
                                  feet_on_ground=False, scale=0.1, macro_detail_dict=macro)
 body.name = "Blaze"
 

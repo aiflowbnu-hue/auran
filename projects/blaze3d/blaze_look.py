@@ -93,36 +93,28 @@ def setup(outline=0.010):
         geom = bm.verts[:] + bm.edges[:] + bm.faces[:]
         bmesh.ops.bisect_plane(bm, geom=geom, plane_co=(sx * xcut, 0, 0), plane_no=(1, 0, 0))
     bm.to_mesh(me); bm.free(); me.update()
-    hips = {"pelvis.L", "pelvis.R", "root", "spine05", "upperleg01.L", "upperleg01.R", "upperleg02.L", "upperleg02.R"}
-    wrists = {"wrist.L", "wrist.R", "lowerarm02.L", "lowerarm02.R"}
-    vmat = [idx["skin"]] * len(me.vertices)
-    for v in me.vertices:
-        z = (v.co.z - bottom) / H
-        # shorts: from just below the navel down to mid-thigh
-        if 0.355 < z < 0.585 and group_weight(body, v, hips) > 0.25:
-            vmat[v.index] = idx["shorts"]
-            # orange side stripe on the outer thigh
-            if abs(v.co.x) > 0.0 and 0.36 < z < 0.55:
-                pass
-        # sweatband around the forehead
-        if 0.9515 < z < 0.9775 and group_weight(body, v, {"head"}) > 0.5:
-            vmat[v.index] = idx["orange"]
-        # wrist tape
-        if group_weight(body, v, {"wrist.L", "wrist.R"}) > 0.35 or (
-                group_weight(body, v, {"lowerarm02.L", "lowerarm02.R"}) > 0.6 and 0.0 < z < 1.0 and
-                group_weight(body, v, {"wrist.L", "wrist.R"}) > 0.05):
-            vmat[v.index] = idx["white"]
-    # orange stripe: a clean vertical band on the outer side of each hip/thigh
-    shorts_vs = [v for v in me.vertices if vmat[v.index] == idx["shorts"]]
-    xmax = max(abs(v.co.x) for v in shorts_vs)
-    for v in shorts_vs:
-        if abs(v.co.x) > xmax * 0.86 - 1e-5:
-            vmat[v.index] = idx["orange"]
+    # classify each polygon by its centre (clean seams along the bisect cuts)
+    def armw(vi):
+        return sum(g.weight for g in me.vertices[vi].groups if any(
+            k in body.vertex_groups[g.group].name for k in ("arm", "wrist", "finger", "metacarpal")))
+    shorts_x = [abs(p.center.x) for p in me.polygons if 0.36 < (p.center.z - bottom) / H < 0.58]
+    xcut2 = max(shorts_x) * 0.86 if shorts_x else 0.15
+    # front/back centre of the outer thigh for a narrow vertical stripe
+    side_ys = [p.center.y for p in me.polygons if abs(p.center.x) > xcut2 and 0.4 < (p.center.z - bottom) / H < 0.55]
+    yc = sum(side_ys) / len(side_ys) if side_ys else 0.0
     for p in me.polygons:
-        counts = {}
-        for vi in p.vertices:
-            counts[vmat[vi]] = counts.get(vmat[vi], 0) + 1
-        p.material_index = max(counts, key=counts.get)
+        z = (p.center.z - bottom) / H
+        aw = sum(armw(vi) for vi in p.vertices) / len(p.vertices)
+        mat = idx["skin"]
+        if 0.355 < z < 0.585 and aw < 0.3:
+            mat = idx["shorts"]
+            if abs(p.center.x) > xcut2 and abs(p.center.y - yc) < 0.03:
+                mat = idx["orange"]
+        elif 0.952 < z < 0.977:
+            mat = idx["orange"]
+        elif sum(group_weight(body, me.vertices[vi], {"wrist.L", "wrist.R"}) for vi in p.vertices) / len(p.vertices) > 0.3:
+            mat = idx["white"]
+        p.material_index = mat
     for p in me.polygons:
         p.use_smooth = True
 
@@ -170,7 +162,8 @@ def scene_setup(res=(1280, 720), ortho_scale=2.2):
     sc.render.film_transparent = True
     sc.view_settings.view_transform = "Standard"
     sc.render.image_settings.file_format = "PNG"; sc.render.image_settings.color_mode = "RGBA"
-    sc.render.use_freestyle = True
+    sc.render.use_freestyle = False
+    sc.eevee.taa_render_samples = 8
     sc.render.line_thickness_mode = "ABSOLUTE"; sc.render.line_thickness = 1.4
     vl = bpy.context.view_layer; fs = vl.freestyle_settings
     fs.crease_angle = math.radians(152)
