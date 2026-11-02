@@ -75,8 +75,12 @@ function mixAudio(out) {
   fl.push(`[${vo}:a]aresample=44100,aformat=channel_layouts=stereo,apad,atrim=0:${TOTAL},asplit=2[vo][key]`);
   fl.push(`[${mu}:a]aresample=44100,aformat=channel_layouts=stereo,atrim=0:${TOTAL},volume=${E.music_volume},afade=t=in:d=0.4,afade=t=out:st=${TOTAL - 1}:d=1[mraw]`);
   fl.push(`[mraw][key]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=300[music]`);
-  fl.push(`${fx.join('')}amix=inputs=${fx.length}:normalize=0[fx]`);
-  fl.push(`[vo][music][fx]amix=inputs=3:normalize=0,atrim=0:${TOTAL},loudnorm=I=-14:TP=-1.5:LRA=11[out]`);
+  if (fx.length) {
+    fl.push(`${fx.join('')}amix=inputs=${fx.length}:normalize=0[fx]`);
+    fl.push(`[vo][music][fx]amix=inputs=3:normalize=0,atrim=0:${TOTAL},loudnorm=I=-14:TP=-1.5:LRA=11[out]`);
+  } else {
+    fl.push(`[vo][music]amix=inputs=2:normalize=0,atrim=0:${TOTAL},loudnorm=I=-14:TP=-1.5:LRA=11[out]`);
+  }
   execFileSync('ffmpeg', ['-y', '-v', 'error', ...ins, '-filter_complex', fl.join(';'), '-map', '[out]', '-c:a', 'aac', '-b:a', '192k', out]);
 }
 

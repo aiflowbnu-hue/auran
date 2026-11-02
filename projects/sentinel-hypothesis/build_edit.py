@@ -103,6 +103,12 @@ for name, approx, sentence in lines:
     cuts.append({"img": name, "start": round(0.0 if not cuts else t, 3), "fx": fx, "sfx": sfx,
                  "matched": i is not None, "text": sentence})
 
+# hard cuts with no transitions (as requested): no punch/pop/shake and no per-cut whoosh;
+# the story sound effects stay. Only the gentle push-in remains on each image.
+for c in cuts:
+    c["fx"] = ["kb"]
+    c["sfx"] = [s for s in c["sfx"] if s[0] != "whoosh"]
+
 edit = {"fps": 30, "size": [1920, 1080], "voiceover": "assets/voiceover.mp3",
         "music": "assets/music.mp3", "music_volume": 0.16, "tail": 1.5, "cuts": cuts}
 json.dump(edit, open(os.path.join(HERE, "edit.json"), "w"), indent=1)

@@ -29,16 +29,9 @@
    "img": "02_00m02s_doors_are_locked.jpg",
    "start": 2.16,
    "fx": [
-    "kb",
-    "punch",
-    "pop"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "tick",
      0.3,
@@ -52,16 +45,9 @@
    "img": "03_00m03s_windows_are_shut.jpg",
    "start": 3.28,
    "fx": [
-    "kb",
-    "punch",
-    "pop"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "tick",
      0.3,
@@ -75,15 +61,9 @@
    "img": "04_00m04s_completely_safe_in_bed.jpg",
    "start": 4.42,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "sparkle",
      0.2,
@@ -97,16 +77,9 @@
    "img": "05_00m06s_2am_in_the_morning.jpg",
    "start": 6.56,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "clock_tick",
      0,
@@ -120,16 +93,9 @@
    "img": "06_00m08s_heart_starts_racing.jpg",
    "start": 9.04,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "heartbeat",
      0,
@@ -143,15 +109,9 @@
    "img": "07_00m10s_awkward_email_3_years_ago.jpg",
    "start": 10.44,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "pop",
      0.2,
@@ -165,15 +125,9 @@
    "img": "08_00m13s_bill_due_next_month.jpg",
    "start": 13.28,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "buzzer",
      0.4,
@@ -187,15 +141,9 @@
    "img": "09_00m15s_you_arent_in_danger.jpg",
    "start": 15.58,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "pop",
      0,
@@ -209,15 +157,9 @@
    "img": "10_00m16s_no_predator_outside.jpg",
    "start": 16.78,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "buzzer",
      0.5,
@@ -231,21 +173,9 @@
    "img": "11_00m18s_mind_spinning_100mph.jpg",
    "start": 19.06,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
-    [
-     "whoosh",
-     0,
-     0.5
-    ],
     [
      "glitch",
      0.4,
@@ -259,16 +189,9 @@
    "img": "12_00m21s_everything_falling_apart.jpg",
    "start": 21.82,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "punch",
      0,
@@ -282,15 +205,9 @@
    "img": "13_00m24s_not_a_modern_flaw.jpg",
    "start": 24.98,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "buzzer",
      0.6,
@@ -304,15 +221,9 @@
    "img": "14_00m28s_oldest_survival_mechanism.jpg",
    "start": 28.2,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "ding",
      0.3,
@@ -326,15 +237,9 @@
    "img": "15_00m31s_40000_years_ago_ancestor_awake.jpg",
    "start": 32.12,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "deep_boom",
      0,
@@ -353,16 +258,9 @@
    "img": "16_00m35s_ancient_human_racing_heart.jpg",
    "start": 35.74,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "heartbeat",
      0,
@@ -376,15 +274,9 @@
    "img": "17_00m38s_why_you_are_alive_today.jpg",
    "start": 38.24,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "ding",
      0.4,
@@ -398,16 +290,9 @@
    "img": "18_00m41s_kill_one_major_myth.jpg",
    "start": 41.74,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "punch",
      0.4,
@@ -421,15 +306,9 @@
    "img": "19_00m46s_myth_modern_malfunction.jpg",
    "start": 47.52,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "glitch",
      0.3,
@@ -443,15 +322,9 @@
    "img": "20_00m52s_brain_broken_or_weak.jpg",
    "start": 52.66,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "buzzer",
      0.4,
@@ -465,15 +338,9 @@
    "img": "21_00m55s_world_of_chronic_stress.jpg",
    "start": 56.04,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "alarm_ring",
      0.2,
@@ -487,15 +354,9 @@
    "img": "22_00m59s_not_a_glitch_it_is_a_feature.jpg",
    "start": 59.44,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "glitch",
      0,
@@ -514,15 +375,9 @@
    "img": "23_01m03s_the_sentinel_hypothesis.jpg",
    "start": 63.74,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "deep_boom",
      0,
@@ -536,15 +391,9 @@
    "img": "24_01m10s_never_all_asleep_at_once.jpg",
    "start": 70.52,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "night_crickets",
      0,
@@ -558,15 +407,9 @@
    "img": "25_01m16s_nature_staggered_their_rest.jpg",
    "start": 76.72,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "pop",
      0.5,
@@ -590,16 +433,9 @@
    "img": "26_01m22s_snap_of_a_twig_in_dark.jpg",
    "start": 81.6,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "twig_snap",
      0.8,
@@ -613,21 +449,9 @@
    "img": "27_01m26s_two_types_of_ancestors.jpg",
    "start": 86.94,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
-   "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
-    [
-     "whoosh",
-     0,
-     0.5
-    ]
-   ],
+   "sfx": [],
    "matched": true,
    "text": "Think about the two types of ancestors you could have had."
   },
@@ -635,15 +459,9 @@
    "img": "28_01m30s_type_1_calm_relaxed_optimistic.jpg",
    "start": 89.76,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "sparkle",
      0.3,
@@ -657,15 +475,9 @@
    "img": "29_01m33s_type_1_rolled_over_to_sleep.jpg",
    "start": 93.08,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "bush_rustle",
      0,
@@ -679,16 +491,9 @@
    "img": "30_01m37s_type_1_eaten_by_leopard.jpg",
    "start": 97.7,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "big_cat_growl",
      0,
@@ -702,21 +507,9 @@
    "img": "31_01m39s_type_2_anxious_paranoid.jpg",
    "start": 100.0,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
-   "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
-    [
-     "whoosh",
-     0,
-     0.45
-    ]
-   ],
+   "sfx": [],
    "matched": true,
    "text": "Type 2 was anxious, paranoid, and hypervigilant."
   },
@@ -724,16 +517,9 @@
    "img": "32_01m43s_heart_spiked_adrenaline_flood.jpg",
    "start": 103.7,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "heartbeat",
      0,
@@ -747,16 +533,9 @@
    "img": "33_01m48s_assumed_apex_predator.jpg",
    "start": 109.02,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "big_cat_growl",
      0.2,
@@ -770,15 +549,9 @@
    "img": "34_01m52s_99_percent_just_the_wind.jpg",
    "start": 112.78,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "bush_rustle",
      0.3,
@@ -792,16 +565,9 @@
    "img": "35_01m56s_one_time_lion_survived.jpg",
    "start": 116.44,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "lion_roar",
      0,
@@ -815,15 +581,9 @@
    "img": "36_01m59s_descendant_of_paranoid_ones.jpg",
    "start": 119.86,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "ding",
      0.5,
@@ -837,15 +597,9 @@
    "img": "37_02m02s_bred_to_catastrophize_in_dark.jpg",
    "start": 122.66,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "glitch",
      0.3,
@@ -859,16 +613,9 @@
    "img": "38_02m07s_40000_year_old_alarm_apartment.jpg",
    "start": 127.44,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "alarm_ring",
      0.3,
@@ -882,15 +629,9 @@
    "img": "39_02m16s_lions_gone_alarm_still_ringing.jpg",
    "start": 136.42,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "alarm_ring",
      0.4,
@@ -904,21 +645,9 @@
    "img": "40_02m19s_searching_for_a_threat.jpg",
    "start": 140.32,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
-   "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
-    [
-     "whoosh",
-     0,
-     0.45
-    ]
-   ],
+   "sfx": [],
    "matched": true,
    "text": "When the sun goes down and total silence surrounds you, your ancient brain looks around for the traditional threat."
   },
@@ -926,16 +655,9 @@
    "img": "41_02m26s_no_lions_found_invent_threat.jpg",
    "start": 147.08,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "punch",
      0.6,
@@ -949,15 +671,9 @@
    "img": "42_02m31s_emails_mortgage_awkwardness.jpg",
    "start": 151.56,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "pop",
      0.2,
@@ -971,16 +687,9 @@
    "img": "43_02m36s_treats_them_like_a_predator.jpg",
    "start": 156.98,
    "fx": [
-    "kb",
-    "punch",
-    "shake"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "big_cat_growl",
      0.2,
@@ -994,15 +703,9 @@
    "img": "44_02m39s_wide_awake_2am_remember.jpg",
    "start": 159.88,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "clock_tick",
      0,
@@ -1021,15 +724,9 @@
    "img": "45_02m48s_not_broken_not_weak_not_failing.jpg",
    "start": 168.96,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "ding",
      0.4,
@@ -1053,15 +750,9 @@
    "img": "46_02m54s_ancient_night_watch_program.jpg",
    "start": 174.54,
    "fx": [
-    "kb",
-    "punch"
+    "kb"
    ],
    "sfx": [
-    [
-     "whoosh",
-     0,
-     0.3
-    ],
     [
      "deep_boom",
      0,
