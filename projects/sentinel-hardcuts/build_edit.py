@@ -80,6 +80,11 @@ if not last["matched"]:
     on = [w for w in words if norm(w["text"]) == "on" and w["start"] > rows[-2]["t"]]
     last["t"] = (on[-1]["start"] - 0.05) if on else words[-1]["start"]
 
+# visuals lead the voice: show each cut a little before its word starts (owner: text felt late)
+LEAD = 0.35
+for r in rows[1:]:
+    r["t"] -= LEAD
+
 # keep strictly increasing, at least 0.15 s per frame
 prev = -1.0
 for r in rows:
