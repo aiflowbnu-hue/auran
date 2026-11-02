@@ -17,19 +17,19 @@
   },
   {
    "img": "Cut_002_Scene01_B_quiet_pops_in.png",
-   "start": 1.34,
+   "start": 1.12,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_003_Scene02_A_door_appears.png",
-   "start": 1.89,
+   "start": 1.59,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_004_Scene02_B_doors_locked_text.png",
-   "start": 2.34,
+   "start": 2.12,
    "fx": [],
    "sfx": []
   },
@@ -47,7 +47,7 @@
   },
   {
    "img": "Cut_007_Scene03_B_windows_shut_text.png",
-   "start": 3.42,
+   "start": 3.22,
    "fx": [],
    "sfx": []
   },
@@ -65,7 +65,7 @@
   },
   {
    "img": "Cut_010_Scene04_B_100_safe_text_pops.png",
-   "start": 5.2,
+   "start": 4.98,
    "fx": [],
    "sfx": []
   },
@@ -77,19 +77,19 @@
   },
   {
    "img": "Cut_012_Scene05_B_2am_clock_flashes.png",
-   "start": 7.46,
+   "start": 7.24,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_013_Scene06_A_clutching_heart.png",
-   "start": 8.81,
+   "start": 8.51,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_014_Scene06_B_heart_racing_ecg.png",
-   "start": 9.26,
+   "start": 9.04,
    "fx": [],
    "sfx": []
   },
@@ -107,7 +107,7 @@
   },
   {
    "img": "Cut_017_Scene07_C_3_years_ago_text.png",
-   "start": 10.88,
+   "start": 10.74,
    "fx": [],
    "sfx": []
   },
@@ -119,13 +119,13 @@
   },
   {
    "img": "Cut_019_Scene08_B_invoice_pops_in.png",
-   "start": 13.55,
+   "start": 13.43,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_020_Scene08_C_bill_due_and_dollars.png",
-   "start": 13.9,
+   "start": 13.68,
    "fx": [],
    "sfx": []
   },
@@ -143,25 +143,25 @@
   },
   {
    "img": "Cut_023_Scene09_C_no_danger_text.png",
-   "start": 15.979,
+   "start": 15.759,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_024_Scene10_A_window_crossed_lion.png",
-   "start": 16.73,
+   "start": 16.49,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_025_Scene10_B_no_lion_bubble.png",
-   "start": 16.99,
+   "start": 16.77,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_026_Scene10_C_no_predator_header.png",
-   "start": 17.44,
+   "start": 17.02,
    "fx": [],
    "sfx": []
   },
@@ -173,13 +173,13 @@
   },
   {
    "img": "Cut_028_Scene11_B_speedometer_pops.png",
-   "start": 20.25,
+   "start": 19.95,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_029_Scene11_C_100_mph_text.png",
-   "start": 20.7,
+   "start": 20.48,
    "fx": [],
    "sfx": []
   },
@@ -191,7 +191,7 @@
   },
   {
    "img": "Cut_031_Scene12_B_falling_apart_text.png",
-   "start": 22.9,
+   "start": 22.68,
    "fx": [],
    "sfx": []
   },
@@ -203,7 +203,7 @@
   },
   {
    "img": "Cut_033_Scene13_B_not_modern_flaw_txt.png",
-   "start": 27.06,
+   "start": 26.84,
    "fx": [],
    "sfx": []
   },
@@ -215,7 +215,7 @@
   },
   {
    "img": "Cut_035_Scene14_B_survival_header.png",
-   "start": 28.88,
+   "start": 28.66,
    "fx": [],
    "sfx": []
   },
@@ -227,13 +227,13 @@
   },
   {
    "img": "Cut_037_Scene15_A_ancestor_awake_dark.png",
-   "start": 31.35,
+   "start": 31.05,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_038_Scene15_B_40000_years_ago_txt.png",
-   "start": 31.8,
+   "start": 31.58,
    "fx": [],
    "sfx": []
   },
@@ -245,7 +245,7 @@
   },
   {
    "img": "Cut_040_Scene16_B_same_racing_heart.png",
-   "start": 36.54,
+   "start": 36.32,
    "fx": [],
    "sfx": []
   },
@@ -263,7 +263,7 @@
   },
   {
    "img": "Cut_043_Scene17_C_alive_today_header.png",
-   "start": 40.02,
+   "start": 39.8,
    "fx": [],
    "sfx": []
   },
@@ -281,7 +281,7 @@
   },
   {
    "img": "Cut_046_Scene18_B_kill_major_myth_txt.png",
-   "start": 44.7,
+   "start": 44.48,
    "fx": [],
    "sfx": []
   },
@@ -299,19 +299,19 @@
   },
   {
    "img": "Cut_049_Scene19_C_malfunction_header.png",
-   "start": 50.94,
+   "start": 50.72,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_050_Scene20_A_broken_brain_left.png",
-   "start": 53.92,
+   "start": 53.7,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_051_Scene20_B_weak_brain_right.png",
-   "start": 54.74,
+   "start": 54.52,
    "fx": [],
    "sfx": []
   },
@@ -329,7 +329,7 @@
   },
   {
    "img": "Cut_054_Scene21_C_chronic_stress_hdr.png",
-   "start": 57.98,
+   "start": 57.76,
    "fx": [],
    "sfx": []
   },
@@ -341,7 +341,7 @@
   },
   {
    "img": "Cut_056_Scene22_B_it_is_a_feature.png",
-   "start": 63.18,
+   "start": 62.96,
    "fx": [],
    "sfx": []
   },
@@ -353,7 +353,7 @@
   },
   {
    "img": "Cut_058_Scene23_B_sentinel_title_card.png",
-   "start": 68.7,
+   "start": 68.48,
    "fx": [],
    "sfx": []
   },
@@ -365,7 +365,7 @@
   },
   {
    "img": "Cut_060_Scene24_B_never_all_asleep_txt.png",
-   "start": 73.32,
+   "start": 73.1,
    "fx": [],
    "sfx": []
   },
@@ -377,7 +377,7 @@
   },
   {
    "img": "Cut_062_Scene25_B_late_sleep_bar.png",
-   "start": 81.14,
+   "start": 80.92,
    "fx": [],
    "sfx": []
   },
@@ -395,37 +395,37 @@
   },
   {
    "img": "Cut_065_Scene26_B_twig_snap_pops_in.png",
-   "start": 84.76,
+   "start": 84.54,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_066_Scene27_A_ancestor_type_1_left.png",
-   "start": 87.78,
+   "start": 87.11,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_067_Scene27_B_ancestor_type_2_right.png",
-   "start": 88.26,
+   "start": 87.56,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_068_Scene28_A_type1_lounging.png",
-   "start": 89.31,
+   "start": 89.01,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_069_Scene28_B_calm_relaxed_header.png",
-   "start": 89.76,
+   "start": 89.54,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_070_Scene29_A_rustle_in_dark_bush.png",
-   "start": 93.78,
+   "start": 93.56,
    "fx": [],
    "sfx": []
   },
@@ -437,31 +437,31 @@
   },
   {
    "img": "Cut_072_Scene30_A_fierce_leopard.png",
-   "start": 97.25,
+   "start": 96.95,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_073_Scene30_B_tombstone_rip.png",
-   "start": 97.59,
+   "start": 97.23,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_074_Scene30_C_eaten_by_leopard_txt.png",
-   "start": 98.04,
+   "start": 97.48,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_075_Scene31_A_type2_crouching.png",
-   "start": 99.55,
+   "start": 99.25,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_076_Scene31_B_anxious_paranoid_txt.png",
-   "start": 100.0,
+   "start": 99.78,
    "fx": [],
    "sfx": []
   },
@@ -473,13 +473,13 @@
   },
   {
    "img": "Cut_078_Scene32_B_heart_spiked_text.png",
-   "start": 105.82,
+   "start": 105.6,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_079_Scene32_C_adrenaline_flood_txt.png",
-   "start": 107.02,
+   "start": 106.8,
    "fx": [],
    "sfx": []
   },
@@ -491,7 +491,7 @@
   },
   {
    "img": "Cut_081_Scene33_B_apex_predator_text.png",
-   "start": 110.26,
+   "start": 110.04,
    "fx": [],
    "sfx": []
   },
@@ -503,25 +503,25 @@
   },
   {
    "img": "Cut_083_Scene34_B_wind_bush_pops_in.png",
-   "start": 114.89,
+   "start": 114.51,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_084_Scene34_C_99_percent_wind_txt.png",
-   "start": 115.26,
+   "start": 115.04,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_085_Scene35_A_lion_vs_tree_escape.png",
-   "start": 116.39,
+   "start": 116.03,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_086_Scene35_B_survived_text_pops.png",
-   "start": 116.78,
+   "start": 116.56,
    "fx": [],
    "sfx": []
   },
@@ -539,13 +539,13 @@
   },
   {
    "img": "Cut_089_Scene36_B_arrow_down_to_you.png",
-   "start": 120.05,
+   "start": 119.89,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_090_Scene36_C_descendant_header.png",
-   "start": 120.5,
+   "start": 120.28,
    "fx": [],
    "sfx": []
   },
@@ -557,7 +557,7 @@
   },
   {
    "img": "Cut_092_Scene37_B_bred_catastrophize.png",
-   "start": 123.62,
+   "start": 123.4,
    "fx": [],
    "sfx": []
   },
@@ -569,19 +569,19 @@
   },
   {
    "img": "Cut_094_Scene38_B_40000_yr_alarm_txt.png",
-   "start": 128.78,
+   "start": 128.56,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_095_Scene39_A_lions_gone_left.png",
-   "start": 136.56,
+   "start": 136.34,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_096_Scene39_B_alarm_still_ringing.png",
-   "start": 138.2,
+   "start": 137.98,
    "fx": [],
    "sfx": []
   },
@@ -599,7 +599,7 @@
   },
   {
    "img": "Cut_099_Scene41_A_lions_zero_clipboard.png",
-   "start": 147.68,
+   "start": 147.46,
    "fx": [],
    "sfx": []
   },
@@ -617,31 +617,31 @@
   },
   {
    "img": "Cut_102_Scene42_A_work_emails_only.png",
-   "start": 152.8,
+   "start": 152.58,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_103_Scene42_B_mortgage_pops_in.png",
-   "start": 154.02,
+   "start": 153.8,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_104_Scene42_C_awkwardness_pops_in.png",
-   "start": 155.38,
+   "start": 155.16,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_105_Scene43_A_monster_bills_lunge.png",
-   "start": 156.73,
+   "start": 156.43,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_106_Scene43_B_like_a_predator_txt.png",
-   "start": 157.18,
+   "start": 156.96,
    "fx": [],
    "sfx": []
   },
@@ -653,13 +653,13 @@
   },
   {
    "img": "Cut_108_Scene44_B_lightbulb_pops_on.png",
-   "start": 165.75,
+   "start": 165.45,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_109_Scene44_C_remember_header_txt.png",
-   "start": 166.2,
+   "start": 165.98,
    "fx": [],
    "sfx": []
   },
@@ -671,19 +671,19 @@
   },
   {
    "img": "Cut_111_Scene45_B_not_broken_check.png",
-   "start": 170.38,
+   "start": 170.16,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_112_Scene45_C_not_weak_check.png",
-   "start": 172.78,
+   "start": 172.56,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_113_Scene45_D_not_failing_check.png",
-   "start": 173.96,
+   "start": 173.74,
    "fx": [],
    "sfx": []
   },

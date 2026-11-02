@@ -12,7 +12,7 @@ When the owner sends a voiceover plus a set of images to edit:
 - Still sync every cut to the spoken words (word-level speech-to-text via ai33, then snap each image to the start of its sentence).
 - **Text overlays must be exactly on the voice, never late.** A frame that pops in text goes on the spoken word that the
   text shows (not on the guide's cue, which often belongs to the next phrase); the plain scene frame before it moves earlier
-  if needed. Show every cut ~2 frames (0.08 s) before its word. Watch for numbers spoken as words ("40,000" = "forty
+  if needed. Text frames appear ~0.3 s before their word; scene frames ~0.08 s before. Watch for numbers spoken as words ("40,000" = "forty
   thousand", "2:00" = "two", "100 MPH" = "hundred miles") and contractions ("you are"/"you're" vs "aren't").
   After rendering, verify no text frame appears after its word. See `projects/sentinel-hardcuts/build_edit.py`.
 - Output 1920x1080, 30 fps, loudness about -14 LUFS.

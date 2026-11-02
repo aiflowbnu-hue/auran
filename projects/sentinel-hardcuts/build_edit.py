@@ -99,6 +99,9 @@ def overlay_tokens(text):
     return out
 
 
+TEXT_LEAD = 0.30  # seconds a text overlay appears before its spoken word
+
+
 def word_index_at(t):
     return min(range(len(words)), key=lambda k: abs(words[k]["start"] - t))
 
@@ -123,14 +126,16 @@ for k, r in enumerate(rows):
             break
     if hit is None:
         continue
-    r["t"], r["matched"], r["synced_to"] = words[hit]["start"], True, words[hit]["text"]
+    # text frames lead their word clearly (owner asked for the text a bit earlier than the voice)
+    r["t"], r["matched"], r["synced_to"], r["is_text"] = words[hit]["start"] - TEXT_LEAD, True, words[hit]["text"], True
     # give the frame before it at least ~0.35 s on screen by moving it earlier if needed
     if k >= 2 and r["t"] - rows[k - 1]["t"] < 0.35:
         rows[k - 1]["t"] = max(rows[k - 2]["t"] + 0.2, r["t"] - 0.45)
 
-LEAD = 0.08  # ~2 frames
+LEAD = 0.08  # ~2 frames for scene frames (text frames already lead by TEXT_LEAD)
 for r in rows[1:]:
-    r["t"] -= LEAD
+    if not r.get("is_text"):
+        r["t"] -= LEAD
 
 # keep strictly increasing, at least 0.15 s per frame
 prev = -1.0
