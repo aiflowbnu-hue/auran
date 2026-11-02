@@ -35,25 +35,25 @@
   },
   {
    "img": "Cut_005_Scene02_C_green_check_pops.png",
-   "start": 2.87,
+   "start": 2.56,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_006_Scene03_A_window_appears.png",
-   "start": 3.07,
+   "start": 2.71,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_007_Scene03_B_windows_shut_text.png",
-   "start": 3.22,
+   "start": 3.2,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_008_Scene03_C_green_check_pops.png",
-   "start": 4.03,
+   "start": 3.759,
    "fx": [],
    "sfx": []
   },
@@ -101,25 +101,25 @@
   },
   {
    "img": "Cut_016_Scene07_B_email_bubble_pops.png",
-   "start": 10.59,
+   "start": 11.14,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_017_Scene07_C_3_years_ago_text.png",
-   "start": 10.74,
+   "start": 11.96,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_018_Scene08_A_stressed_character.png",
-   "start": 13.23,
+   "start": 12.85,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_019_Scene08_B_invoice_pops_in.png",
-   "start": 13.43,
+   "start": 13.23,
    "fx": [],
    "sfx": []
   },
@@ -131,13 +131,13 @@
   },
   {
    "img": "Cut_021_Scene09_A_calm_character.png",
-   "start": 15.33,
+   "start": 14.83,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_022_Scene09_B_crossed_warning_sign.png",
-   "start": 15.53,
+   "start": 15.36,
    "fx": [],
    "sfx": []
   },
@@ -161,7 +161,7 @@
   },
   {
    "img": "Cut_026_Scene10_C_no_predator_header.png",
-   "start": 17.02,
+   "start": 17.22,
    "fx": [],
    "sfx": []
   },
@@ -173,13 +173,13 @@
   },
   {
    "img": "Cut_028_Scene11_B_speedometer_pops.png",
-   "start": 19.95,
+   "start": 20.37,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_029_Scene11_C_100_mph_text.png",
-   "start": 20.48,
+   "start": 20.82,
    "fx": [],
    "sfx": []
   },
@@ -221,7 +221,7 @@
   },
   {
    "img": "Cut_036_Scene14_C_green_check_pops.png",
-   "start": 30.43,
+   "start": 30.38,
    "fx": [],
    "sfx": []
   },
@@ -257,7 +257,7 @@
   },
   {
    "img": "Cut_042_Scene17_B_arrow_to_modern.png",
-   "start": 38.59,
+   "start": 39.35,
    "fx": [],
    "sfx": []
   },
@@ -269,7 +269,7 @@
   },
   {
    "img": "Cut_044_Scene17_D_green_check_pops.png",
-   "start": 40.45,
+   "start": 40.28,
    "fx": [],
    "sfx": []
   },
@@ -293,7 +293,7 @@
   },
   {
    "img": "Cut_048_Scene19_B_malfunction_brain.png",
-   "start": 48.19,
+   "start": 48.34,
    "fx": [],
    "sfx": []
   },
@@ -323,7 +323,7 @@
   },
   {
    "img": "Cut_053_Scene21_B_stress_icons_right.png",
-   "start": 57.31,
+   "start": 57.34,
    "fx": [],
    "sfx": []
   },
@@ -401,13 +401,13 @@
   },
   {
    "img": "Cut_066_Scene27_A_ancestor_type_1_left.png",
-   "start": 87.11,
+   "start": 87.56,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_067_Scene27_B_ancestor_type_2_right.png",
-   "start": 87.56,
+   "start": 88.04,
    "fx": [],
    "sfx": []
   },
@@ -443,13 +443,13 @@
   },
   {
    "img": "Cut_073_Scene30_B_tombstone_rip.png",
-   "start": 97.23,
+   "start": 97.37,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_074_Scene30_C_eaten_by_leopard_txt.png",
-   "start": 97.48,
+   "start": 97.82,
    "fx": [],
    "sfx": []
   },
@@ -503,13 +503,13 @@
   },
   {
    "img": "Cut_083_Scene34_B_wind_bush_pops_in.png",
-   "start": 114.51,
+   "start": 115.04,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_084_Scene34_C_99_percent_wind_txt.png",
-   "start": 115.04,
+   "start": 115.42,
    "fx": [],
    "sfx": []
   },
@@ -527,7 +527,7 @@
   },
   {
    "img": "Cut_087_Scene35_C_giant_green_check.png",
-   "start": 119.49,
+   "start": 118.4,
    "fx": [],
    "sfx": []
   },
@@ -653,13 +653,13 @@
   },
   {
    "img": "Cut_108_Scene44_B_lightbulb_pops_on.png",
-   "start": 165.45,
+   "start": 165.98,
    "fx": [],
    "sfx": []
   },
   {
    "img": "Cut_109_Scene44_C_remember_header_txt.png",
-   "start": 165.98,
+   "start": 166.56,
    "fx": [],
    "sfx": []
   },
@@ -695,7 +695,7 @@
   },
   {
    "img": "Cut_115_Scene46_B_envelope_monster_pop.png",
-   "start": 182.25,
+   "start": 182.92,
    "fx": [],
    "sfx": []
   },

@@ -101,13 +101,24 @@ def overlay_tokens(text):
 
 TEXT_LEAD = 0.30  # seconds a text overlay appears before its spoken word
 
+# Image/icon pop-ins (no text): the spoken word each visual stands for. They are synced exactly like text.
+VISUAL_KEYS = {5: ["locked"], 8: ["shut"], 16: ["email"], 19: ["bill"], 22: ["arent"], 28: ["hundred"], 36: ["possess"],
+               42: ["you"], 44: ["today"], 48: ["anxiety"], 53: ["live"], 83: ["just"], 87: ["survived"],
+               108: ["remember"], 115: ["invent"]}
+
+
+def sync_tokens(row):
+    if row["n"] in VISUAL_KEYS and not any(w for w in overlay_tokens(row.get("overlay", "")) if w in wn):
+        return VISUAL_KEYS[row["n"]]  # overlay text that is never spoken (e.g. 'INVOICE') uses the keyword
+    return overlay_tokens(row.get("overlay", "")) or VISUAL_KEYS.get(row["n"], [])
+
 
 def word_index_at(t):
     return min(range(len(words)), key=lambda k: abs(words[k]["start"] - t))
 
 
 for k, r in enumerate(rows):
-    toks = overlay_tokens(r.get("overlay", ""))
+    toks = sync_tokens(r)
     if k == 0 or not toks:
         continue
     prev_t = rows[k - 1]["t"]
@@ -118,7 +129,7 @@ for k, r in enumerate(rows):
             break
         # after a text frame, use a later word than the one it sits on; after a plain scene frame the
         # text may land on the same word (the scene frame is then moved earlier below)
-        floor = prev_t + 0.12 if overlay_tokens(rows[k - 1].get("overlay", "")) else prev_t - 0.2
+        floor = rows[k - 1]["word_t"] + 0.12 if rows[k - 1].get("word_t") is not None else prev_t - 0.2
         if words[i]["start"] < floor:
             continue
         if any(wn[i] == t or (len(t) > 3 and wn[i].startswith(t[:5])) for t in toks):
@@ -128,6 +139,7 @@ for k, r in enumerate(rows):
         continue
     # text frames lead their word clearly (owner asked for the text a bit earlier than the voice)
     r["t"], r["matched"], r["synced_to"], r["is_text"] = words[hit]["start"] - TEXT_LEAD, True, words[hit]["text"], True
+    r["word_t"] = words[hit]["start"]
     # give the frame before it at least ~0.35 s on screen by moving it earlier if needed
     if k >= 2 and r["t"] - rows[k - 1]["t"] < 0.35:
         rows[k - 1]["t"] = max(rows[k - 2]["t"] + 0.2, r["t"] - 0.45)
