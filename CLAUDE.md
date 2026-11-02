@@ -16,6 +16,11 @@ When the owner sends a voiceover plus a set of images to edit:
   thousand", "2:00" = "two", "100 MPH" = "hundred miles") and contractions ("you are"/"you're" vs "aren't").
   After rendering, verify no text frame appears after its word. See `projects/sentinel-hardcuts/build_edit.py`.
 - Output 1920x1080, 30 fps, loudness about -14 LUFS.
+- **Lossless video.** Hard-cut projects render with `projects/dopamine-slot-machine/render_lossless.py` (PNGs straight
+  into ffmpeg, Lanczos scale, H.264 qp 0 4:4:4) - no browser/JPEG step. Also deliver a `_play.mp4` copy (CRF 8, 4:2:0)
+  because QuickTime/iPhone cannot play 4:4:4.
+- Guide cues may not match the final voiceover (script changed after the guide was written): use the fuzzy matcher in
+  `projects/dopamine-slot-machine/build_edit.py` and report cues that are not spoken at all.
 
 The renderer in `projects/sentinel-hypothesis/` (`build_edit.py` + `render.js`) is the template; for new projects set every cut's
 `fx` to `[]` and `sfx` to `[]`.
