@@ -1,0 +1,583 @@
+{
+ "fps": 30,
+ "size": [
+  1920,
+  1080
+ ],
+ "voiceover": "assets/voiceover.mp3",
+ "music": "assets/music.mp3",
+ "music_volume": 0.16,
+ "tail": 1.5,
+ "cuts": [
+  {
+   "img": "01_00m00s_everything_is_quiet.jpg",
+   "start": 0.0,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "02_00m02s_the_doors.jpg",
+   "start": 1.94,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "03_00m02.5s_are_locked.jpg",
+   "start": 2.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "04_00m02.9s_deadbolt_locked_check.jpg",
+   "start": 2.71,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "05_00m03.3s_the_windows.jpg",
+   "start": 3.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "06_00m03.8s_are_shut.jpg",
+   "start": 3.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "07_00m04.3s_completely_safe.jpg",
+   "start": 4.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "08_00m05.2s_in_your_bed.jpg",
+   "start": 5.24,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "09_00m06.2s_and_yet.jpg",
+   "start": 6.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "10_00m07s_at_2am_closeup.jpg",
+   "start": 7.04,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "11_00m08s_2am_wide_awake.jpg",
+   "start": 8.47,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "12_00m09s_heart_starts_racing.jpg",
+   "start": 8.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "13_00m10.5s_over_an_awkward_email.jpg",
+   "start": 10.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "14_00m11.5s_you_sent.jpg",
+   "start": 11.54,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "15_00m12.3s_three_years_ago.jpg",
+   "start": 11.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "16_00m13.3s_or_a_bill.jpg",
+   "start": 13.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "17_00m14.2s_due_next_month.jpg",
+   "start": 13.68,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "18_00m15.2s_not_in_danger.jpg",
+   "start": 15.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "19_00m16.5s_no_predator.jpg",
+   "start": 16.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "20_00m17.5s_outside.jpg",
+   "start": 17.68,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "21_00m18.8s_mind_is_spinning.jpg",
+   "start": 18.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "22_00m20s_hundred_miles_an_hour.jpg",
+   "start": 20.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "23_00m21.2s_convincing_you.jpg",
+   "start": 21.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "24_00m22.4s_that_everything.jpg",
+   "start": 22.32,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "25_00m23.5s_is_falling_apart.jpg",
+   "start": 23.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "26_00m24.8s_sudden_late_night_panic.jpg",
+   "start": 24.76,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "27_00m26.5s_not_a_modern_flaw.jpg",
+   "start": 26.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "28_00m28.2s_one_of_the_oldest.jpg",
+   "start": 27.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "29_00m29.8s_survival_mechanisms.jpg",
+   "start": 29.04,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "30_00m31.5s_40000_years_ago.jpg",
+   "start": 31.58,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "31_00m32.8s_an_ancestor_of_yours.jpg",
+   "start": 33.12,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "32_00m34s_lay_awake_in_the_dark.jpg",
+   "start": 34.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "33_00m35.5s_with_the_exact_same.jpg",
+   "start": 35.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "34_00m36.8s_racing_heart.jpg",
+   "start": 36.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "35_00m38.2s_only_reason_alive_today.jpg",
+   "start": 38.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "36_00m41.5s_understand_why_brain_does_this.jpg",
+   "start": 41.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "37_00m44s_kill_one_major_myth.jpg",
+   "start": 44.0,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "38_00m47s_myth_is_that_anxiety.jpg",
+   "start": 47.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "39_00m48.8s_and_insomnia.jpg",
+   "start": 49.18,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "40_00m50.5s_are_modern_malfunctions.jpg",
+   "start": 50.48,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "41_00m52.5s_brain_broken_or_weak.jpg",
+   "start": 52.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "42_00m55.5s_sounds_convincing.jpg",
+   "start": 55.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "43_00m57.2s_world_of_chronic_stress.jpg",
+   "start": 56.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "44_00m59.5s_evolutionarily_speaking.jpg",
+   "start": 59.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "45_01m01s_anxiety_not_a_glitch.jpg",
+   "start": 60.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "46_01m02.3s_it_is_a_feature.jpg",
+   "start": 62.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "47_01m04s_anthropologists_studying.jpg",
+   "start": 63.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "48_01m06s_hunter_gatherer_groups.jpg",
+   "start": 64.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "49_01m08s_sentinel_hypothesis.jpg",
+   "start": 66.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "50_01m10.5s_tribe_in_open_wild.jpg",
+   "start": 70.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "51_01m13.5s_never_all_asleep_at_once.jpg",
+   "start": 72.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "52_01m16.5s_nature_staggered_rest.jpg",
+   "start": 76.5,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "53_01m18.5s_some_fell_asleep_early.jpg",
+   "start": 78.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "54_01m20.2s_some_stayed_up_late.jpg",
+   "start": 80.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "55_01m22s_always_lightly_awake.jpg",
+   "start": 81.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "56_01m24.2s_snap_of_a_twig.jpg",
+   "start": 83.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "57_01m27s_two_types_of_ancestors.jpg",
+   "start": 86.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "58_01m30.2s_type_1_calm_relaxed.jpg",
+   "start": 89.54,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "59_01m33.2s_rustling_in_dark_bush.jpg",
+   "start": 92.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "60_01m35.2s_rolled_over_back_to_sleep.jpg",
+   "start": 95.26,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "61_01m37.2s_type_1_got_eaten.jpg",
+   "start": 97.48,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "62_01m38.5s_by_a_leopard.jpg",
+   "start": 98.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "63_01m40s_type_2_anxious_paranoid.jpg",
+   "start": 99.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "64_01m42s_hypervigilant_eye_closeup.jpg",
+   "start": 103.08,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "65_01m43.5s_type_2_heard_rustling.jpg",
+   "start": 103.48,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "66_01m45.2s_heart_spiked_adrenaline.jpg",
+   "start": 105.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "67_01m48.2s_assumed_apex_predator.jpg",
+   "start": 108.8,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "68_01m50.2s_waiting_to_kill_them.jpg",
+   "start": 111.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "69_01m52.2s_most_of_the_time_wrong.jpg",
+   "start": 112.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "70_01m54.2s_it_was_just_the_wind.jpg",
+   "start": 114.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "71_01m56s_one_time_it_was_a_lion.jpg",
+   "start": 116.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "72_01m57.8s_they_survived.jpg",
+   "start": 118.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "73_01m59.5s_descendant_of_paranoid_ones.jpg",
+   "start": 119.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "74_02m02.2s_bred_by_natural_selection.jpg",
+   "start": 122.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "75_02m04.8s_catastrophize_in_the_dark.jpg",
+   "start": 124.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "76_02m07.5s_anti_predator_alarm_system.jpg",
+   "start": 127.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "77_02m11s_modern_ac_apartment.jpg",
+   "start": 131.32,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "78_02m14s_with_locked_deadbolt.jpg",
+   "start": 134.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "79_02m16s_lions_gone_alarm_still_ringing.jpg",
+   "start": 136.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "80_02m19s_when_the_sun_goes_down.jpg",
+   "start": 140.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "81_02m21s_total_silence_surrounds_you.jpg",
+   "start": 141.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "82_02m23s_ancient_brain_searches_threat.jpg",
+   "start": 143.32,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "83_02m26s_finding_no_lions.jpg",
+   "start": 146.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "84_02m28s_survival_machinery_terrifying.jpg",
+   "start": 148.26,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "85_02m31s_unfinished_work_emails.jpg",
+   "start": 151.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "86_02m33s_your_mortgage_payments.jpg",
+   "start": 153.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "87_02m34.5s_and_social_awkwardness.jpg",
+   "start": 154.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "88_02m35.8s_all_three_modern_worries.jpg",
+   "start": 156.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "89_02m37s_treats_them_like_predator.jpg",
+   "start": 156.76,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "90_02m41.5s_battling_wave_of_dread.jpg",
+   "start": 159.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "91_02m45s_remember_what_is_happening.jpg",
+   "start": 165.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "92_02m49.5s_not_broken_not_weak.jpg",
+   "start": 168.74,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "93_02m55s_ancient_night_watch_program.jpg",
+   "start": 174.32,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "95_03m02.5s_protecting_you_since_40000_bc.jpg",
+   "start": 177.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "94_02m59.5s_inventing_monsters_on_guard.jpg",
+   "start": 179.42,
+   "fx": [],
+   "sfx": []
+  }
+ ]
+}
