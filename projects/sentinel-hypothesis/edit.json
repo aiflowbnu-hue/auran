@@ -1,0 +1,1080 @@
+{
+ "fps": 30,
+ "size": [
+  1920,
+  1080
+ ],
+ "voiceover": "assets/voiceover.mp3",
+ "music": "assets/music.mp3",
+ "music_volume": 0.16,
+ "tail": 1.5,
+ "cuts": [
+  {
+   "img": "01_00m00s_everything_is_quiet.jpg",
+   "start": 0.0,
+   "fx": [
+    "kb"
+   ],
+   "sfx": [
+    [
+     "night_crickets",
+     0,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "Everything in your life is quiet."
+  },
+  {
+   "img": "02_00m02s_doors_are_locked.jpg",
+   "start": 2.16,
+   "fx": [
+    "kb",
+    "punch",
+    "pop"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "tick",
+     0.3,
+     0.6
+    ]
+   ],
+   "matched": true,
+   "text": "The doors are locked,"
+  },
+  {
+   "img": "03_00m03s_windows_are_shut.jpg",
+   "start": 3.28,
+   "fx": [
+    "kb",
+    "punch",
+    "pop"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "tick",
+     0.3,
+     0.6
+    ]
+   ],
+   "matched": true,
+   "text": "the windows are shut,"
+  },
+  {
+   "img": "04_00m04s_completely_safe_in_bed.jpg",
+   "start": 4.42,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "sparkle",
+     0.2,
+     0.4
+    ]
+   ],
+   "matched": true,
+   "text": "you are completely safe in your bed."
+  },
+  {
+   "img": "05_00m06s_2am_in_the_morning.jpg",
+   "start": 6.56,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "clock_tick",
+     0,
+     0.6
+    ]
+   ],
+   "matched": true,
+   "text": "And yet, at 2:00 in the morning,"
+  },
+  {
+   "img": "06_00m08s_heart_starts_racing.jpg",
+   "start": 9.04,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "heartbeat",
+     0,
+     0.8
+    ]
+   ],
+   "matched": true,
+   "text": "your heart starts racing"
+  },
+  {
+   "img": "07_00m10s_awkward_email_3_years_ago.jpg",
+   "start": 10.44,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "pop",
+     0.2,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "over an awkward email you sent three years ago,"
+  },
+  {
+   "img": "08_00m13s_bill_due_next_month.jpg",
+   "start": 13.28,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "buzzer",
+     0.4,
+     0.35
+    ]
+   ],
+   "matched": true,
+   "text": "or a bill due next month."
+  },
+  {
+   "img": "09_00m15s_you_arent_in_danger.jpg",
+   "start": 15.58,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "pop",
+     0,
+     0.45
+    ]
+   ],
+   "matched": true,
+   "text": "You arent in danger."
+  },
+  {
+   "img": "10_00m16s_no_predator_outside.jpg",
+   "start": 16.78,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "buzzer",
+     0.5,
+     0.35
+    ]
+   ],
+   "matched": true,
+   "text": "There is no predator outside."
+  },
+  {
+   "img": "11_00m18s_mind_spinning_100mph.jpg",
+   "start": 19.06,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "whoosh",
+     0,
+     0.5
+    ],
+    [
+     "glitch",
+     0.4,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "But your mind is spinning a hundred miles an hour,"
+  },
+  {
+   "img": "12_00m21s_everything_falling_apart.jpg",
+   "start": 21.82,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "punch",
+     0,
+     0.6
+    ]
+   ],
+   "matched": true,
+   "text": "convincing you that everything is falling apart."
+  },
+  {
+   "img": "13_00m24s_not_a_modern_flaw.jpg",
+   "start": 24.98,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "buzzer",
+     0.6,
+     0.4
+    ]
+   ],
+   "matched": true,
+   "text": "That sudden late-night panic isnt a modern flaw."
+  },
+  {
+   "img": "14_00m28s_oldest_survival_mechanism.jpg",
+   "start": 28.2,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "ding",
+     0.3,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "It is one of the oldest survival mechanisms you possess."
+  },
+  {
+   "img": "15_00m31s_40000_years_ago_ancestor_awake.jpg",
+   "start": 32.12,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "deep_boom",
+     0,
+     0.6
+    ],
+    [
+     "night_crickets",
+     0.3,
+     0.45
+    ]
+   ],
+   "matched": true,
+   "text": "40,000 years ago, an ancestor of yours lay awake in the dark"
+  },
+  {
+   "img": "16_00m35s_ancient_human_racing_heart.jpg",
+   "start": 35.74,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "heartbeat",
+     0,
+     0.8
+    ]
+   ],
+   "matched": true,
+   "text": "with the exact same racing heart."
+  },
+  {
+   "img": "17_00m38s_why_you_are_alive_today.jpg",
+   "start": 38.24,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "ding",
+     0.4,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "And it is the only reason you are alive today."
+  },
+  {
+   "img": "18_00m41s_kill_one_major_myth.jpg",
+   "start": 41.74,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "punch",
+     0.4,
+     0.7
+    ]
+   ],
+   "matched": true,
+   "text": "To understand why your brain does this, you have to kill one major myth first."
+  },
+  {
+   "img": "19_00m46s_myth_modern_malfunction.jpg",
+   "start": 47.52,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "glitch",
+     0.3,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "The myth is that anxiety and insomnia are modern malfunctions,"
+  },
+  {
+   "img": "20_00m52s_brain_broken_or_weak.jpg",
+   "start": 52.66,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "buzzer",
+     0.4,
+     0.4
+    ]
+   ],
+   "matched": true,
+   "text": "that your brain is simply broken or weak."
+  },
+  {
+   "img": "21_00m55s_world_of_chronic_stress.jpg",
+   "start": 56.04,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "alarm_ring",
+     0.2,
+     0.3
+    ]
+   ],
+   "matched": true,
+   "text": "It sounds convincing because we live in a world of chronic stress."
+  },
+  {
+   "img": "22_00m59s_not_a_glitch_it_is_a_feature.jpg",
+   "start": 59.44,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "glitch",
+     0,
+     0.5
+    ],
+    [
+     "ding",
+     1.6,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "But evolutionarily speaking, anxiety is not a glitch. It is a feature."
+  },
+  {
+   "img": "23_01m03s_the_sentinel_hypothesis.jpg",
+   "start": 63.74,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "deep_boom",
+     0,
+     0.85
+    ]
+   ],
+   "matched": true,
+   "text": "Anthropologists studying traditional hunter-gatherer groups discovered the Sentinel Hypothesis."
+  },
+  {
+   "img": "24_01m10s_never_all_asleep_at_once.jpg",
+   "start": 70.52,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "night_crickets",
+     0,
+     0.45
+    ]
+   ],
+   "matched": true,
+   "text": "In a tribe living out in the open wild, almost never is everyone asleep at the exact same minute."
+  },
+  {
+   "img": "25_01m16s_nature_staggered_their_rest.jpg",
+   "start": 76.72,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "pop",
+     0.5,
+     0.4
+    ],
+    [
+     "pop",
+     1.4,
+     0.4
+    ],
+    [
+     "pop",
+     2.3,
+     0.4
+    ]
+   ],
+   "matched": true,
+   "text": "Nature staggered their rest. Some people fell asleep early, some stayed up late,"
+  },
+  {
+   "img": "26_01m22s_snap_of_a_twig_in_dark.jpg",
+   "start": 81.6,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "twig_snap",
+     0.8,
+     0.9
+    ]
+   ],
+   "matched": true,
+   "text": "and someone was always lightly awake, listening to every snap of a twig in the dark."
+  },
+  {
+   "img": "27_01m26s_two_types_of_ancestors.jpg",
+   "start": 86.94,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "whoosh",
+     0,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "Think about the two types of ancestors you could have had."
+  },
+  {
+   "img": "28_01m30s_type_1_calm_relaxed_optimistic.jpg",
+   "start": 89.76,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "sparkle",
+     0.3,
+     0.4
+    ]
+   ],
+   "matched": true,
+   "text": "Type 1 was calm, relaxed, and optimistic."
+  },
+  {
+   "img": "29_01m33s_type_1_rolled_over_to_sleep.jpg",
+   "start": 93.08,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "bush_rustle",
+     0,
+     0.7
+    ]
+   ],
+   "matched": true,
+   "text": "When they heard a rustling sound in the dark bush, they rolled over and went back to sleep."
+  },
+  {
+   "img": "30_01m37s_type_1_eaten_by_leopard.jpg",
+   "start": 97.7,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "big_cat_growl",
+     0,
+     0.9
+    ]
+   ],
+   "matched": true,
+   "text": "Type 1 got eaten by a leopard."
+  },
+  {
+   "img": "31_01m39s_type_2_anxious_paranoid.jpg",
+   "start": 100.0,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "whoosh",
+     0,
+     0.45
+    ]
+   ],
+   "matched": true,
+   "text": "Type 2 was anxious, paranoid, and hypervigilant."
+  },
+  {
+   "img": "32_01m43s_heart_spiked_adrenaline_flood.jpg",
+   "start": 103.7,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "heartbeat",
+     0,
+     0.8
+    ]
+   ],
+   "matched": true,
+   "text": "When they heard a rustling sound, their heart spiked, adrenaline flooded their veins,"
+  },
+  {
+   "img": "33_01m48s_assumed_apex_predator.jpg",
+   "start": 109.02,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "big_cat_growl",
+     0.2,
+     0.7
+    ]
+   ],
+   "matched": true,
+   "text": "and they assumed it was an apex predator waiting to kill them."
+  },
+  {
+   "img": "34_01m52s_99_percent_just_the_wind.jpg",
+   "start": 112.78,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "bush_rustle",
+     0.3,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "Most of the time, they were wrong. It was just the wind."
+  },
+  {
+   "img": "35_01m56s_one_time_lion_survived.jpg",
+   "start": 116.44,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "lion_roar",
+     0,
+     0.8
+    ]
+   ],
+   "matched": true,
+   "text": "But the one time it was a lion, they survived."
+  },
+  {
+   "img": "36_01m59s_descendant_of_paranoid_ones.jpg",
+   "start": 119.86,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "ding",
+     0.5,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "You are the direct descendant of the paranoid ones."
+  },
+  {
+   "img": "37_02m02s_bred_to_catastrophize_in_dark.jpg",
+   "start": 122.66,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "glitch",
+     0.3,
+     0.4
+    ]
+   ],
+   "matched": true,
+   "text": "Your brain was literally bred by natural selection to catastrophize in the dark."
+  },
+  {
+   "img": "38_02m07s_40000_year_old_alarm_apartment.jpg",
+   "start": 127.44,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "alarm_ring",
+     0.3,
+     0.6
+    ]
+   ],
+   "matched": true,
+   "text": "So what happens when you take a 40,000-year-old anti-predator alarm system and place it in a modern apartment?"
+  },
+  {
+   "img": "39_02m16s_lions_gone_alarm_still_ringing.jpg",
+   "start": 136.42,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "alarm_ring",
+     0.4,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "The lions are gone, but the alarm system doesnt know that."
+  },
+  {
+   "img": "40_02m19s_searching_for_a_threat.jpg",
+   "start": 140.32,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "whoosh",
+     0,
+     0.45
+    ]
+   ],
+   "matched": true,
+   "text": "When the sun goes down and total silence surrounds you, your ancient brain looks around for the traditional threat."
+  },
+  {
+   "img": "41_02m26s_no_lions_found_invent_threat.jpg",
+   "start": 147.08,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "punch",
+     0.6,
+     0.6
+    ]
+   ],
+   "matched": true,
+   "text": "Finding no lions, your survival machinery does something terrifying."
+  },
+  {
+   "img": "42_02m31s_emails_mortgage_awkwardness.jpg",
+   "start": 151.56,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "pop",
+     0.2,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "It takes your unfinished work emails, your mortgage payments, and your social awkwardness,"
+  },
+  {
+   "img": "43_02m36s_treats_them_like_a_predator.jpg",
+   "start": 156.98,
+   "fx": [
+    "kb",
+    "punch",
+    "shake"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "big_cat_growl",
+     0.2,
+     0.6
+    ]
+   ],
+   "matched": true,
+   "text": "and treats them like an approaching predator."
+  },
+  {
+   "img": "44_02m39s_wide_awake_2am_remember.jpg",
+   "start": 159.88,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "clock_tick",
+     0,
+     0.5
+    ],
+    [
+     "sparkle",
+     1.0,
+     0.4
+    ]
+   ],
+   "matched": true,
+   "text": "So the next time you find yourself wide awake at 2 in the morning, remember what is actually happening."
+  },
+  {
+   "img": "45_02m48s_not_broken_not_weak_not_failing.jpg",
+   "start": 168.96,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "ding",
+     0.4,
+     0.45
+    ],
+    [
+     "ding",
+     1.4,
+     0.45
+    ],
+    [
+     "ding",
+     2.4,
+     0.45
+    ]
+   ],
+   "matched": true,
+   "text": "Nothing is fundamentally broken inside you. You arent weak, and you arent failing."
+  },
+  {
+   "img": "46_02m54s_ancient_night_watch_program.jpg",
+   "start": 174.54,
+   "fx": [
+    "kb",
+    "punch"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0,
+     0.3
+    ],
+    [
+     "deep_boom",
+     0,
+     0.5
+    ],
+    [
+     "night_crickets",
+     0.5,
+     0.5
+    ]
+   ],
+   "matched": true,
+   "text": "Your brain is simply running an ancient night-watch program trying desperately to keep you safe."
+  }
+ ]
+}

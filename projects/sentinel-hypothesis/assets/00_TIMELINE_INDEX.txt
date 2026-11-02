@@ -1,0 +1,49 @@
+SENTINEL HYPOTHESIS - 46 LOSSLESS VISUALS TIMELINE INDEX
+========================================================
+
+01_00m00s_everything_is_quiet.jpg                -> 00:00 - 00:02 | Everything in your life is quiet.
+02_00m02s_doors_are_locked.jpg                   -> 00:02 - 00:03 | The doors are locked,
+03_00m03s_windows_are_shut.jpg                   -> 00:03 - 00:04 | the windows are shut,
+04_00m04s_completely_safe_in_bed.jpg             -> 00:04 - 00:06 | you are completely safe in your bed.
+05_00m06s_2am_in_the_morning.jpg                 -> 00:06 - 00:08 | And yet, at 2:00 in the morning,
+06_00m08s_heart_starts_racing.jpg                -> 00:08 - 00:10 | your heart starts racing
+07_00m10s_awkward_email_3_years_ago.jpg          -> 00:10 - 00:13 | over an awkward email you sent three years ago,
+08_00m13s_bill_due_next_month.jpg                -> 00:13 - 00:15 | or a bill due next month.
+09_00m15s_you_arent_in_danger.jpg                -> 00:15 - 00:16 | You arent in danger.
+10_00m16s_no_predator_outside.jpg                -> 00:16 - 00:18 | There is no predator outside.
+11_00m18s_mind_spinning_100mph.jpg               -> 00:18 - 00:21 | But your mind is spinning a hundred miles an hour,
+12_00m21s_everything_falling_apart.jpg           -> 00:21 - 00:24 | convincing you that everything is falling apart.
+13_00m24s_not_a_modern_flaw.jpg                  -> 00:24 - 00:28 | That sudden late-night panic isnt a modern flaw.
+14_00m28s_oldest_survival_mechanism.jpg          -> 00:28 - 00:31 | It is one of the oldest survival mechanisms you possess.
+15_00m31s_40000_years_ago_ancestor_awake.jpg     -> 00:31 - 00:35 | 40,000 years ago, an ancestor of yours lay awake in the dark
+16_00m35s_ancient_human_racing_heart.jpg         -> 00:35 - 00:38 | with the exact same racing heart.
+17_00m38s_why_you_are_alive_today.jpg            -> 00:38 - 00:41 | And it is the only reason you are alive today.
+18_00m41s_kill_one_major_myth.jpg                -> 00:41 - 00:46 | To understand why your brain does this, you have to kill one major myth first.
+19_00m46s_myth_modern_malfunction.jpg            -> 00:46 - 00:52 | The myth is that anxiety and insomnia are modern malfunctions,
+20_00m52s_brain_broken_or_weak.jpg               -> 00:52 - 00:55 | that your brain is simply broken or weak.
+21_00m55s_world_of_chronic_stress.jpg            -> 00:55 - 00:59 | It sounds convincing because we live in a world of chronic stress.
+22_00m59s_not_a_glitch_it_is_a_feature.jpg       -> 00:59 - 01:03 | But evolutionarily speaking, anxiety is not a glitch. It is a feature.
+23_01m03s_the_sentinel_hypothesis.jpg            -> 01:03 - 01:10 | Anthropologists studying traditional hunter-gatherer groups discovered the Sentinel Hypothesis.
+24_01m10s_never_all_asleep_at_once.jpg           -> 01:10 - 01:16 | In a tribe living out in the open wild, almost never is everyone asleep at the exact same minute.
+25_01m16s_nature_staggered_their_rest.jpg        -> 01:16 - 01:22 | Nature staggered their rest. Some people fell asleep early, some stayed up late,
+26_01m22s_snap_of_a_twig_in_dark.jpg             -> 01:22 - 01:26 | and someone was always lightly awake, listening to every snap of a twig in the dark.
+27_01m26s_two_types_of_ancestors.jpg             -> 01:26 - 01:30 | Think about the two types of ancestors you could have had.
+28_01m30s_type_1_calm_relaxed_optimistic.jpg     -> 01:30 - 01:33 | Type 1 was calm, relaxed, and optimistic.
+29_01m33s_type_1_rolled_over_to_sleep.jpg        -> 01:33 - 01:37 | When they heard a rustling sound in the dark bush, they rolled over and went back to sleep.
+30_01m37s_type_1_eaten_by_leopard.jpg            -> 01:37 - 01:39 | Type 1 got eaten by a leopard.
+31_01m39s_type_2_anxious_paranoid.jpg            -> 01:39 - 01:43 | Type 2 was anxious, paranoid, and hypervigilant.
+32_01m43s_heart_spiked_adrenaline_flood.jpg      -> 01:43 - 01:48 | When they heard a rustling sound, their heart spiked, adrenaline flooded their veins,
+33_01m48s_assumed_apex_predator.jpg              -> 01:48 - 01:52 | and they assumed it was an apex predator waiting to kill them.
+34_01m52s_99_percent_just_the_wind.jpg           -> 01:52 - 01:56 | Most of the time, they were wrong. It was just the wind.
+35_01m56s_one_time_lion_survived.jpg             -> 01:56 - 01:59 | But the one time it was a lion, they survived.
+36_01m59s_descendant_of_paranoid_ones.jpg        -> 01:59 - 02:02 | You are the direct descendant of the paranoid ones.
+37_02m02s_bred_to_catastrophize_in_dark.jpg      -> 02:02 - 02:07 | Your brain was literally bred by natural selection to catastrophize in the dark.
+38_02m07s_40000_year_old_alarm_apartment.jpg     -> 02:07 - 02:16 | So what happens when you take a 40,000-year-old anti-predator alarm system and place it in a modern apartment?
+39_02m16s_lions_gone_alarm_still_ringing.jpg     -> 02:16 - 02:19 | The lions are gone, but the alarm system doesnt know that.
+40_02m19s_searching_for_a_threat.jpg             -> 02:19 - 02:26 | When the sun goes down and total silence surrounds you, your ancient brain looks around for the traditional threat.
+41_02m26s_no_lions_found_invent_threat.jpg       -> 02:26 - 02:31 | Finding no lions, your survival machinery does something terrifying.
+42_02m31s_emails_mortgage_awkwardness.jpg        -> 02:31 - 02:36 | It takes your unfinished work emails, your mortgage payments, and your social awkwardness,
+43_02m36s_treats_them_like_a_predator.jpg        -> 02:36 - 02:39 | and treats them like an approaching predator.
+44_02m39s_wide_awake_2am_remember.jpg            -> 02:39 - 02:48 | So the next time you find yourself wide awake at 2 in the morning, remember what is actually happening.
+45_02m48s_not_broken_not_weak_not_failing.jpg    -> 02:48 - 02:54 | Nothing is fundamentally broken inside you. You arent weak, and you arent failing.
+46_02m54s_ancient_night_watch_program.jpg        -> 02:54 - 03:06 | Your brain is simply running an ancient night-watch program trying desperately to keep you safe.
