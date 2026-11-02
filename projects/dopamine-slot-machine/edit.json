@@ -1,0 +1,1123 @@
+{
+ "fps": 30,
+ "size": [
+  1920,
+  1080
+ ],
+ "voiceover": "assets/voiceover.mp3",
+ "music": "assets/music.mp3",
+ "music_volume": 0.16,
+ "tail": 1.5,
+ "cuts": [
+  {
+   "img": "Cut_001_Scene01_A_pull_thumb_down.png",
+   "start": 0.0,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_002_Scene01_B_spinning_wheel.png",
+   "start": 6.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_003_Scene01_C_outcome_bell_or_nothing.png",
+   "start": 9.0,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_004_Scene01_D_header_pull_to_refresh.png",
+   "start": 13.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_005_Scene02_A_social_feed.png",
+   "start": 15.54,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_006_Scene02_B_loot_box.png",
+   "start": 17.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_007_Scene02_C_crypto_chart.png",
+   "start": 18.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_008_Scene02_D_dating_swipe.png",
+   "start": 19.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_009_Scene02_E_none_look_like_casino.png",
+   "start": 21.26,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_010_Scene03_A_you_scrolling.png",
+   "start": 23.21,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_011_Scene03_B_3am_slot_gambler.png",
+   "start": 26.19,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_012_Scene03_C_same_brain_header.png",
+   "start": 26.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_013_Scene04_A_ice_age_ancestor_itch.png",
+   "start": 40.33,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_014_Scene04_B_no_coins_cards_screens.png",
+   "start": 50.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_015_Scene04_C_oldest_instinct_header.png",
+   "start": 56.79,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_016_Scene05_A_sheep_ankle_bone.png",
+   "start": 56.94,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_017_Scene05_B_harvard_pigeon_lab.png",
+   "start": 60.04,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_018_Scene05_C_glowing_rectangle_today.png",
+   "start": 63.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_019_Scene05_D_how_instinct_evolved_hdr.png",
+   "start": 67.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_020_Scene06_A_kill_one_myth.png",
+   "start": 67.99,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_021_Scene06_B_greed_math_prize_crossed.png",
+   "start": 80.36,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_022_Scene06_C_myth_greed_header.png",
+   "start": 85.55,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_023_Scene07_A_brain_scanner_lab.png",
+   "start": 88.25,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_024_Scene07_B_theory_broken_screen.png",
+   "start": 99.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_025_Scene07_C_inside_scanner_header.png",
+   "start": 103.91,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_026_Scene08_A_monkey_sweet_juice.png",
+   "start": 104.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_027_Scene08_B_dopamine_spiked_graph.png",
+   "start": 107.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_028_Scene08_C_schultz_test_header.png",
+   "start": 115.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_029_Scene09_A_sound_tone_speaker.png",
+   "start": 119.28,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_030_Scene09_B_100_sure_juice.png",
+   "start": 121.04,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_031_Scene09_C_dopamine_flatline.png",
+   "start": 126.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_032_Scene09_D_predictable_zero_hdr.png",
+   "start": 129.31,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_033_Scene10_A_50_50_random_juice.png",
+   "start": 130.129,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_034_Scene10_B_dopamine_exploded_2x.png",
+   "start": 139.88,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_035_Scene10_C_50_random_header.png",
+   "start": 143.28,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_036_Scene11_A_not_pleasure_winning.png",
+   "start": 150.76,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_037_Scene11_B_chemical_of_maybe.png",
+   "start": 152.48,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_038_Scene11_C_chemical_maybe_header.png",
+   "start": 153.14,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_039_Scene12_A_hungry_no_supermarket.png",
+   "start": 171.89,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_040_Scene12_B_nature_slot_machine_tree.png",
+   "start": 177.59,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_041_Scene12_C_2m_years_header.png",
+   "start": 183.19,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_042_Scene13_A_bush_1_nothing.png",
+   "start": 183.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_043_Scene13_B_bush_2_nothing.png",
+   "start": 183.49,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_044_Scene13_C_bush_3_empty.png",
+   "start": 183.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_045_Scene13_D_searching_wild_header.png",
+   "start": 186.87,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_046_Scene14_A_discouraged_bush_4.png",
+   "start": 187.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_047_Scene14_B_starve_to_death.png",
+   "start": 192.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_048_Scene14_C_if_dopamine_header.png",
+   "start": 195.41,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_049_Scene15_A_foraging_circuit_brain.png",
+   "start": 195.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_050_Scene15_B_one_more_bush_tree_hill.png",
+   "start": 199.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_051_Scene15_C_foraging_circuit_hdr.png",
+   "start": 212.05,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_052_Scene16_A_campfire_empty_time.png",
+   "start": 213.15,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_053_Scene16_B_astragalus_knucklebone.png",
+   "start": 219.89,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_054_Scene16_C_first_nighttime_itch_hdr.png",
+   "start": 220.42,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_055_Scene17_A_round_pebble_crossed.png",
+   "start": 231.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_056_Scene17_B_flat_stone_crossed.png",
+   "start": 234.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_057_Scene17_C_sheep_bone_4_sides.png",
+   "start": 235.36,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_058_Scene17_D_why_special_header.png",
+   "start": 236.28,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_059_Scene18_A_two_broad_flat_sides.png",
+   "start": 238.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_060_Scene18_B_two_narrow_curved_sides.png",
+   "start": 239.439,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_061_Scene18_C_unpredictable_landing.png",
+   "start": 243.13,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_062_Scene18_D_four_faces_header.png",
+   "start": 245.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_063_Scene19_A_dug_up_every_continent.png",
+   "start": 248.68,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_064_Scene19_B_polished_smooth_10000.png",
+   "start": 256.92,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_065_Scene19_C_worlds_first_dice_hdr.png",
+   "start": 261.17,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_066_Scene20_A_shaman_throwing_bones.png",
+   "start": 262.99,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_067_Scene20_B_cleromancy_rain_deer.png",
+   "start": 268.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_068_Scene20_C_magic_not_game_header.png",
+   "start": 282.01,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_069_Scene21_A_ancient_sticks_hlot.png",
+   "start": 283.19,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_070_Scene21_B_lot_to_read_fate.png",
+   "start": 284.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_071_Scene21_C_lottery_ticket_today.png",
+   "start": 285.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_072_Scene21_D_word_lottery_header.png",
+   "start": 286.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_073_Scene22_A_throwing_bone_excited.png",
+   "start": 291.71,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_074_Scene22_B_scratched_foraging_itch.png",
+   "start": 301.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_075_Scene22_C_felt_incredible_header.png",
+   "start": 307.26,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_076_Scene23_A_narrow_side_arrowhead.png",
+   "start": 307.41,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_077_Scene23_B_your_bone_dried_meat.png",
+   "start": 307.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_078_Scene23_C_first_stakes_header.png",
+   "start": 313.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_079_Scene24_A_before_coins.png",
+   "start": 313.73,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_080_Scene24_B_before_writing.png",
+   "start": 320.42,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_081_Scene24_C_before_cities.png",
+   "start": 322.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_082_Scene24_D_didnt_wait_header.png",
+   "start": 324.81,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_083_Scene25_A_mesopotamia_egypt_rome.png",
+   "start": 324.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_084_Scene25_B_king_tut_ivory_sticks.png",
+   "start": 332.55,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_085_Scene25_C_ancient_cities_header.png",
+   "start": 338.45,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_086_Scene26_A_rigveda_scroll.png",
+   "start": 342.49,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_087_Scene26_B_ruined_marriage_lost_all.png",
+   "start": 353.79,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_088_Scene26_C_cannot_stop_playing.png",
+   "start": 359.67,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_089_Scene26_D_gamblers_lament_header.png",
+   "start": 365.47,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_090_Scene27_A_roman_illegal_law.png",
+   "start": 365.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_091_Scene27_B_claudius_dice_carriage.png",
+   "start": 377.99,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_092_Scene27_C_roman_empire_header.png",
+   "start": 383.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_093_Scene28_A_soldiers_clumsy_dice.png",
+   "start": 387.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_094_Scene28_B_no_science_no_engineering.png",
+   "start": 402.58,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_095_Scene28_C_gambling_clumsy_header.png",
+   "start": 409.65,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_096_Scene29_A_turn_luck_into_business.png",
+   "start": 409.8,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_097_Scene29_B_math_of_human_brain.png",
+   "start": 410.69,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_098_Scene29_C_became_science_header.png",
+   "start": 413.59,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_099_Scene30_A_venice_drowning_in_debt.png",
+   "start": 415.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_100_Scene30_B_il_ridotto_first_casino.png",
+   "start": 424.41,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_101_Scene30_C_venice_1638_header.png",
+   "start": 432.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_102_Scene31_A_masked_noble_and_beggar.png",
+   "start": 435.67,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_103_Scene31_B_rule_1_wear_a_mask.png",
+   "start": 439.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_104_Scene31_C_mask_rule_header.png",
+   "start": 441.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_105_Scene32_A_tiny_house_edge.png",
+   "start": 445.87,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_106_Scene32_B_over_10_throws_win.png",
+   "start": 456.88,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_107_Scene32_C_over_10m_throws_house.png",
+   "start": 457.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_108_Scene32_D_house_edge_header.png",
+   "start": 466.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_109_Scene33_A_charles_fey_liberty_bell.png",
+   "start": 468.25,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_110_Scene33_B_no_dealer_every_4_sec.png",
+   "start": 468.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_111_Scene33_C_first_modern_slot_hdr.png",
+   "start": 470.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_112_Scene34_A_bf_skinner_harvard.png",
+   "start": 497.33,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_113_Scene34_B_pigeon_lever_chute_box.png",
+   "start": 508.99,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_114_Scene34_C_skinner_box_header.png",
+   "start": 509.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_115_Scene35_A_setting_1_one_peck.png",
+   "start": 517.24,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_116_Scene35_B_pigeon_full_walks_away.png",
+   "start": 527.03,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_117_Scene35_C_predictable_brain_bored.png",
+   "start": 534.58,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_118_Scene35_D_setting_1_header.png",
+   "start": 536.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_119_Scene36_A_setting_2_every_10th.png",
+   "start": 540.42,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_120_Scene36_B_pigeon_pecks_10_stops.png",
+   "start": 544.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_121_Scene36_C_setting_2_header.png",
+   "start": 545.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_122_Scene37_A_setting_3_random_switch.png",
+   "start": 550.93,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_123_Scene37_B_1st_12th_50th_peck.png",
+   "start": 557.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_124_Scene37_C_shocked_scientific_world.png",
+   "start": 565.01,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_125_Scene37_D_setting_3_header.png",
+   "start": 569.31,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_126_Scene38_A_obsessive_pigeon_pecking.png",
+   "start": 569.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_127_Scene38_B_off_switch_short_circuit.png",
+   "start": 582.27,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_128_Scene38_C_variable_ratio_header.png",
+   "start": 583.28,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_129_Scene39_A_psychologists_and_vegas.png",
+   "start": 592.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_130_Scene39_B_computer_chip_slots.png",
+   "start": 595.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_131_Scene39_C_80_percent_profits.png",
+   "start": 603.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_132_Scene39_D_vegas_computerized_hdr.png",
+   "start": 606.12,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_133_Scene40_A_not_in_las_vegas.png",
+   "start": 618.71,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_134_Scene40_B_silicon_valley_group_3.png",
+   "start": 621.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_135_Scene40_C_third_group_header.png",
+   "start": 622.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_136_Scene41_A_30_seconds_close_app.png",
+   "start": 640.18,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_137_Scene41_B_cannot_sell_ads.png",
+   "start": 650.41,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_138_Scene41_C_rebuilt_skinner_math.png",
+   "start": 655.31,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_139_Scene41_D_30_sec_problem_header.png",
+   "start": 662.61,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_140_Scene42_A_loren_brichter_2008.png",
+   "start": 663.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_141_Scene42_B_pull_spin_delay_drop.png",
+   "start": 665.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_142_Scene42_C_digital_slot_lever.png",
+   "start": 680.61,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_143_Scene42_D_inventing_refresh_hdr.png",
+   "start": 687.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_144_Scene43_A_junk_feed_cards.png",
+   "start": 687.61,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_145_Scene43_B_empty_berry_bush_eq.png",
+   "start": 694.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_146_Scene43_C_the_losing_spin_eq.png",
+   "start": 696.05,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_147_Scene43_D_most_refreshes_header.png",
+   "start": 698.25,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_148_Scene44_A_jackpot_10th_20th_swipe.png",
+   "start": 698.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_149_Scene44_B_video_message_hearts.png",
+   "start": 701.36,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_150_Scene44_C_foraging_circuit_locks.png",
+   "start": 706.97,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_151_Scene44_D_digital_jackpot_header.png",
+   "start": 709.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_152_Scene45_A_buy_sword_5_dollars.png",
+   "start": 714.91,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_153_Scene45_B_the_loot_box_1_percent.png",
+   "start": 723.93,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_154_Scene45_C_loot_box_trap_header.png",
+   "start": 724.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_155_Scene46_A_bone_wrapped_in_pixels.png",
+   "start": 732.41,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_156_Scene46_B_aimed_at_40000_yr_brain.png",
+   "start": 735.14,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_157_Scene46_C_ancient_bone_pixels_hdr.png",
+   "start": 737.91,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_158_Scene47_A_dating_match_confetti.png",
+   "start": 739.99,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_159_Scene47_B_crypto_high_speed_dice.png",
+   "start": 750.53,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_160_Scene47_C_dating_finance_header.png",
+   "start": 757.53,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_161_Scene48_A_thrill_of_unknown_brain.png",
+   "start": 761.13,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_162_Scene48_B_tossing_bones_campfire.png",
+   "start": 773.37,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_163_Scene48_C_game_over_went_to_sleep.png",
+   "start": 782.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_164_Scene48_D_game_had_an_end_header.png",
+   "start": 788.71,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_165_Scene49_A_cities_taxes_casinos.png",
+   "start": 788.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_166_Scene49_B_skinner_trapped_brain.png",
+   "start": 791.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_167_Scene49_C_cities_to_skinner_hdr.png",
+   "start": 792.32,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_168_Scene50_A_casino_in_desert.png",
+   "start": 798.61,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_169_Scene50_B_shrunk_to_deck_of_cards.png",
+   "start": 802.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_170_Scene50_C_in_your_pocket_24_7.png",
+   "start": 806.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_171_Scene50_D_casino_in_pocket_hdr.png",
+   "start": 807.91,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_172_Scene51_A_refreshing_at_midnight.png",
+   "start": 808.71,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_173_Scene51_B_opening_one_more_pack.png",
+   "start": 813.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_174_Scene51_C_100th_check_today.png",
+   "start": 814.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_175_Scene51_D_cant_stop_checking_hdr.png",
+   "start": 817.07,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_176_Scene52_A_not_broken_inside.png",
+   "start": 818.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_177_Scene52_B_not_a_weak_mind.png",
+   "start": 820.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_178_Scene52_C_check_one_more_bush.png",
+   "start": 821.77,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_179_Scene52_D_nothing_broken_header.png",
+   "start": 824.57,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_180_Scene53_A_pulling_down_screen.png",
+   "start": 829.15,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_181_Scene53_B_rolling_sheep_bone.png",
+   "start": 832.33,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_182_Scene53_C_itch_never_changed_hdr.png",
+   "start": 835.73,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_183_Scene54_A_cave_no_engineers.png",
+   "start": 836.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_184_Scene54_B_engineered_never_ends.png",
+   "start": 842.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "Cut_185_Scene54_C_only_difference_header.png",
+   "start": 846.19,
+   "fx": [],
+   "sfx": []
+  }
+ ]
+}
