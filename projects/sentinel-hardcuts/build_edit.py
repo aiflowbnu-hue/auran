@@ -17,7 +17,7 @@ words = [w for w in tr["words"] if w["type"] == "word"]
 
 
 def norm(s):
-    s = s.lower().replace("2:00", "two").replace("40,000", "fortythousand").replace("forty thousand", "fortythousand")
+    s = s.lower().replace("2:00", "two")
     return re.sub(r"[^a-z0-9]", "", s)
 
 
@@ -25,10 +25,11 @@ wn = [norm(w["text"]) for w in words]
 
 rows = []
 for ln in open(os.path.join(A, "00_HARD_CUTS_EXPLANATION_GUIDE.md"), encoding="utf-8"):
-    m = re.match(r"\|\s*\*\*(\d+)\*\*\s*\|\s*`([^`]+)`\s*\|\s*`(\d+):(\d+(?:\.\d+)?)\s*-[^`]*`\s*\|\s*\*?(.*?)\*?\s*\|", ln)
+    m = re.match(r"\|\s*\*\*(\d+)\*\*\s*\|\s*`([^`]+)`\s*\|\s*`(\d+):(\d+(?:\.\d+)?)\s*-[^`]*`\s*\|\s*\*?(.*?)\*?\s*\|\s*([^|]*)\|", ln)
     if m:
         rows.append({"n": int(m.group(1)), "img": m.group(2), "approx": int(m.group(3)) * 60 + float(m.group(4)),
-                     "cue": m.group(5).strip().strip('"')})
+                     "cue": m.group(5).strip().strip('"'),
+                     "overlay": " ".join(re.findall(r"'([^']+)'", m.group(6)))})
 assert len(rows) == 116, len(rows)
 files = set(os.listdir(os.path.join(A, "frames")))
 for r in rows:  # two filenames in the zip contain a stray space the guide does not have
@@ -42,7 +43,7 @@ def cue_variants(cue):
     """Token lists to try: the cue as written, and with whole-word "you are" <-> "you're" swapped."""
     if cue.startswith("("):
         return []
-    base = cue.replace("...", " ")
+    base = cue.replace("...", " ").replace("40,000", "forty thousand")  # spoken as two words
     alts = {base, re.sub(r"\b([Yy]ou) are\b", r"\1're", base), re.sub(r"\b([Yy]ou)'re\b", r"\1 are", base)}
     return [[norm(t) for t in v.split() if norm(t)][:3] for v in alts]
 
@@ -80,8 +81,54 @@ if not last["matched"]:
     on = [w for w in words if norm(w["text"]) == "on" and w["start"] > rows[-2]["t"]]
     last["t"] = (on[-1]["start"] - 0.05) if on else words[-1]["start"]
 
-# visuals lead the voice: show each cut a little before its word starts (owner: text felt late)
-LEAD = 0.35
+# Text overlays: show each one on the spoken word it displays (not on the guide's cue, which often
+# belongs to the following phrase). Then a tiny visual lead so the text never trails the voice.
+STOP = {"a", "an", "the", "in", "of", "is", "to", "and", "it", "on", "at", "your", "you", "for", "by", "are", "why", "was"}
+SPOKEN = {"100": "hundred", "mph": "miles", "200am": "two", "2": "two", "3": "three", "1": "one",
+          "99": "time", "100safe": "safe"}
+
+
+def overlay_tokens(text):
+    out = []
+    text = text.replace("40,000", "forty thousand")
+    for t in re.split(r"[\s/()!?:%-]+|,(?!\d)", text):
+        n = norm(t)
+        if not n or n in STOP or set(t) <= set("$+.✓"):
+            continue
+        out.append(SPOKEN.get(n, n))
+    return out
+
+
+def word_index_at(t):
+    return min(range(len(words)), key=lambda k: abs(words[k]["start"] - t))
+
+
+for k, r in enumerate(rows):
+    toks = overlay_tokens(r.get("overlay", ""))
+    if k == 0 or not toks:
+        continue
+    prev_t = rows[k - 1]["t"]
+    lo = word_index_at(prev_t - 0.2)
+    hit = None
+    for i in range(lo, len(words)):
+        if words[i]["start"] > r["t"] + 2.0:
+            break
+        # after a text frame, use a later word than the one it sits on; after a plain scene frame the
+        # text may land on the same word (the scene frame is then moved earlier below)
+        floor = prev_t + 0.12 if overlay_tokens(rows[k - 1].get("overlay", "")) else prev_t - 0.2
+        if words[i]["start"] < floor:
+            continue
+        if any(wn[i] == t or (len(t) > 3 and wn[i].startswith(t[:5])) for t in toks):
+            hit = i
+            break
+    if hit is None:
+        continue
+    r["t"], r["matched"], r["synced_to"] = words[hit]["start"], True, words[hit]["text"]
+    # give the frame before it at least ~0.35 s on screen by moving it earlier if needed
+    if k >= 2 and r["t"] - rows[k - 1]["t"] < 0.35:
+        rows[k - 1]["t"] = max(rows[k - 2]["t"] + 0.2, r["t"] - 0.45)
+
+LEAD = 0.08  # ~2 frames
 for r in rows[1:]:
     r["t"] -= LEAD
 
@@ -99,4 +146,5 @@ json.dump(edit, open(os.path.join(HERE, "edit.json"), "w"), indent=1)
 miss = [r for r in rows if not r["matched"]]
 print(f"{len(rows)} cuts, {len(rows) - len(miss)} matched to words, {len(miss)} placed from guide time")
 for r in rows:
-    print(f"{r['n']:3d} {r['t']:7.2f} (guide {r['approx']:6.1f}) {'ok ' if r['matched'] else '-- '} {r['cue'][:40]}")
+    sync = f" -> text on '{r['synced_to']}'" if r.get("synced_to") else ""
+    print(f"{r['n']:3d} {r['t']:7.2f} (guide {r['approx']:6.1f}) {'ok ' if r['matched'] else '-- '} {r['cue'][:34]:34}{sync}")
