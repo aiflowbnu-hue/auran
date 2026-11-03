@@ -28,6 +28,8 @@ The renderer in `projects/sentinel-hypothesis/` (`build_edit.py` + `render.js`) 
 ## Tools
 
 - `tools/ai33.py`: ai33.pro client (sfx, tts, image). Needs the API key in the `AI33_KEY` environment variable; never commit it.
+- `tools/gemini.py`: Gemini API (same models as Google Flow): `image()` = Gemini 3 Pro Image with reference images,
+  `video()` = Veo. Needs `GEMINI_API_KEY` in the environment; never commit it. Owner prefers this over ai33 for images.
 - Speech-to-text: `POST https://api.ai33.pro/v1/task/speech-to-text`, poll `GET /v1/task/{id}`, download `metadata.json_url`.
 
 ## Text layers I add myself (owner's feedback on dopamine-layered)
