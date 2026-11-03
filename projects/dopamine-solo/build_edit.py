@@ -117,10 +117,18 @@ for si, sc in enumerate(scenes):
         toks = [norm(x) for x in re.findall(r"[A-Z][a-z]+|\d+", name)]
         toks = [t for t in toks if t and t not in STOP and not t.startswith("solo") and t != "obj" and len(t) > 2]
         r["t"] = None
+        # the spot in this scene where most of the name is said together ("chemical of MAYBE", not the
+        # earlier "chemical of pleasure"); ties go to the earliest
+        best = None
         for k, w in enumerate(words):
-            if cur + 0.12 < w["start"] < t1 - 0.2 and any(hit(t, wn[k]) for t in toks):
-                r["t"], r["how"], cur = w["start"], f"on '{w['text']}'", w["start"]
-                break
+            if not (cur + 0.12 < w["start"] < t1 - 0.2) or not any(hit(t, wn[k]) for t in toks):
+                continue
+            score = len({t for t in toks if any(hit(t, x) for x in wn[k:k + 4])})
+            if best is None or score > best[0]:
+                best = (score, k)
+        if best:
+            w = words[best[1]]
+            r["t"], r["how"], cur = w["start"], f"on '{w['text']}'", w["start"]
     # generic ones: evenly between anchors, snapped to natural breaks
     k = 0
     while k < len(rs):
