@@ -9,191 +9,204 @@
  "music_volume": 0.16,
  "tail": 1.5,
  "range": [
-  0.0,
-  46.0
+  0,
+  848.62
  ],
  "cuts": [
   {
    "img": "build/composed/001_0.png",
    "start": 0.0,
    "n": 1,
-   "text": "Think about the last time",
+   "label": null,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/002_0.png",
-   "start": 1.08,
+   "start": 1.3,
    "n": 2,
-   "text": "you opened an app on your phone,",
+   "label": null,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/003_0.png",
-   "start": 2.78,
+   "start": 3.0,
    "n": 3,
-   "text": "saw nothing new,",
+   "label": "NOTHING NEW",
+   "word_t": 3.38,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/004_0.png",
-   "start": 3.94,
+   "start": 4.16,
    "n": 4,
-   "text": "and pulled your thumb down the screen",
+   "label": null,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/004_1.png",
-   "start": 5.56,
+   "start": 5.66,
    "n": 4,
-   "text": "to refresh it.",
+   "label": "REFRESH",
+   "word_t": 5.96,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/005_0.png",
-   "start": 6.46,
+   "start": 6.68,
    "n": 5,
-   "text": "A little spinning wheel appeared for a second.",
+   "label": "SPINNING WHEEL",
+   "word_t": 7.16,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/006_0.png",
-   "start": 8.62,
+   "start": 8.84,
    "n": 6,
-   "text": "Maybe a new notification popped up.",
+   "label": "NEW NOTIFICATION",
+   "word_t": 9.3,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/007_0.png",
-   "start": 10.72,
+   "start": 10.94,
    "n": 7,
-   "text": "Maybe nothing did.",
+   "label": null,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/008_0.png",
-   "start": 12.22,
+   "start": 12.44,
    "n": 8,
-   "text": "So a few minutes later,",
+   "label": "A FEW MINUTES LATER",
+   "word_t": 12.76,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/009_0.png",
-   "start": 13.44,
+   "start": 13.66,
    "n": 9,
-   "text": "you pulled your thumb down again.",
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/009_1.png",
+   "start": 14.48,
+   "n": 9,
+   "label": "AGAIN",
+   "word_t": 14.78,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/010_0.png",
-   "start": 15.4,
+   "start": 15.54,
    "n": 10,
-   "text": "A social media feed,",
+   "label": "SOCIAL MEDIA FEED",
+   "word_t": 15.84,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/011_0.png",
-   "start": 16.8,
+   "start": 17.02,
    "n": 11,
-   "text": "a video game loot box,",
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/011_1.png",
+   "start": 17.62,
+   "n": 11,
+   "label": "LOOT BOX",
+   "word_t": 17.92,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/012_0.png",
-   "start": 18.48,
+   "start": 18.6,
    "n": 12,
-   "text": "a crypto chart,",
+   "label": "CRYPTO CHART",
+   "word_t": 18.9,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/013_0.png",
-   "start": 19.62,
+   "start": 19.78,
    "n": 13,
-   "text": "a dating app swipe.",
+   "label": "DATING APP",
+   "word_t": 20.08,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/014_0.png",
-   "start": 21.26,
+   "start": 21.48,
    "n": 14,
-   "text": "None of them look like a casino.",
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/014_1.png",
+   "start": 22.18,
+   "n": 14,
+   "label": "CASINO",
+   "word_t": 22.48,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/015_0.png",
-   "start": 23.04,
+   "start": 23.26,
    "n": 15,
-   "text": "Yet every single time your",
+   "label": null,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/016_0.png",
-   "start": 24.54,
+   "start": 24.76,
    "n": 16,
-   "text": "thumb pulls down that screen,",
+   "label": null,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/017_0.png",
-   "start": 26.52,
+   "start": 26.72,
    "n": 17,
-   "text": "your brain is doing the exact same",
+   "label": "YOUR BRAIN",
+   "word_t": 27.02,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/018_0.png",
-   "start": 28.52,
+   "start": 28.74,
    "n": 18,
-   "text": "thing a gambler does in front of",
+   "label": null,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/018_1.png",
-   "start": 30.48,
+   "start": 31.64,
    "n": 18,
-   "text": "a slot machine at three in the morning.",
-   "fx": [],
-   "sfx": []
-  },
-  {
-   "img": "build/composed/018_2.png",
-   "start": 33.28,
-   "n": 18,
-   "text": "That urge to check,",
-   "fx": [],
-   "sfx": []
-  },
-  {
-   "img": "build/composed/018_3.png",
-   "start": 34.74,
-   "n": 18,
-   "text": "to roll, to see what happens next",
-   "fx": [],
-   "sfx": []
-  },
-  {
-   "img": "build/composed/018_4.png",
-   "start": 37.22,
-   "n": 18,
-   "text": "is one of the oldest instincts inside you.",
+   "label": "3 AM",
+   "word_t": 31.94,
    "fx": [],
    "sfx": []
   },
@@ -201,31 +214,3226 @@
    "img": "build/composed/019_0.png",
    "start": 40.16,
    "n": 19,
-   "text": "Forty thousand years ago,",
+   "label": "40,000 YEARS AGO",
+   "word_t": 40.46,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/020_0.png",
-   "start": 41.84,
+   "start": 42.06,
    "n": 20,
-   "text": "an ancestor of yours walked",
-   "fx": [],
-   "sfx": []
-  },
-  {
-   "img": "build/composed/021_0.png",
-   "start": 43.54,
-   "n": 21,
-   "text": "through an Ice Age forest",
+   "label": "ANCESTOR",
+   "word_t": 42.42,
    "fx": [],
    "sfx": []
   },
   {
    "img": "build/composed/022_0.png",
-   "start": 45.26,
+   "start": 50.44,
    "n": 22,
-   "text": "with the exact",
+   "label": "NO COINS",
+   "word_t": 50.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/024_0.png",
+   "start": 51.46,
+   "n": 24,
+   "label": "NO CARDS",
+   "word_t": 51.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/026_0.png",
+   "start": 52.56,
+   "n": 26,
+   "label": "NO SCREENS",
+   "word_t": 52.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/027_0.png",
+   "start": 54.1,
+   "n": 27,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/028_0.png",
+   "start": 56.9,
+   "n": 28,
+   "label": "SHEEP'S ANKLE BONE",
+   "word_t": 57.32,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/029_0.png",
+   "start": 59.84,
+   "n": 29,
+   "label": "PIGEON LAB",
+   "word_t": 60.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/030_0.png",
+   "start": 61.12,
+   "n": 30,
+   "label": "HARVARD, 1940S",
+   "word_t": 61.42,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/031_0.png",
+   "start": 63.32,
+   "n": 31,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/032_0.png",
+   "start": 63.799,
+   "n": 32,
+   "label": "GLOWING RECTANGLE",
+   "word_t": 64.099,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/033_0.png",
+   "start": 67.34,
+   "n": 33,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/033_1.png",
+   "start": 69.18,
+   "n": 33,
+   "label": "CASINO",
+   "word_t": 69.48,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/034_0.png",
+   "start": 70.86,
+   "n": 34,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/035_0.png",
+   "start": 79.38,
+   "n": 35,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/036_0.png",
+   "start": 84.62,
+   "n": 36,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/037_0.png",
+   "start": 93.9,
+   "n": 37,
+   "label": "NEUROSCIENTISTS",
+   "word_t": 94.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/038_0.png",
+   "start": 96.5,
+   "n": 38,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/038_1.png",
+   "start": 97.7,
+   "n": 38,
+   "label": "BRAIN SCANNERS",
+   "word_t": 98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/039_0.png",
+   "start": 99.06,
+   "n": 39,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/040_0.png",
+   "start": 100.42,
+   "n": 40,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/041_0.png",
+   "start": 102.48,
+   "n": 41,
+   "label": "1990S: WOLFRAM SCHULTZ",
+   "word_t": 102.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/042_0.png",
+   "start": 112.02,
+   "n": 42,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/042_1.png",
+   "start": 113.48,
+   "n": 42,
+   "label": "SWEET JUICE",
+   "word_t": 113.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/043_0.png",
+   "start": 115.04,
+   "n": 43,
+   "label": "DOPAMINE SPIKE",
+   "word_t": 115.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/044_0.png",
+   "start": 116.86,
+   "n": 44,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/045_0.png",
+   "start": 118.28,
+   "n": 45,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/045_1.png",
+   "start": 119.78,
+   "n": 45,
+   "label": "TONE",
+   "word_t": 120.08,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/046_0.png",
+   "start": 122.3,
+   "n": 46,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/046_1.png",
+   "start": 123.34,
+   "n": 46,
+   "label": "100% SURE",
+   "word_t": 123.64,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/047_0.png",
+   "start": 126.46,
+   "n": 47,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/047_1.png",
+   "start": 127.2,
+   "n": 47,
+   "label": "NO SPIKE",
+   "word_t": 127.5,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/048_0.png",
+   "start": 128.38,
+   "n": 48,
+   "label": "JUICE ARRIVED",
+   "word_t": 128.759,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/049_0.png",
+   "start": 130.179,
+   "n": 49,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/049_1.png",
+   "start": 132.72,
+   "n": 49,
+   "label": "RANDOM",
+   "word_t": 133.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/050_0.png",
+   "start": 135.54,
+   "n": 50,
+   "label": "50% NOTHING",
+   "word_t": 135.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/051_0.png",
+   "start": 139.94,
+   "n": 51,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/051_1.png",
+   "start": 141.22,
+   "n": 51,
+   "label": "CAME BACK",
+   "word_t": 141.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/052_0.png",
+   "start": 142.02,
+   "n": 52,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/052_1.png",
+   "start": 143.72,
+   "n": 52,
+   "label": "2X HIGHER",
+   "word_t": 144.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/053_0.png",
+   "start": 144.98,
+   "n": 53,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/053_1.png",
+   "start": 145.76,
+   "n": 53,
+   "label": "MAYBE",
+   "word_t": 146.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/054_0.png",
+   "start": 150.0,
+   "n": 54,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/054_1.png",
+   "start": 151.36,
+   "n": 54,
+   "label": "NOT PLEASURE",
+   "word_t": 151.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/055_0.png",
+   "start": 154.26,
+   "n": 55,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/055_1.png",
+   "start": 155.7,
+   "n": 55,
+   "label": "NOT WINNING",
+   "word_t": 156,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/056_0.png",
+   "start": 157.08,
+   "n": 56,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/056_1.png",
+   "start": 158.16,
+   "n": 56,
+   "label": "UNCERTAINTY",
+   "word_t": 158.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/057_0.png",
+   "start": 162.46,
+   "n": 57,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/060_0.png",
+   "start": 168.04,
+   "n": 60,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/058_0.png",
+   "start": 171.94,
+   "n": 58,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/058_1.png",
+   "start": 172.72,
+   "n": 58,
+   "label": "HUNTER-GATHERER",
+   "word_t": 173.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/059_0.png",
+   "start": 176.68,
+   "n": 59,
+   "label": "NO SUPERMARKET",
+   "word_t": 177.04,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/062_0.png",
+   "start": 179.24,
+   "n": 62,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/062_1.png",
+   "start": 179.82,
+   "n": 62,
+   "label": "BERRY BUSH",
+   "word_t": 180.12,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/063_0.png",
+   "start": 180.94,
+   "n": 63,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/064_0.png",
+   "start": 182.1,
+   "n": 64,
+   "label": "NOTHING",
+   "word_t": 182.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/065_0.png",
+   "start": 183.32,
+   "n": 65,
+   "label": "BUSH #2",
+   "word_t": 183.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/066_0.png",
+   "start": 184.22,
+   "n": 66,
+   "label": "NOTHING",
+   "word_t": 184.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/067_0.png",
+   "start": 185.5,
+   "n": 67,
+   "label": "EMPTY",
+   "word_t": 186.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/068_0.png",
+   "start": 186.62,
+   "n": 68,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/069_0.png",
+   "start": 187.62,
+   "n": 69,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/069_1.png",
+   "start": 191.28,
+   "n": 69,
+   "label": "GIVE UP",
+   "word_t": 191.57999999999998,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/070_0.png",
+   "start": 192.86,
+   "n": 70,
+   "label": "STARVE",
+   "word_t": 193.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/071_0.png",
+   "start": 193.58,
+   "n": 71,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/072_0.png",
+   "start": 194.7,
+   "n": 72,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/073_0.png",
+   "start": 196.8,
+   "n": 73,
+   "label": "FORAGING CIRCUIT",
+   "word_t": 197.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/074_0.png",
+   "start": 199.24,
+   "n": 74,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/074_1.png",
+   "start": 200.04,
+   "n": 74,
+   "label": "FOOD?",
+   "word_t": 200.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/075_0.png",
+   "start": 202.86,
+   "n": 75,
+   "label": "DOPAMINE",
+   "word_t": 203.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/076_0.png",
+   "start": 204.66,
+   "n": 76,
+   "label": "NEXT BUSH",
+   "word_t": 205.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/077_0.png",
+   "start": 206.0,
+   "n": 77,
+   "label": "ONE MORE BUSH",
+   "word_t": 206.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/078_0.png",
+   "start": 207.039,
+   "n": 78,
+   "label": "ONE MORE TREE",
+   "word_t": 207.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/079_0.png",
+   "start": 208.12,
+   "n": 79,
+   "label": "ONE MORE HILL",
+   "word_t": 208.68,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/080_0.png",
+   "start": 213.76,
+   "n": 80,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/080_1.png",
+   "start": 214.56,
+   "n": 80,
+   "label": "CAMPFIRE",
+   "word_t": 214.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/081_0.png",
+   "start": 215.58,
+   "n": 81,
+   "label": "EMPTY TIME",
+   "word_t": 215.94,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/082_0.png",
+   "start": 222.7,
+   "n": 82,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/082_1.png",
+   "start": 225.1,
+   "n": 82,
+   "label": "SHEEP BONE",
+   "word_t": 225.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/083_0.png",
+   "start": 229.06,
+   "n": 83,
+   "label": "ASTRAGALUS",
+   "word_t": 229.36,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/084_0.png",
+   "start": 231.62,
+   "n": 84,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/084_1.png",
+   "start": 232.3,
+   "n": 84,
+   "label": "ROUND PEBBLE",
+   "word_t": 232.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/085_0.png",
+   "start": 232.86,
+   "n": 85,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/086_0.png",
+   "start": 234.14,
+   "n": 86,
+   "label": "FLAT STONE",
+   "word_t": 234.5,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/087_0.png",
+   "start": 235.1,
+   "n": 87,
+   "label": "2 SIDES",
+   "word_t": 235.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/088_0.png",
+   "start": 236.38,
+   "n": 88,
+   "label": "ANKLE BONE",
+   "word_t": 236.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/089_0.png",
+   "start": 237.48,
+   "n": 89,
+   "label": "4 SIDES",
+   "word_t": 237.88,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/090_0.png",
+   "start": 239.659,
+   "n": 90,
+   "label": "BROAD & FLAT",
+   "word_t": 240.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/091_0.png",
+   "start": 241.16,
+   "n": 91,
+   "label": "NARROW & CURVED",
+   "word_t": 241.64,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/092_0.png",
+   "start": 243.18,
+   "n": 92,
+   "label": "THROW",
+   "word_t": 243.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/093_0.png",
+   "start": 247.06,
+   "n": 93,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/093_1.png",
+   "start": 251.9,
+   "n": 93,
+   "label": "FIRST DICE",
+   "word_t": 252.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/094_0.png",
+   "start": 252.88,
+   "n": 94,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/095_0.png",
+   "start": 255.16,
+   "n": 95,
+   "label": "EVERY CONTINENT",
+   "word_t": 255.45999999999998,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/096_0.png",
+   "start": 256.92,
+   "n": 96,
+   "label": "POLISHED SMOOTH",
+   "word_t": 257.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/097_0.png",
+   "start": 259.3,
+   "n": 97,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/098_0.png",
+   "start": 263.04,
+   "n": 98,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/098_1.png",
+   "start": 266.18,
+   "n": 98,
+   "label": "MAGIC",
+   "word_t": 266.48,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/099_0.png",
+   "start": 272.84,
+   "n": 99,
+   "label": "SHAMANS",
+   "word_t": 273.34000000000003,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/100_0.png",
+   "start": 275.46,
+   "n": 100,
+   "label": "GODS DECIDE",
+   "word_t": 276.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/101_0.png",
+   "start": 279.6,
+   "n": 101,
+   "label": "CLEROMANCY",
+   "word_t": 279.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/104_0.png",
+   "start": 283.24,
+   "n": 104,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/105_0.png",
+   "start": 284.08,
+   "n": 105,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/106_0.png",
+   "start": 285.3,
+   "n": 106,
+   "label": "LOTTERY",
+   "word_t": 285.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/107_0.png",
+   "start": 286.32,
+   "n": 107,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/102_0.png",
+   "start": 287.34,
+   "n": 102,
+   "label": "WOODEN STICKS",
+   "word_t": 287.64,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/103_0.png",
+   "start": 288.52,
+   "n": 103,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/103_1.png",
+   "start": 290.42,
+   "n": 103,
+   "label": "READ FATE",
+   "word_t": 290.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/108_0.png",
+   "start": 295.2,
+   "n": 108,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/108_1.png",
+   "start": 296.0,
+   "n": 108,
+   "label": "NO HUNT",
+   "word_t": 296.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/109_0.png",
+   "start": 297.38,
+   "n": 109,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/109_1.png",
+   "start": 300.0,
+   "n": 109,
+   "label": "FELT INCREDIBLE",
+   "word_t": 300.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/110_0.png",
+   "start": 301.44,
+   "n": 110,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/110_1.png",
+   "start": 302.58,
+   "n": 110,
+   "label": "FORAGING ITCH",
+   "word_t": 302.88,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/111_0.png",
+   "start": 305.2,
+   "n": 111,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/111_1.png",
+   "start": 305.86,
+   "n": 111,
+   "label": "STAKES",
+   "word_t": 306.15999999999997,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/112_0.png",
+   "start": 309.38,
+   "n": 112,
+   "label": "FLINT ARROWHEAD",
+   "word_t": 309.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/113_0.png",
+   "start": 310.88,
+   "n": 113,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/114_0.png",
+   "start": 312.66,
+   "n": 114,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/115_0.png",
+   "start": 316.12,
+   "n": 115,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/116_0.png",
+   "start": 318.58,
+   "n": 116,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/116_1.png",
+   "start": 320.84,
+   "n": 116,
+   "label": "NO COINS",
+   "word_t": 321.14,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/117_0.png",
+   "start": 321.56,
+   "n": 117,
+   "label": "NO WRITING",
+   "word_t": 321.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/119_0.png",
+   "start": 322.3,
+   "n": 119,
+   "label": "NO CITIES",
+   "word_t": 322.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/120_0.png",
+   "start": 323.18,
+   "n": 120,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/121_0.png",
+   "start": 324.56,
+   "n": 121,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/122_0.png",
+   "start": 327.88,
+   "n": 122,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/123_0.png",
+   "start": 329.06,
+   "n": 123,
+   "label": "OBSESSION",
+   "word_t": 329.36,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/124_0.png",
+   "start": 329.88,
+   "n": 124,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/124_1.png",
+   "start": 338.5,
+   "n": 124,
+   "label": "KING TUT'S TOMB",
+   "word_t": 338.8,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/125_0.png",
+   "start": 342.54,
+   "n": 125,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/126_0.png",
+   "start": 350.38,
+   "n": 126,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/127_0.png",
+   "start": 352.04,
+   "n": 127,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/128_0.png",
+   "start": 352.82,
+   "n": 128,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/128_1.png",
+   "start": 356.32,
+   "n": 128,
+   "label": "RUINED MARRIAGE",
+   "word_t": 356.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/131_0.png",
+   "start": 358.26,
+   "n": 131,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/132_0.png",
+   "start": 358.98,
+   "n": 132,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/129_0.png",
+   "start": 359.72,
+   "n": 129,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/130_0.png",
+   "start": 360.44,
+   "n": 130,
+   "label": "BROWN NUTS",
+   "word_t": 360.94,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/133_0.png",
+   "start": 361.18,
+   "n": 133,
+   "label": "RATTLING",
+   "word_t": 361.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/134_0.png",
+   "start": 361.94,
+   "n": 134,
+   "label": "BOARD",
+   "word_t": 362.28,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/135_0.png",
+   "start": 362.82,
+   "n": 135,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/136_0.png",
+   "start": 363.24,
+   "n": 136,
+   "label": "CAN'T STOP",
+   "word_t": 363.54,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/137_0.png",
+   "start": 366.02,
+   "n": 137,
+   "label": "ROMAN EMPIRE",
+   "word_t": 366.32,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/138_0.png",
+   "start": 367.48,
+   "n": 138,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/139_0.png",
+   "start": 370.64,
+   "n": 139,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/139_1.png",
+   "start": 373.66,
+   "n": 139,
+   "label": "CLAUDIUS",
+   "word_t": 373.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/140_0.png",
+   "start": 380.7,
+   "n": 140,
+   "label": "STABILIZED BOARD",
+   "word_t": 381,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/141_0.png",
+   "start": 386.86,
+   "n": 141,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/142_0.png",
+   "start": 394.26,
+   "n": 142,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/143_0.png",
+   "start": 405.04,
+   "n": 143,
+   "label": "NOBODY KNEW",
+   "word_t": 405.34000000000003,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/144_0.png",
+   "start": 405.86,
+   "n": 144,
+   "label": "ENGINEER IT",
+   "word_t": 406.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/145_0.png",
+   "start": 407.42,
+   "n": 145,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/145_1.png",
+   "start": 408.66,
+   "n": 145,
+   "label": "LUCK",
+   "word_t": 408.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/146_0.png",
+   "start": 409.28,
+   "n": 146,
+   "label": "BUSINESS",
+   "word_t": 409.74,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/147_0.png",
+   "start": 410.74,
+   "n": 147,
+   "label": "STEP 2",
+   "word_t": 411.04,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/148_0.png",
+   "start": 411.7,
+   "n": 148,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/148_1.png",
+   "start": 412.9,
+   "n": 148,
+   "label": "MATH OF THE BRAIN",
+   "word_t": 413.2,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/149_0.png",
+   "start": 415.22,
+   "n": 149,
+   "label": "1638",
+   "word_t": 415.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/150_0.png",
+   "start": 417.48,
+   "n": 150,
+   "label": "VENICE",
+   "word_t": 417.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/151_0.png",
+   "start": 431.72,
+   "n": 151,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/152_0.png",
+   "start": 433.6,
+   "n": 152,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/153_0.png",
+   "start": 435.72,
+   "n": 153,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/153_1.png",
+   "start": 437.16,
+   "n": 153,
+   "label": "PALACE",
+   "word_t": 437.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/154_0.png",
+   "start": 441.52,
+   "n": 154,
+   "label": "MASK",
+   "word_t": 442.12,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/155_0.png",
+   "start": 442.44,
+   "n": 155,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/156_0.png",
+   "start": 443.28,
+   "n": 156,
+   "label": "NOBLEMAN VS BEGGAR",
+   "word_t": 443.58,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/157_0.png",
+   "start": 446.98,
+   "n": 157,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/157_1.png",
+   "start": 447.84,
+   "n": 157,
+   "label": "MATH RULE",
+   "word_t": 448.14,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/158_0.png",
+   "start": 451.74,
+   "n": 158,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/159_0.png",
+   "start": 457.1,
+   "n": 159,
+   "label": "10 THROWS",
+   "word_t": 457.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/160_0.png",
+   "start": 458.24,
+   "n": 160,
+   "label": "WIN BIG",
+   "word_t": 459.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/161_0.png",
+   "start": 459.78,
+   "n": 161,
+   "label": "10 MILLION THROWS",
+   "word_t": 460.14,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/162_0.png",
+   "start": 463.36,
+   "n": 162,
+   "label": "CAN'T LOSE",
+   "word_t": 464.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/163_0.png",
+   "start": 470.34,
+   "n": 163,
+   "label": "1894, SAN FRANCISCO",
+   "word_t": 470.64,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/164_0.png",
+   "start": 474.34,
+   "n": 164,
+   "label": "CHARLES FEY",
+   "word_t": 474.64,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/167_0.png",
+   "start": 483.54,
+   "n": 167,
+   "label": "LIBERTY BELL",
+   "word_t": 483.84000000000003,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/168_0.png",
+   "start": 487.16,
+   "n": 168,
+   "label": "NO DEALER",
+   "word_t": 487.58000000000004,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/165_0.png",
+   "start": 488.8,
+   "n": 165,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/166_0.png",
+   "start": 490.28,
+   "n": 166,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/171_0.png",
+   "start": 495.2,
+   "n": 171,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/172_0.png",
+   "start": 498.48,
+   "n": 172,
+   "label": "FORMULA",
+   "word_t": 498.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/173_0.png",
+   "start": 500.88,
+   "n": 173,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/174_0.png",
+   "start": 503.58,
+   "n": 174,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/174_1.png",
+   "start": 504.54,
+   "n": 174,
+   "label": "HARVARD, 1940S",
+   "word_t": 504.84000000000003,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/175_0.png",
+   "start": 509.52,
+   "n": 175,
+   "label": "B.F. SKINNER",
+   "word_t": 509.82,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/176_0.png",
+   "start": 512.08,
+   "n": 176,
+   "label": "METAL LEVER",
+   "word_t": 512.6800000000001,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/177_0.png",
+   "start": 516.58,
+   "n": 177,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/177_1.png",
+   "start": 519.88,
+   "n": 177,
+   "label": "FOOD PELLET",
+   "word_t": 520.1800000000001,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/178_0.png",
+   "start": 523.94,
+   "n": 178,
+   "label": "1 PECK = 1 PELLET",
+   "word_t": 524.24,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/179_0.png",
+   "start": 526.94,
+   "n": 179,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/179_1.png",
+   "start": 530.54,
+   "n": 179,
+   "label": "FULL",
+   "word_t": 530.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/180_0.png",
+   "start": 531.46,
+   "n": 180,
+   "label": "WALKED AWAY",
+   "word_t": 531.94,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/181_0.png",
+   "start": 534.56,
+   "n": 181,
+   "label": "REWARD",
+   "word_t": 534.88,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/182_0.png",
+   "start": 535.24,
+   "n": 182,
+   "label": "GUARANTEED",
+   "word_t": 535.54,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/183_0.png",
+   "start": 536.16,
+   "n": 183,
+   "label": "PREDICTABLE",
+   "word_t": 536.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/184_0.png",
+   "start": 537.26,
+   "n": 184,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/185_0.png",
+   "start": 537.84,
+   "n": 185,
+   "label": "BORED",
+   "word_t": 538.14,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/186_0.png",
+   "start": 539.12,
+   "n": 186,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/187_0.png",
+   "start": 540.64,
+   "n": 187,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/188_0.png",
+   "start": 543.68,
+   "n": 188,
+   "label": "EVERY 10TH PECK",
+   "word_t": 543.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/189_0.png",
+   "start": 545.12,
+   "n": 189,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/189_1.png",
+   "start": 545.66,
+   "n": 189,
+   "label": "PATTERN",
+   "word_t": 545.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/193_0.png",
+   "start": 548.04,
+   "n": 193,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/194_0.png",
+   "start": 550.18,
+   "n": 194,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/191_0.png",
+   "start": 550.98,
+   "n": 191,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/192_0.png",
+   "start": 552.28,
+   "n": 192,
+   "label": "SETTING 3",
+   "word_t": 552.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/195_0.png",
+   "start": 553.26,
+   "n": 195,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/196_0.png",
+   "start": 555.16,
+   "n": 196,
+   "label": "UNPREDICTABLE",
+   "word_t": 555.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/197_0.png",
+   "start": 556.98,
+   "n": 197,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/198_0.png",
+   "start": 557.58,
+   "n": 198,
+   "label": "1ST PECK?",
+   "word_t": 557.88,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/199_0.png",
+   "start": 559.16,
+   "n": 199,
+   "label": "12TH?",
+   "word_t": 559.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/200_0.png",
+   "start": 560.94,
+   "n": 200,
+   "label": "50TH?",
+   "word_t": 561.24,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/201_0.png",
+   "start": 562.18,
+   "n": 201,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/201_1.png",
+   "start": 563.1,
+   "n": 201,
+   "label": "WHICH PECK?",
+   "word_t": 563.4,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/202_0.png",
+   "start": 565.06,
+   "n": 202,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/203_0.png",
+   "start": 566.96,
+   "n": 203,
+   "label": "SHOCKED SCIENCE",
+   "word_t": 567.26,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/204_0.png",
+   "start": 569.1,
+   "n": 204,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/204_1.png",
+   "start": 569.78,
+   "n": 204,
+   "label": "DIDN'T STOP",
+   "word_t": 570.08,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/205_0.png",
+   "start": 573.92,
+   "n": 205,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/205_1.png",
+   "start": 574.92,
+   "n": 205,
+   "label": "THOUSANDS AN HOUR",
+   "word_t": 575.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/206_0.png",
+   "start": 578.94,
+   "n": 206,
+   "label": "BEAK RAW",
+   "word_t": 579.58,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/207_0.png",
+   "start": 580.72,
+   "n": 207,
+   "label": "EXHAUSTED",
+   "word_t": 581.18,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/208_0.png",
+   "start": 582.32,
+   "n": 208,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/208_1.png",
+   "start": 583.28,
+   "n": 208,
+   "label": "VARIABLE RATIO",
+   "word_t": 583.58,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/209_0.png",
+   "start": 584.12,
+   "n": 209,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/209_1.png",
+   "start": 585.14,
+   "n": 209,
+   "label": "REINFORCEMENT",
+   "word_t": 585.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/210_0.png",
+   "start": 587.56,
+   "n": 210,
+   "label": "RANDOM",
+   "word_t": 587.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/211_0.png",
+   "start": 588.92,
+   "n": 211,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/211_1.png",
+   "start": 590.46,
+   "n": 211,
+   "label": "OFF SWITCH",
+   "word_t": 590.76,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/212_0.png",
+   "start": 601.64,
+   "n": 212,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/217_0.png",
+   "start": 605.02,
+   "n": 217,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/218_0.png",
+   "start": 606.34,
+   "n": 218,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/213_0.png",
+   "start": 607.3,
+   "n": 213,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/213_1.png",
+   "start": 607.92,
+   "n": 213,
+   "label": "SKINNER'S MATH",
+   "word_t": 608.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/214_0.png",
+   "start": 609.42,
+   "n": 214,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/215_0.png",
+   "start": 611.28,
+   "n": 215,
+   "label": "SLOT MACHINES",
+   "word_t": 611.58,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/216_0.png",
+   "start": 612.64,
+   "n": 216,
+   "label": "SIDE ATTRACTION",
+   "word_t": 612.94,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/219_0.png",
+   "start": 615.12,
+   "n": 219,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/220_0.png",
+   "start": 617.54,
+   "n": 220,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/221_0.png",
+   "start": 619.76,
+   "n": 221,
+   "label": "LATE 2000S",
+   "word_t": 620.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/222_0.png",
+   "start": 621.54,
+   "n": 222,
+   "label": "THIRD GROUP",
+   "word_t": 621.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/223_0.png",
+   "start": 625.24,
+   "n": 223,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/227_0.png",
+   "start": 626.04,
+   "n": 227,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/229_0.png",
+   "start": 627.26,
+   "n": 229,
+   "label": "SILICON VALLEY",
+   "word_t": 627.92,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/230_0.png",
+   "start": 628.34,
+   "n": 230,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/230_1.png",
+   "start": 629.68,
+   "n": 230,
+   "label": "YOUR SMARTPHONE",
+   "word_t": 629.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/225_0.png",
+   "start": 633.24,
+   "n": 225,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/225_1.png",
+   "start": 634.82,
+   "n": 225,
+   "label": "INFINITE SCROLL",
+   "word_t": 635.12,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/226_0.png",
+   "start": 638.58,
+   "n": 226,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/226_1.png",
+   "start": 641.52,
+   "n": 226,
+   "label": "SAME INFO EVERY TIME",
+   "word_t": 641.8199999999999,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/231_0.png",
+   "start": 647.36,
+   "n": 231,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/232_0.png",
+   "start": 649.18,
+   "n": 232,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/237_0.png",
+   "start": 650.58,
+   "n": 237,
+   "label": "CLOSED APP",
+   "word_t": 651.26,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/238_0.png",
+   "start": 651.62,
+   "n": 238,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/233_0.png",
+   "start": 653.179,
+   "n": 233,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/234_0.png",
+   "start": 654.78,
+   "n": 234,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/235_0.png",
+   "start": 656.3,
+   "n": 235,
+   "label": "REBUILT",
+   "word_t": 656.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/241_0.png",
+   "start": 658.5,
+   "n": 241,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/242_0.png",
+   "start": 659.56,
+   "n": 242,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/243_0.png",
+   "start": 660.68,
+   "n": 243,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/243_1.png",
+   "start": 665.38,
+   "n": 243,
+   "label": "PULL-TO-REFRESH",
+   "word_t": 665.6800000000001,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/244_0.png",
+   "start": 673.84,
+   "n": 244,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/244_1.png",
+   "start": 675.0,
+   "n": 244,
+   "label": "LITTLE WHEEL SPINS",
+   "word_t": 675.3,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/245_0.png",
+   "start": 676.88,
+   "n": 245,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/245_1.png",
+   "start": 678.38,
+   "n": 245,
+   "label": "NEW CONTENT",
+   "word_t": 678.6800000000001,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/246_0.png",
+   "start": 678.88,
+   "n": 246,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/247_0.png",
+   "start": 680.44,
+   "n": 247,
+   "label": "BRICHTER",
+   "word_t": 680.74,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/248_0.png",
+   "start": 682.5,
+   "n": 248,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/249_0.png",
+   "start": 683.34,
+   "n": 249,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/250_0.png",
+   "start": 684.14,
+   "n": 250,
+   "label": "DIGITAL",
+   "word_t": 684.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/251_0.png",
+   "start": 684.68,
+   "n": 251,
+   "label": "SLOT MACHINE",
+   "word_t": 684.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/252_0.png",
+   "start": 685.44,
+   "n": 252,
+   "label": "LEVER",
+   "word_t": 685.74,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/253_0.png",
+   "start": 686.64,
+   "n": 253,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/253_1.png",
+   "start": 689.12,
+   "n": 253,
+   "label": "JUNK",
+   "word_t": 689.42,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/257_0.png",
+   "start": 690.42,
+   "n": 257,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/258_0.png",
+   "start": 692.46,
+   "n": 258,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/259_0.png",
+   "start": 694.4,
+   "n": 259,
+   "label": "EMPTY BERRY BUSH",
+   "word_t": 694.7,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/260_0.png",
+   "start": 695.3,
+   "n": 260,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/261_0.png",
+   "start": 696.28,
+   "n": 261,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/262_0.png",
+   "start": 697.1,
+   "n": 262,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/263_0.png",
+   "start": 697.98,
+   "n": 263,
+   "label": "EVERY 10TH SWIPE",
+   "word_t": 698.76,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/264_0.png",
+   "start": 700.26,
+   "n": 264,
+   "label": "JACKPOT",
+   "word_t": 700.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/266_0.png",
+   "start": 707.02,
+   "n": 266,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/267_0.png",
+   "start": 708.039,
+   "n": 267,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/265_0.png",
+   "start": 709.76,
+   "n": 265,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/265_1.png",
+   "start": 711.6,
+   "n": 265,
+   "label": "LOCKED ON",
+   "word_t": 711.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/270_0.png",
+   "start": 712.6,
+   "n": 270,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/271_0.png",
+   "start": 713.66,
+   "n": 271,
+   "label": "CAN'T PUT IT DOWN",
+   "word_t": 713.96,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/272_0.png",
+   "start": 714.96,
+   "n": 272,
+   "label": "VIDEO GAMES",
+   "word_t": 715.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/273_0.png",
+   "start": 716.58,
+   "n": 273,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/273_1.png",
+   "start": 720.24,
+   "n": 273,
+   "label": "PREDICTABLE REWARD",
+   "word_t": 720.54,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/274_0.png",
+   "start": 723.04,
+   "n": 274,
+   "label": "COMPANIES",
+   "word_t": 723.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/275_0.png",
+   "start": 724.14,
+   "n": 275,
+   "label": "LOOT BOX",
+   "word_t": 724.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/276_0.png",
+   "start": 725.78,
+   "n": 276,
+   "label": "GLOWING CHEST",
+   "word_t": 726.08,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/277_0.png",
+   "start": 727.88,
+   "n": 277,
+   "label": "FLASHING LIGHTS",
+   "word_t": 728.18,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/278_0.png",
+   "start": 730.34,
+   "n": 278,
+   "label": "1% RARE ITEM",
+   "word_t": 730.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/279_0.png",
+   "start": 732.56,
+   "n": 279,
+   "label": "SHEEP'S KNUCKLEBONE",
+   "word_t": 733,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/280_0.png",
+   "start": 733.76,
+   "n": 280,
+   "label": "WRAPPED IN PIXELS",
+   "word_t": 734.06,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/282_0.png",
+   "start": 734.67,
+   "n": 282,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/284_0.png",
+   "start": 735.14,
+   "n": 284,
+   "label": "AIMED",
+   "word_t": 735.44,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/285_0.png",
+   "start": 737.28,
+   "n": 285,
+   "label": "40,000 YEARS",
+   "word_t": 738.02,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/288_0.png",
+   "start": 740.34,
+   "n": 288,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/286_0.png",
+   "start": 741.5,
+   "n": 286,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/287_0.png",
+   "start": 743.12,
+   "n": 287,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/290_0.png",
+   "start": 744.5,
+   "n": 290,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/291_0.png",
+   "start": 746.86,
+   "n": 291,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/289_0.png",
+   "start": 751.44,
+   "n": 289,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/292_0.png",
+   "start": 755.0,
+   "n": 292,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/293_0.png",
+   "start": 757.94,
+   "n": 293,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/294_0.png",
+   "start": 761.56,
+   "n": 294,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/294_1.png",
+   "start": 763.62,
+   "n": 294,
+   "label": "40,000 YEARS AGO",
+   "word_t": 763.92,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/295_0.png",
+   "start": 765.54,
+   "n": 295,
+   "label": "ANCESTORS",
+   "word_t": 765.84,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/296_0.png",
+   "start": 768.5,
+   "n": 296,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/296_1.png",
+   "start": 769.42,
+   "n": 296,
+   "label": "EVOLUTION",
+   "word_t": 769.72,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/297_0.png",
+   "start": 771.44,
+   "n": 297,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/297_1.png",
+   "start": 772.24,
+   "n": 297,
+   "label": "THE UNKNOWN",
+   "word_t": 772.54,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/298_0.png",
+   "start": 774.34,
+   "n": 298,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/298_1.png",
+   "start": 774.92,
+   "n": 298,
+   "label": "CAMPFIRE",
+   "word_t": 775.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/299_0.png",
+   "start": 777.02,
+   "n": 299,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/299_1.png",
+   "start": 779.22,
+   "n": 299,
+   "label": "SHEEP BONES",
+   "word_t": 779.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/300_0.png",
+   "start": 780.2,
+   "n": 300,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/300_1.png",
+   "start": 781.16,
+   "n": 300,
+   "label": "FRIENDS",
+   "word_t": 781.46,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/301_0.png",
+   "start": 782.62,
+   "n": 301,
+   "label": "GAME OVER",
+   "word_t": 782.92,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/302_0.png",
+   "start": 783.98,
+   "n": 302,
+   "label": "SLEEP",
+   "word_t": 784.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/303_0.png",
+   "start": 785.173,
+   "n": 303,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/304_0.png",
+   "start": 786.12,
+   "n": 304,
+   "label": "CITIES",
+   "word_t": 786.42,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/307_0.png",
+   "start": 788.8,
+   "n": 307,
+   "label": "TAXES & CASINOS",
+   "word_t": 789.1,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/308_0.png",
+   "start": 789.78,
+   "n": 308,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/305_0.png",
+   "start": 791.2,
+   "n": 305,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/305_1.png",
+   "start": 792.32,
+   "n": 305,
+   "label": "B.F. SKINNER",
+   "word_t": 792.62,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/306_0.png",
+   "start": 793.06,
+   "n": 306,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/306_1.png",
+   "start": 794.26,
+   "n": 306,
+   "label": "EXACT MATH",
+   "word_t": 794.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/309_0.png",
+   "start": 795.56,
+   "n": 309,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/309_1.png",
+   "start": 796.06,
+   "n": 309,
+   "label": "LIVING BRAIN",
+   "word_t": 796.36,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/310_0.png",
+   "start": 797.04,
+   "n": 310,
+   "label": "PECKING FOREVER",
+   "word_t": 797.38,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/321_0.png",
+   "start": 798.96,
+   "n": 321,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/322_0.png",
+   "start": 799.68,
+   "n": 322,
+   "label": "SMARTPHONE",
+   "word_t": 799.98,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/311_0.png",
+   "start": 801.38,
+   "n": 311,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/312_0.png",
+   "start": 802.3,
+   "n": 312,
+   "label": "OUT OF THE DESERT",
+   "word_t": 802.6,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/319_0.png",
+   "start": 802.96,
+   "n": 319,
+   "label": "SHRUNK",
+   "word_t": 803.26,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/313_0.png",
+   "start": 804.2,
+   "n": 313,
+   "label": "DECK OF CARDS",
+   "word_t": 804.5,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/314_0.png",
+   "start": 805.76,
+   "n": 314,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/315_0.png",
+   "start": 806.44,
+   "n": 315,
+   "label": "IN YOUR POCKET",
+   "word_t": 806.74,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/316_0.png",
+   "start": 807.68,
+   "n": 316,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/323_0.png",
+   "start": 808.76,
+   "n": 323,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/324_0.png",
+   "start": 809.54,
+   "n": 324,
+   "label": "MINDLESSLY",
+   "word_t": 810.1800000000001,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/329_0.png",
+   "start": 810.56,
+   "n": 329,
+   "label": "REFRESHING",
+   "word_t": 810.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/330_0.png",
+   "start": 811.86,
+   "n": 330,
+   "label": "MIDNIGHT",
+   "word_t": 812.16,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/331_0.png",
+   "start": 813.12,
+   "n": 331,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/325_0.png",
+   "start": 814.0,
+   "n": 325,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/333_0.png",
+   "start": 815.04,
+   "n": 333,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/334_0.png",
+   "start": 816.26,
+   "n": 334,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/327_0.png",
+   "start": 817.04,
+   "n": 327,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/335_0.png",
+   "start": 818.0,
+   "n": 335,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/338_0.png",
+   "start": 819.18,
+   "n": 338,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/336_0.png",
+   "start": 819.88,
+   "n": 336,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/340_0.png",
+   "start": 820.66,
+   "n": 340,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/337_0.png",
+   "start": 821.82,
+   "n": 337,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/337_1.png",
+   "start": 823.36,
+   "n": 337,
+   "label": "DOING ITS JOB",
+   "word_t": 823.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/342_0.png",
+   "start": 824.64,
+   "n": 342,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/343_0.png",
+   "start": 827.66,
+   "n": 343,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/344_0.png",
+   "start": 829.2,
+   "n": 344,
+   "label": "SAME ITCH",
+   "word_t": 829.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/345_0.png",
+   "start": 830.92,
+   "n": 345,
+   "label": "PULL DOWN",
+   "word_t": 831.22,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/347_0.png",
+   "start": 831.94,
+   "n": 347,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/348_0.png",
+   "start": 832.94,
+   "n": 348,
+   "label": "SAME REASON",
+   "word_t": 833.24,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/349_0.png",
+   "start": 833.74,
+   "n": 349,
+   "label": "HUNTER-GATHERER",
+   "word_t": 834.04,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/350_0.png",
+   "start": 835.44,
+   "n": 350,
+   "label": "ANKLE BONE",
+   "word_t": 835.74,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/346_0.png",
+   "start": 837.26,
+   "n": 346,
+   "label": "40,000 YEARS AGO",
+   "word_t": 837.56,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/351_0.png",
+   "start": 839.1,
+   "n": 351,
+   "label": "ONLY DIFFERENCE",
+   "word_t": 839.66,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/352_0.png",
+   "start": 840.22,
+   "n": 352,
+   "label": "CAVE",
+   "word_t": 840.78,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/355_0.png",
+   "start": 841.22,
+   "n": 355,
+   "label": "JUST A BONE",
+   "word_t": 841.52,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/353_0.png",
+   "start": 842.36,
+   "n": 353,
+   "label": "TEAM OF ENGINEERS",
+   "word_t": 842.86,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/354_0.png",
+   "start": 844.04,
+   "n": 354,
+   "label": "STUDYING YOUR DOPAMINE",
+   "word_t": 844.34,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/357_0.png",
+   "start": 845.68,
+   "n": 357,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/358_0.png",
+   "start": 846.38,
+   "n": 358,
+   "label": "NEVER ENDS",
+   "word_t": 846.9,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/359_0.png",
+   "start": 847.3,
+   "n": 359,
+   "label": null,
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/360_0.png",
+   "start": 847.9,
+   "n": 360,
+   "label": null,
    "fx": [],
    "sfx": []
   }

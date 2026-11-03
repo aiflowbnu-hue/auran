@@ -123,6 +123,29 @@ for r in rows:
         k = min(range(len(words)), key=lambda i: abs(starts[i] - r["t"]))
         r["t"] = starts[k] if r["n"] > 1 else 0.0
 
+# hand-checked fixes (timing.txt): a visual goes on the first word of its phrase, "-" drops it
+orig = {r["n"]: r["t"] for r in rows}
+fixes = []
+for ln in open(os.path.join(HERE, "timing.txt"), encoding="utf-8"):
+    if ln.strip() and not ln.startswith("#"):
+        n, phrase = ln.strip().split(" ", 1)
+        fixes.append((int(n), phrase))
+drop = set()
+for n, phrase in fixes:
+    if phrase == "-":
+        drop.add(n); continue
+    ph = [norm(x) for x in phrase.split()]
+    occ = [i for i in range(len(words)) if wn[i:i + len(ph)] == ph and abs(words[i]["start"] - orig[n]) < 20]
+    hit = min(occ, key=lambda i: abs(words[i]["start"] - orig[n])) if occ else None   # nearest to its guide slot
+    if hit is None:
+        raise SystemExit(f"timing.txt: phrase not found for #{n}: {phrase}")
+    r = next(r for r in rows if r["n"] == n)
+    r["t"], r["fixed"] = words[hit]["start"], True
+    if abs(r["t"] - orig[n]) > 12:
+        print(f"  check #{n}: moved {orig[n]:.1f}s -> {r['t']:.1f}s ({phrase})")
+rows = sorted((r for r in rows if r["n"] not in drop), key=lambda r: r["t"])
+print(f"timing.txt: {len(fixes) - len(drop)} visuals moved, {len(drop)} dropped")
+
 # minimum hold: a run of frames closer than MIN_HOLD is spread evenly over a wider window (growing it into the
 # neighbouring long holds until there is room), then snapped to word starts again
 MIN_HOLD = 0.6

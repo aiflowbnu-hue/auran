@@ -1,0 +1,157 @@
+# Hand-checked timing fixes after looking at every image: "visual-number spoken phrase" puts that visual on the
+# first word of the phrase (searched from just before the guide's slot); "visual-number -" drops a frame that
+# repeats a neighbour. Visuals may move past each other: the edit is sorted by these times.
+21 -
+22 no coins
+23 -
+24 no cards
+25 -
+26 no screens
+29 secret pigeon laboratory
+30 harvard in the
+60 two million years
+58 picture an ancient
+59 no supermarket
+61 -
+70 and starve to death
+71 death so nature
+74 bush that might have food
+75 dopamine just to make
+94 archaeologists have dug
+95 continent on earth
+96 polished completely
+97 thrown tens of
+104 even the english word
+105 word lot as
+106 lottery comes
+107 comes from those
+102 wooden sticks
+103 bones cast on
+112 take your flint arrowhead
+113 your bone beats mine
+114 my dried meat
+115 before coins
+116 coins writing
+117 writing or cities
+118 -
+119 cities even existed
+120 existed when cities
+131 everything he owns
+132 owns the moment
+129 the moment he hears
+130 hears the brown
+167 liberty bell the first
+168 need a dealer
+165 tired and it could
+166 coin every four
+169 -
+170 -
+188 tenth peck
+189 pigeon learned the pattern
+190 -
+193 pecked ten times
+194 stopped finally
+191 finally skinner
+192 switch to a third
+195 setting he made
+196 unpredictable sometimes
+217 mechanical gears
+218 computer chips
+213 programmed with skinner's
+214 variable ratio math
+216 attraction for bored
+219 eighty percent
+220 earth and then
+223 they didn't work
+227 las vegas they
+224 -
+226 problem if you open
+228 -
+229 they worked in silicon
+230 valley look at
+225 engineers were designing
+231 need in thirty
+232 close the app and
+233 sell billions
+234 ads so tech
+239 -
+240 -
+235 rebuilt the digital
+241 variable ratio schedule
+242 schedule in two
+236 -
+254 -
+255 -
+256 -
+257 ad a boring post
+258 news you don't
+259 empty berry bush
+260 bush that is
+261 losing spin
+262 spin but every
+266 because you never know
+267 which swipe
+268 -
+269 -
+270 refuses to let
+271 phone down next
+281 -
+282 pixels aimed
+283 -
+284 aimed directly
+285 evolved forty thousand
+288 modern finance
+286 dating were rebuilt
+287 skinner's box swiping
+290 swiping left and right
+291 match screen
+289 watching a stock
+292 millisecond price
+293 high-speed dice table
+307 taxes and casinos
+308 casinos then came
+305 then came b.f. skinner
+306 who figured out
+321 finally came the smartphone
+322 smartphone which took
+311 the casino out of
+312 desert shrunk
+319 shrunk it
+320 -
+313 deck of cards
+314 put it inside
+315 pocket twenty-four
+316 hours a day
+317 -
+318 -
+329 refreshing a screen
+330 midnight or opening
+331 opening one more
+325 pack or checking
+326 -
+332 -
+333 checking your phone
+334 hundredth time
+327 time today
+328 -
+338 broken you don't
+339 -
+336 you don't have
+340 weak mind
+341 -
+342 do—checking one more
+343 so you don't starve
+345 you pull down that screen
+347 screen for the
+348 same reason a
+349 hunter-gatherer rolled
+350 ankle bone beside
+346 beside a cave fire
+355 bone didn't have
+356 -
+353 team of engineers
+354 studying your
+357 making sure the
+358 game never
+359 never ever
+360 ends

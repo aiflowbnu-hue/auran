@@ -160,44 +160,20 @@
   "action": "SoloObj1_ClauseB_Check"
  },
  {
-  "n": 21,
-  "img": "Visual_021_Scene04_SoloObj2_ClauseA.png",
-  "t": 43.84,
-  "clause": "through an Ice Age forest",
-  "scene": 4,
-  "action": "SoloObj2_ClauseA"
- },
- {
   "n": 22,
   "img": "Visual_022_Scene04_SoloObj2_ClauseB_Check.png",
-  "t": 45.56,
+  "t": 50.52,
   "clause": "with the exact",
   "scene": 4,
   "action": "SoloObj2_ClauseB_Check"
  },
  {
-  "n": 23,
-  "img": "Visual_023_Scene04_SoloObj3_ClauseA.png",
-  "t": 46.48,
-  "clause": "same chemical itch \u2014",
-  "scene": 4,
-  "action": "SoloObj3_ClauseA"
- },
- {
   "n": 24,
   "img": "Visual_024_Scene04_SoloObj3_ClauseB_X.png",
-  "t": 50.52,
+  "t": 51.54,
   "clause": "no coins,",
   "scene": 4,
   "action": "SoloObj3_ClauseB_X"
- },
- {
-  "n": 25,
-  "img": "Visual_025_Scene04_SoloObj4_ClauseA.png",
-  "t": 51.54,
-  "clause": "no cards,",
-  "scene": 4,
-  "action": "SoloObj4_ClauseA"
  },
  {
   "n": 26,
@@ -226,7 +202,7 @@
  {
   "n": 29,
   "img": "Visual_029_Scene05_SoloObj2_ClauseA.png",
-  "t": 58.06,
+  "t": 59.92,
   "clause": "bone in a cave,",
   "scene": 5,
   "action": "SoloObj2_ClauseA"
@@ -234,7 +210,7 @@
  {
   "n": 30,
   "img": "Visual_030_Scene05_SoloObj2_ClauseB_Check.png",
-  "t": 59.6,
+  "t": 61.42,
   "clause": "to a 1940s Harvard pigeon lab,",
   "scene": 5,
   "action": "SoloObj2_ClauseB_Check"
@@ -450,15 +426,23 @@
  {
   "n": 57,
   "img": "Visual_057_Scene11_Brain_AddictedUncertainty.png",
-  "t": 159.82,
+  "t": 162.54,
   "clause": "addicted to the uncertainty right before you find out.",
   "scene": 11,
   "action": "Brain_AddictedUncertainty"
  },
  {
+  "n": 60,
+  "img": "Visual_060_Scene12_SoloObj2_ClauseA.png",
+  "t": 168.12,
+  "clause": "nature was a slot machine \u2014",
+  "scene": 12,
+  "action": "SoloObj2_ClauseA"
+ },
+ {
   "n": 58,
   "img": "Visual_058_Scene12_SoloObj1_ClauseA.png",
-  "t": 162.54,
+  "t": 172.02,
   "clause": "Why?",
   "scene": 12,
   "action": "SoloObj1_ClauseA"
@@ -466,26 +450,10 @@
  {
   "n": 59,
   "img": "Visual_059_Scene12_SoloObj1_ClauseB_Loop.png",
-  "t": 167.54,
+  "t": 176.76,
   "clause": "Because for 2 million years,",
   "scene": 12,
   "action": "SoloObj1_ClauseB_Loop"
- },
- {
-  "n": 60,
-  "img": "Visual_060_Scene12_SoloObj2_ClauseA.png",
-  "t": 169.7,
-  "clause": "nature was a slot machine \u2014",
-  "scene": 12,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 61,
-  "img": "Visual_061_Scene12_SoloObj2_ClauseB_X.png",
-  "t": 175,
-  "clause": "no supermarket in the savanna.",
-  "scene": 12,
-  "action": "SoloObj2_ClauseB_X"
  },
  {
   "n": 62,
@@ -554,7 +522,7 @@
  {
   "n": 70,
   "img": "Visual_070_Scene14_SoloObj2_ClauseA.png",
-  "t": 190.22,
+  "t": 192.94,
   "clause": "you would get discouraged at Bush #4",
   "scene": 14,
   "action": "SoloObj2_ClauseA"
@@ -562,7 +530,7 @@
  {
   "n": 71,
   "img": "Visual_071_Scene14_SoloObj2_ClauseB_X.png",
-  "t": 192.94,
+  "t": 193.66,
   "clause": "and starve to death.",
   "scene": 14,
   "action": "SoloObj2_ClauseB_X"
@@ -586,7 +554,7 @@
  {
   "n": 74,
   "img": "Visual_074_Scene15_LockedBush_MysteryDopamine_ClauseA.png",
-  "t": 203.16,
+  "t": 199.32,
   "clause": "dopamine fires",
   "scene": 15,
   "action": "LockedBush_MysteryDopamine_ClauseA"
@@ -594,7 +562,7 @@
  {
   "n": 75,
   "img": "Visual_075_Scene15_LockedBush_MysteryDopamine_ClauseB_Check.png",
-  "t": 204.22,
+  "t": 203.16,
   "clause": "to make you",
   "scene": 15,
   "action": "LockedBush_MysteryDopamine_ClauseB_Check"
@@ -602,7 +570,7 @@
  {
   "n": 76,
   "img": "Visual_076_Scene15_SoloObj2_ClauseA.png",
-  "t": 205.16,
+  "t": 204.74,
   "clause": "check one",
   "scene": 15,
   "action": "SoloObj2_ClauseA"
@@ -746,7 +714,7 @@
  {
   "n": 94,
   "img": "Visual_094_Scene19_SoloObj1_ClauseA.png",
-  "t": 250,
+  "t": 252.95999999999998,
   "clause": "That tiny bone was",
   "scene": 19,
   "action": "SoloObj1_ClauseA"
@@ -754,7 +722,7 @@
  {
   "n": 95,
   "img": "Visual_095_Scene19_SoloObj1_ClauseB_Check.png",
-  "t": 251.26,
+  "t": 255.45999999999998,
   "clause": "the world's first dice \u2014",
   "scene": 19,
   "action": "SoloObj1_ClauseB_Check"
@@ -762,7 +730,7 @@
  {
   "n": 96,
   "img": "Visual_096_Scene19_LockedBone_PolishedSmooth_ClauseA.png",
-  "t": 253.95999999999998,
+  "t": 257.22,
   "clause": "dug up on every continent,",
   "scene": 19,
   "action": "LockedBone_PolishedSmooth_ClauseA"
@@ -770,7 +738,7 @@
  {
   "n": 97,
   "img": "Visual_097_Scene19_LockedBone_PolishedSmooth_ClauseB_Check.png",
-  "t": 257.22,
+  "t": 259.38,
   "clause": "polished smooth from 10,000+ throws.",
   "scene": 19,
   "action": "LockedBone_PolishedSmooth_ClauseB_Check"
@@ -808,25 +776,9 @@
   "action": "Bone_CleromancyDivination"
  },
  {
-  "n": 102,
-  "img": "Visual_102_Scene21_SoloObj1_ClauseA.png",
-  "t": 283.32,
-  "clause": "Even the English",
-  "scene": 21,
-  "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 103,
-  "img": "Visual_103_Scene21_SoloObj1_ClauseB_Check.png",
-  "t": 284.15999999999997,
-  "clause": "word 'lot' \u2014",
-  "scene": 21,
-  "action": "SoloObj1_ClauseB_Check"
- },
- {
   "n": 104,
   "img": "Visual_104_Scene21_SoloObj2_ClauseA.png",
-  "t": 285.26,
+  "t": 283.32,
   "clause": "as in 'lottery' \u2014",
   "scene": 21,
   "action": "SoloObj2_ClauseA"
@@ -834,7 +786,7 @@
  {
   "n": 105,
   "img": "Visual_105_Scene21_SoloObj2_ClauseB_Check.png",
-  "t": 286.4,
+  "t": 284.15999999999997,
   "clause": "comes from",
   "scene": 21,
   "action": "SoloObj2_ClauseB_Check"
@@ -842,7 +794,7 @@
  {
   "n": 106,
   "img": "Visual_106_Scene21_SoloObj3_ClauseA.png",
-  "t": 287.2,
+  "t": 285.6,
   "clause": "those ancient sticks",
   "scene": 21,
   "action": "SoloObj3_ClauseA"
@@ -850,10 +802,26 @@
  {
   "n": 107,
   "img": "Visual_107_Scene21_SoloObj3_ClauseB_Question.png",
-  "t": 288.38,
+  "t": 286.4,
   "clause": "and bones cast to read fate.",
   "scene": 21,
   "action": "SoloObj3_ClauseB_Question"
+ },
+ {
+  "n": 102,
+  "img": "Visual_102_Scene21_SoloObj1_ClauseA.png",
+  "t": 287.64,
+  "clause": "Even the English",
+  "scene": 21,
+  "action": "SoloObj1_ClauseA"
+ },
+ {
+  "n": 103,
+  "img": "Visual_103_Scene21_SoloObj1_ClauseB_Check.png",
+  "t": 288.6,
+  "clause": "word 'lot' \u2014",
+  "scene": 21,
+  "action": "SoloObj1_ClauseB_Check"
  },
  {
   "n": 108,
@@ -890,7 +858,7 @@
  {
   "n": 112,
   "img": "Visual_112_Scene23_SoloObj1_ClauseB_Check.png",
-  "t": 308.38,
+  "t": 309.46000000000004,
   "clause": "narrow side = I",
   "scene": 23,
   "action": "SoloObj1_ClauseB_Check"
@@ -898,7 +866,7 @@
  {
   "n": 113,
   "img": "Visual_113_Scene23_SoloObj2_ClauseA.png",
-  "t": 309.46000000000004,
+  "t": 310.96000000000004,
   "clause": "take your flint arrowhead;",
   "scene": 23,
   "action": "SoloObj2_ClauseA"
@@ -906,7 +874,7 @@
  {
   "n": 114,
   "img": "Visual_114_Scene23_SoloObj2_ClauseB_Check.png",
-  "t": 310.96000000000004,
+  "t": 312.74,
   "clause": "your bone wins = you take my dried meat.",
   "scene": 23,
   "action": "SoloObj2_ClauseB_Check"
@@ -914,7 +882,7 @@
  {
   "n": 115,
   "img": "Visual_115_Scene24_SoloObj1_ClauseA.png",
-  "t": 313.86,
+  "t": 316.2,
   "clause": "Gambling didn't wait",
   "scene": 24,
   "action": "SoloObj1_ClauseA"
@@ -922,7 +890,7 @@
  {
   "n": 116,
   "img": "Visual_116_Scene24_SoloObj1_ClauseB_Check.png",
-  "t": 314.84000000000003,
+  "t": 318.65999999999997,
   "clause": "for civilization \u2014",
   "scene": 24,
   "action": "SoloObj1_ClauseB_Check"
@@ -930,23 +898,15 @@
  {
   "n": 117,
   "img": "Visual_117_Scene24_SoloObj2_ClauseA.png",
-  "t": 316.2,
+  "t": 321.86,
   "clause": "people staked survival tools",
   "scene": 24,
   "action": "SoloObj2_ClauseA"
  },
  {
-  "n": 118,
-  "img": "Visual_118_Scene24_SoloObj2_ClauseB_Loop.png",
-  "t": 319.72,
-  "clause": "thousands of years before coins,",
-  "scene": 24,
-  "action": "SoloObj2_ClauseB_Loop"
- },
- {
   "n": 119,
   "img": "Visual_119_Scene24_SoloObj3_ClauseA.png",
-  "t": 321.86,
+  "t": 322.6,
   "clause": "writing,",
   "scene": 24,
   "action": "SoloObj3_ClauseA"
@@ -1024,25 +984,9 @@
   "action": "SoloObj2_ClauseB_Check"
  },
  {
-  "n": 129,
-  "img": "Visual_129_Scene26_SoloObj3_ClauseA.png",
-  "t": 358.34,
-  "clause": "losing everything",
-  "scene": 26,
-  "action": "SoloObj3_ClauseA"
- },
- {
-  "n": 130,
-  "img": "Visual_130_Scene26_SoloObj3_ClauseB_Check.png",
-  "t": 359.06,
-  "clause": "to dice.",
-  "scene": 26,
-  "action": "SoloObj3_ClauseB_Check"
- },
- {
   "n": 131,
   "img": "Visual_131_Scene27_SoloObj1_ClauseA.png",
-  "t": 359.8,
+  "t": 358.34,
   "clause": "The moment the",
   "scene": 27,
   "action": "SoloObj1_ClauseA"
@@ -1050,10 +994,26 @@
  {
   "n": 132,
   "img": "Visual_132_Scene27_SoloObj1_ClauseB_Check.png",
-  "t": 360.52,
+  "t": 359.06,
   "clause": "gambler heard the",
   "scene": 27,
   "action": "SoloObj1_ClauseB_Check"
+ },
+ {
+  "n": 129,
+  "img": "Visual_129_Scene26_SoloObj3_ClauseA.png",
+  "t": 359.8,
+  "clause": "losing everything",
+  "scene": 26,
+  "action": "SoloObj3_ClauseA"
+ },
+ {
+  "n": 130,
+  "img": "Visual_130_Scene26_SoloObj3_ClauseB_Check.png",
+  "t": 360.52,
+  "clause": "to dice.",
+  "scene": 26,
+  "action": "SoloObj3_ClauseB_Check"
  },
  {
   "n": 133,
@@ -1312,25 +1272,9 @@
   "action": "SoloObj1_ClauseB_Check"
  },
  {
-  "n": 165,
-  "img": "Visual_165_Scene34_SoloObj2_ClauseA.png",
-  "t": 477.78,
-  "clause": "inside a cast-iron box with 3 reels:",
-  "scene": 34,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 166,
-  "img": "Visual_166_Scene34_SoloObj2_ClauseB_Check.png",
-  "t": 483.7,
-  "clause": "The Liberty Bell.",
-  "scene": 34,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
   "n": 167,
   "img": "Visual_167_Scene35_SoloObj1_ClauseA.png",
-  "t": 484.76,
+  "t": 483.84000000000003,
   "clause": "The Liberty Bell slot",
   "scene": 35,
   "action": "SoloObj1_ClauseA"
@@ -1338,26 +1282,26 @@
  {
   "n": 168,
   "img": "Visual_168_Scene35_SoloObj1_ClauseB_X.png",
-  "t": 486.03999999999996,
+  "t": 487.24,
   "clause": "machine needed no dealer,",
   "scene": 35,
   "action": "SoloObj1_ClauseB_X"
  },
  {
-  "n": 169,
-  "img": "Visual_169_Scene35_SoloObj2_ClauseA.png",
+  "n": 165,
+  "img": "Visual_165_Scene34_SoloObj2_ClauseA.png",
   "t": 488.88,
-  "clause": "never got tired,",
-  "scene": 35,
+  "clause": "inside a cast-iron box with 3 reels:",
+  "scene": 34,
   "action": "SoloObj2_ClauseA"
  },
  {
-  "n": 170,
-  "img": "Visual_170_Scene35_SoloObj2_ClauseB_Loop.png",
-  "t": 489.62,
-  "clause": "and took a coin every 4 seconds.",
-  "scene": 35,
-  "action": "SoloObj2_ClauseB_Loop"
+  "n": 166,
+  "img": "Visual_166_Scene34_SoloObj2_ClauseB_Check.png",
+  "t": 490.36,
+  "clause": "The Liberty Bell.",
+  "scene": 34,
+  "action": "SoloObj2_ClauseB_Check"
  },
  {
   "n": 171,
@@ -1498,7 +1442,7 @@
  {
   "n": 188,
   "img": "Visual_188_Scene40_SoloObj1_ClauseB_Check.png",
-  "t": 545.04,
+  "t": 543.98,
   "clause": "the pigeon learned the fixed pattern,",
   "scene": 40,
   "action": "SoloObj1_ClauseB_Check"
@@ -1506,39 +1450,15 @@
  {
   "n": 189,
   "img": "Visual_189_Scene40_SoloObj2_ClauseA.png",
-  "t": 548.12,
+  "t": 545.2,
   "clause": "pecked 10 times,",
   "scene": 40,
   "action": "SoloObj2_ClauseA"
  },
  {
-  "n": 190,
-  "img": "Visual_190_Scene40_SoloObj2_ClauseB_X.png",
-  "t": 549.6,
-  "clause": "ate, and stopped.",
-  "scene": 40,
-  "action": "SoloObj2_ClauseB_X"
- },
- {
-  "n": 191,
-  "img": "Visual_191_Scene41_SoloObj1_ClauseA.png",
-  "t": 550.26,
-  "clause": "Fixed-ratio rewards still",
-  "scene": 41,
-  "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 192,
-  "img": "Visual_192_Scene41_SoloObj1_ClauseB_Check.png",
-  "t": 551.06,
-  "clause": "allow the brain",
-  "scene": 41,
-  "action": "SoloObj1_ClauseB_Check"
- },
- {
   "n": 193,
   "img": "Visual_193_Scene41_SoloObj2_ClauseA.png",
-  "t": 551.98,
+  "t": 548.12,
   "clause": "to pause once satisfied.",
   "scene": 41,
   "action": "SoloObj2_ClauseA"
@@ -1546,10 +1466,26 @@
  {
   "n": 194,
   "img": "Visual_194_Scene41_SoloObj2_ClauseB_Check.png",
-  "t": 552.68,
+  "t": 550.26,
   "clause": "to pause once satisfied.",
   "scene": 41,
   "action": "SoloObj2_ClauseB_Check"
+ },
+ {
+  "n": 191,
+  "img": "Visual_191_Scene41_SoloObj1_ClauseA.png",
+  "t": 551.06,
+  "clause": "Fixed-ratio rewards still",
+  "scene": 41,
+  "action": "SoloObj1_ClauseA"
+ },
+ {
+  "n": 192,
+  "img": "Visual_192_Scene41_SoloObj1_ClauseB_Check.png",
+  "t": 552.36,
+  "clause": "allow the brain",
+  "scene": 41,
+  "action": "SoloObj1_ClauseB_Check"
  },
  {
   "n": 195,
@@ -1562,7 +1498,7 @@
  {
   "n": 196,
   "img": "Visual_196_Scene42_SoloObj1_ClauseB_Question.png",
-  "t": 554.74,
+  "t": 555.46,
   "clause": "(Completely Unpredictable):",
   "scene": 42,
   "action": "SoloObj1_ClauseB_Question"
@@ -1696,9 +1632,25 @@
   "action": "Slot_MechanicalGears"
  },
  {
+  "n": 217,
+  "img": "Visual_217_Scene47_SoloObj2_ClauseA.png",
+  "t": 605.1,
+  "clause": "into 80% of all",
+  "scene": 47,
+  "action": "SoloObj2_ClauseA"
+ },
+ {
+  "n": 218,
+  "img": "Visual_218_Scene47_SoloObj2_ClauseB_X.png",
+  "t": 606.42,
+  "clause": "casino profits",
+  "scene": 47,
+  "action": "SoloObj2_ClauseB_X"
+ },
+ {
   "n": 213,
   "img": "Visual_213_Scene46_Slot_ReplacedWithChips.png",
-  "t": 605.8,
+  "t": 607.38,
   "clause": "and replaced their gears with computer chips",
   "scene": 46,
   "action": "Slot_ReplacedWithChips"
@@ -1706,7 +1658,7 @@
  {
   "n": 214,
   "img": "Visual_214_Scene46_Slot_RunningSkinnerMath.png",
-  "t": 607.38,
+  "t": 609.5,
   "clause": "programmed with B.F. Skinner's exact variable-ratio math.",
   "scene": 46,
   "action": "Slot_RunningSkinnerMath"
@@ -1728,25 +1680,9 @@
   "action": "SoloObj1_ClauseB_Check"
  },
  {
-  "n": 217,
-  "img": "Visual_217_Scene47_SoloObj2_ClauseA.png",
-  "t": 614.8199999999999,
-  "clause": "into 80% of all",
-  "scene": 47,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 218,
-  "img": "Visual_218_Scene47_SoloObj2_ClauseB_X.png",
-  "t": 616.52,
-  "clause": "casino profits",
-  "scene": 47,
-  "action": "SoloObj2_ClauseB_X"
- },
- {
   "n": 219,
   "img": "Visual_219_Scene47_SoloObj3_ClauseA.png",
-  "t": 617.48,
+  "t": 615.2,
   "clause": "on Earth.",
   "scene": 47,
   "action": "SoloObj3_ClauseA"
@@ -1754,7 +1690,7 @@
  {
   "n": 220,
   "img": "Visual_220_Scene47_SoloObj3_ClauseB_Check.png",
-  "t": 618.84,
+  "t": 617.62,
   "clause": "on Earth.",
   "scene": 47,
   "action": "SoloObj3_ClauseB_Check"
@@ -1778,50 +1714,18 @@
  {
   "n": 223,
   "img": "Visual_223_Scene48_SoloObj2_ClauseA.png",
-  "t": 622.4,
+  "t": 625.3199999999999,
   "clause": "of people read B.F.",
   "scene": 48,
   "action": "SoloObj2_ClauseA"
  },
  {
-  "n": 224,
-  "img": "Visual_224_Scene48_SoloObj2_ClauseB_Check.png",
-  "t": 623.66,
-  "clause": "Skinner's research \u2014",
-  "scene": 48,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
-  "n": 225,
-  "img": "Visual_225_Scene48_SoloObj3_ClauseA.png",
-  "t": 624.49,
-  "clause": "after psychologists",
-  "scene": 48,
-  "action": "SoloObj3_ClauseA"
- },
- {
-  "n": 226,
-  "img": "Visual_226_Scene48_SoloObj3_ClauseB_Check.png",
-  "t": 625.3199999999999,
-  "clause": "and Vegas.",
-  "scene": 48,
-  "action": "SoloObj3_ClauseB_Check"
- },
- {
   "n": 227,
   "img": "Visual_227_Scene49_SoloObj1_ClauseA.png",
-  "t": 626,
+  "t": 626.12,
   "clause": "They didn't work",
   "scene": 49,
   "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 228,
-  "img": "Visual_228_Scene49_SoloObj1_ClauseB_Check.png",
-  "t": 626.6275,
-  "clause": "in Las Vegas \u2014",
-  "scene": 49,
-  "action": "SoloObj1_ClauseB_Check"
  },
  {
   "n": 229,
@@ -1834,15 +1738,31 @@
  {
   "n": 230,
   "img": "Visual_230_Scene49_SoloObj2_ClauseB_Check.png",
-  "t": 629.5,
+  "t": 628.42,
   "clause": "in Silicon Valley.",
   "scene": 49,
   "action": "SoloObj2_ClauseB_Check"
  },
  {
+  "n": 225,
+  "img": "Visual_225_Scene48_SoloObj3_ClauseA.png",
+  "t": 633.3199999999999,
+  "clause": "after psychologists",
+  "scene": 48,
+  "action": "SoloObj3_ClauseA"
+ },
+ {
+  "n": 226,
+  "img": "Visual_226_Scene48_SoloObj3_ClauseB_Check.png",
+  "t": 638.66,
+  "clause": "and Vegas.",
+  "scene": 48,
+  "action": "SoloObj3_ClauseB_Check"
+ },
+ {
   "n": 231,
   "img": "Visual_231_Scene50_SoloObj1_ClauseA.png",
-  "t": 631.56,
+  "t": 647.44,
   "clause": "In 2006,",
   "scene": 50,
   "action": "SoloObj1_ClauseA"
@@ -1850,42 +1770,10 @@
  {
   "n": 232,
   "img": "Visual_232_Scene50_SoloObj1_ClauseB_Check.png",
-  "t": 633.3199999999999,
+  "t": 649.26,
   "clause": "tech engineers realized if you",
   "scene": 50,
   "action": "SoloObj1_ClauseB_Check"
- },
- {
-  "n": 233,
-  "img": "Visual_233_Scene50_SoloObj2_ClauseA.png",
-  "t": 637.3199999999999,
-  "clause": "get your info in 30 seconds",
-  "scene": 50,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 234,
-  "img": "Visual_234_Scene50_SoloObj2_ClauseB_X.png",
-  "t": 640.72,
-  "clause": "and close the app,",
-  "scene": 50,
-  "action": "SoloObj2_ClauseB_X"
- },
- {
-  "n": 235,
-  "img": "Visual_235_Scene50_SoloObj3_ClauseA.png",
-  "t": 644.44,
-  "clause": "you act like",
-  "scene": 50,
-  "action": "SoloObj3_ClauseA"
- },
- {
-  "n": 236,
-  "img": "Visual_236_Scene50_SoloObj3_ClauseB_Check.png",
-  "t": 645.1,
-  "clause": "Skinner's first pigeon.",
-  "scene": 50,
-  "action": "SoloObj3_ClauseB_Check"
  },
  {
   "n": 237,
@@ -1904,25 +1792,33 @@
   "action": "SoloObj1_ClauseB_X"
  },
  {
-  "n": 239,
-  "img": "Visual_239_Scene51_SoloObj2_ClauseA.png",
+  "n": 233,
+  "img": "Visual_233_Scene50_SoloObj2_ClauseA.png",
   "t": 653.259,
-  "clause": "sell billions in ads \u2014",
-  "scene": 51,
+  "clause": "get your info in 30 seconds",
+  "scene": 50,
   "action": "SoloObj2_ClauseA"
  },
  {
-  "n": 240,
-  "img": "Visual_240_Scene51_SoloObj2_ClauseB_Check.png",
-  "t": 655.44,
-  "clause": "so tech rebuilt apps",
-  "scene": 51,
-  "action": "SoloObj2_ClauseB_Check"
+  "n": 234,
+  "img": "Visual_234_Scene50_SoloObj2_ClauseB_X.png",
+  "t": 654.86,
+  "clause": "and close the app,",
+  "scene": 50,
+  "action": "SoloObj2_ClauseB_X"
+ },
+ {
+  "n": 235,
+  "img": "Visual_235_Scene50_SoloObj3_ClauseA.png",
+  "t": 656.6,
+  "clause": "you act like",
+  "scene": 50,
+  "action": "SoloObj3_ClauseA"
  },
  {
   "n": 241,
   "img": "Visual_241_Scene51_SoloObj3_ClauseA.png",
-  "t": 658.12,
+  "t": 658.58,
   "clause": "around the",
   "scene": 51,
   "action": "SoloObj3_ClauseA"
@@ -2024,33 +1920,9 @@
   "action": "Phone_MostRefreshesJunk"
  },
  {
-  "n": 254,
-  "img": "Visual_254_Scene54_Phone_BoringPostOrAd.png",
-  "t": 690.24,
-  "clause": "an annoying ad, a boring post, useless news.",
-  "scene": 54,
-  "action": "Phone_BoringPostOrAd"
- },
- {
-  "n": 255,
-  "img": "Visual_255_Scene54_Bush_EmptyBerryBush.png",
-  "t": 691.22,
-  "clause": "That junk feed is the empty berry bush \u2014",
-  "scene": 54,
-  "action": "Bush_EmptyBerryBush"
- },
- {
-  "n": 256,
-  "img": "Visual_256_Scene54_Slot_TheLosingSpin.png",
-  "t": 692.0342857142857,
-  "clause": "the losing spin.",
-  "scene": 54,
-  "action": "Slot_TheLosingSpin"
- },
- {
   "n": 257,
   "img": "Visual_257_Scene55_SoloObj1_ClauseA.png",
-  "t": 692.94,
+  "t": 690.5,
   "clause": "That junk",
   "scene": 55,
   "action": "SoloObj1_ClauseA"
@@ -2058,7 +1930,7 @@
  {
   "n": 258,
   "img": "Visual_258_Scene55_SoloObj1_ClauseB_Check.png",
-  "t": 694.1800000000001,
+  "t": 692.54,
   "clause": "feed is",
   "scene": 55,
   "action": "SoloObj1_ClauseB_Check"
@@ -2066,7 +1938,7 @@
  {
   "n": 259,
   "img": "Visual_259_Scene55_SoloObj2_ClauseA.png",
-  "t": 695.04,
+  "t": 694.7,
   "clause": "the empty",
   "scene": 55,
   "action": "SoloObj2_ClauseA"
@@ -2074,7 +1946,7 @@
  {
   "n": 260,
   "img": "Visual_260_Scene55_SoloObj2_ClauseB_Check.png",
-  "t": 695.64,
+  "t": 695.38,
   "clause": "berry bush \u2014",
   "scene": 55,
   "action": "SoloObj2_ClauseB_Check"
@@ -2082,7 +1954,7 @@
  {
   "n": 261,
   "img": "Visual_261_Scene55_SoloObj3_ClauseA.png",
-  "t": 696.52,
+  "t": 696.36,
   "clause": "the losing spin.",
   "scene": 55,
   "action": "SoloObj3_ClauseA"
@@ -2112,6 +1984,22 @@
   "action": "Phone_JackpotHeartsBurst"
  },
  {
+  "n": 266,
+  "img": "Visual_266_Scene57_SoloObj1_ClauseA.png",
+  "t": 707.1,
+  "clause": "Because you never",
+  "scene": 57,
+  "action": "SoloObj1_ClauseA"
+ },
+ {
+  "n": 267,
+  "img": "Visual_267_Scene57_SoloObj1_ClauseB_Question.png",
+  "t": 708.119,
+  "clause": "know which swipe wins,",
+  "scene": 57,
+  "action": "SoloObj1_ClauseB_Question"
+ },
+ {
   "n": 265,
   "img": "Visual_265_Scene56_Brain_ForagingLocksOn.png",
   "t": 709.84,
@@ -2120,41 +2008,9 @@
   "action": "Brain_ForagingLocksOn"
  },
  {
-  "n": 266,
-  "img": "Visual_266_Scene57_SoloObj1_ClauseA.png",
-  "t": 710.52,
-  "clause": "Because you never",
-  "scene": 57,
-  "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 267,
-  "img": "Visual_267_Scene57_SoloObj1_ClauseB_Question.png",
-  "t": 711.5,
-  "clause": "know which swipe wins,",
-  "scene": 57,
-  "action": "SoloObj1_ClauseB_Question"
- },
- {
-  "n": 268,
-  "img": "Visual_268_Scene57_SoloObj2_ClauseA.png",
-  "t": 712.28,
-  "clause": "your ancient foraging",
-  "scene": 57,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 269,
-  "img": "Visual_269_Scene57_SoloObj2_ClauseB_Check.png",
-  "t": 713.24,
-  "clause": "circuit locks on",
-  "scene": 57,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
   "n": 270,
   "img": "Visual_270_Scene57_SoloObj3_ClauseA.png",
-  "t": 713.84,
+  "t": 712.68,
   "clause": "and refuses",
   "scene": 57,
   "action": "SoloObj3_ClauseA"
@@ -2162,7 +2018,7 @@
  {
   "n": 271,
   "img": "Visual_271_Scene57_SoloObj3_ClauseB_Check.png",
-  "t": 714.44,
+  "t": 713.96,
   "clause": "to put the phone down.",
   "scene": 57,
   "action": "SoloObj3_ClauseB_Check"
@@ -2240,33 +2096,17 @@
   "action": "Bone_WrappedInPixels"
  },
  {
-  "n": 281,
-  "img": "Visual_281_Scene60_Brain_AimedAt40000YrBrain.png",
-  "t": 735.44,
-  "clause": "aimed directly at a brain that evolved 40,000 years ago.",
-  "scene": 60,
-  "action": "Brain_AimedAt40000YrBrain"
- },
- {
   "n": 282,
   "img": "Visual_282_Scene61_SoloObj1_ClauseA.png",
-  "t": 736.54,
+  "t": 734.75,
   "clause": "...aimed directly at",
   "scene": 61,
   "action": "SoloObj1_ClauseA"
  },
  {
-  "n": 283,
-  "img": "Visual_283_Scene61_SoloObj1_ClauseB_Check.png",
-  "t": 737.36,
-  "clause": "a human brain",
-  "scene": 61,
-  "action": "SoloObj1_ClauseB_Check"
- },
- {
   "n": 284,
   "img": "Visual_284_Scene61_SoloObj2_ClauseA.png",
-  "t": 738.38,
+  "t": 735.44,
   "clause": "that evolved",
   "scene": 61,
   "action": "SoloObj2_ClauseA"
@@ -2274,15 +2114,23 @@
  {
   "n": 285,
   "img": "Visual_285_Scene61_SoloObj2_ClauseB_Loop.png",
-  "t": 739.12,
+  "t": 737.36,
   "clause": "40,000 years ago.",
   "scene": 61,
   "action": "SoloObj2_ClauseB_Loop"
  },
  {
+  "n": 288,
+  "img": "Visual_288_Scene62_SoloObj2_ClauseA.png",
+  "t": 740.42,
+  "clause": "and finance/crypto apps were also rebuilt",
+  "scene": 62,
+  "action": "SoloObj2_ClauseA"
+ },
+ {
   "n": 286,
   "img": "Visual_286_Scene62_SoloObj1_ClauseA.png",
-  "t": 740.42,
+  "t": 741.58,
   "clause": "Modern dating apps (swipe",
   "scene": 62,
   "action": "SoloObj1_ClauseA"
@@ -2290,31 +2138,15 @@
  {
   "n": 287,
   "img": "Visual_287_Scene62_SoloObj1_ClauseB_Check.png",
-  "t": 741.34,
+  "t": 743.2,
   "clause": "until match confetti)",
   "scene": 62,
   "action": "SoloObj1_ClauseB_Check"
  },
  {
-  "n": 288,
-  "img": "Visual_288_Scene62_SoloObj2_ClauseA.png",
-  "t": 742.04,
-  "clause": "and finance/crypto apps were also rebuilt",
-  "scene": 62,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 289,
-  "img": "Visual_289_Scene62_SoloObj2_ClauseB_Check.png",
-  "t": 742.74,
-  "clause": "inside Skinner's box.",
-  "scene": 62,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
   "n": 290,
   "img": "Visual_290_Scene63_SoloObj1_ClauseA.png",
-  "t": 753.6,
+  "t": 744.58,
   "clause": "Confetti animations",
   "scene": 63,
   "action": "SoloObj1_ClauseA"
@@ -2322,15 +2154,23 @@
  {
   "n": 291,
   "img": "Visual_291_Scene63_SoloObj1_ClauseB_Check.png",
-  "t": 754.86,
+  "t": 746.94,
   "clause": "and millisecond",
   "scene": 63,
   "action": "SoloObj1_ClauseB_Check"
  },
  {
+  "n": 289,
+  "img": "Visual_289_Scene62_SoloObj2_ClauseB_Check.png",
+  "t": 751.52,
+  "clause": "inside Skinner's box.",
+  "scene": 62,
+  "action": "SoloObj2_ClauseB_Check"
+ },
+ {
   "n": 292,
   "img": "Visual_292_Scene63_SoloObj2_ClauseA.png",
-  "t": 755.74,
+  "t": 755.08,
   "clause": "price ticks turn investing",
   "scene": 63,
   "action": "SoloObj2_ClauseA"
@@ -2338,7 +2178,7 @@
  {
   "n": 293,
   "img": "Visual_293_Scene63_SoloObj2_ClauseB_Check.png",
-  "t": 757.54,
+  "t": 758.02,
   "clause": "into a high-speed dice table.",
   "scene": 63,
   "action": "SoloObj2_ClauseB_Check"
@@ -2432,25 +2272,9 @@
   "action": "SoloObj1_ClauseB_Question"
  },
  {
-  "n": 305,
-  "img": "Visual_305_Scene66_SoloObj2_ClauseA.png",
-  "t": 788.8,
-  "clause": "into taxes & casinos) and B.F.",
-  "scene": 66,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 306,
-  "img": "Visual_306_Scene66_SoloObj2_ClauseB_Check.png",
-  "t": 791.28,
-  "clause": "Skinner's mathematical rhythm.",
-  "scene": 66,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
   "n": 307,
   "img": "Visual_307_Scene67_SoloObj1_ClauseA.png",
-  "t": 793.14,
+  "t": 789.1,
   "clause": "Skinner discovered",
   "scene": 67,
   "action": "SoloObj1_ClauseA"
@@ -2458,15 +2282,31 @@
  {
   "n": 308,
   "img": "Visual_308_Scene67_SoloObj1_ClauseB_Check.png",
-  "t": 795.28,
+  "t": 789.86,
   "clause": "the exact schedule",
   "scene": 67,
   "action": "SoloObj1_ClauseB_Check"
  },
  {
+  "n": 305,
+  "img": "Visual_305_Scene66_SoloObj2_ClauseA.png",
+  "t": 791.28,
+  "clause": "into taxes & casinos) and B.F.",
+  "scene": 66,
+  "action": "SoloObj2_ClauseA"
+ },
+ {
+  "n": 306,
+  "img": "Visual_306_Scene66_SoloObj2_ClauseB_Check.png",
+  "t": 793.14,
+  "clause": "Skinner's mathematical rhythm.",
+  "scene": 66,
+  "action": "SoloObj2_ClauseB_Check"
+ },
+ {
   "n": 309,
   "img": "Visual_309_Scene67_SoloObj2_ClauseA.png",
-  "t": 796.24,
+  "t": 795.64,
   "clause": "that traps a living brain",
   "scene": 67,
   "action": "SoloObj2_ClauseA"
@@ -2480,89 +2320,9 @@
   "action": "SoloObj2_ClauseB_Loop"
  },
  {
-  "n": 311,
-  "img": "Visual_311_Scene68_SoloObj1_ClauseA.png",
-  "t": 799.04,
-  "clause": "Finally came",
-  "scene": 68,
-  "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 312,
-  "img": "Visual_312_Scene68_SoloObj1_ClauseB_Check.png",
-  "t": 799.8,
-  "clause": "the smartphone \u2014",
-  "scene": 68,
-  "action": "SoloObj1_ClauseB_Check"
- },
- {
-  "n": 313,
-  "img": "Visual_313_Scene68_SoloObj2_ClauseA.png",
-  "t": 801.46,
-  "clause": "taking the casino",
-  "scene": 68,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 314,
-  "img": "Visual_314_Scene68_SoloObj2_ClauseB_Check.png",
-  "t": 802.22,
-  "clause": "out of the desert",
-  "scene": 68,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
-  "n": 315,
-  "img": "Visual_315_Scene68_SoloObj3_ClauseA.png",
-  "t": 803.26,
-  "clause": "and shrinking it",
-  "scene": 68,
-  "action": "SoloObj3_ClauseA"
- },
- {
-  "n": 316,
-  "img": "Visual_316_Scene68_SoloObj3_ClauseB_Check.png",
-  "t": 803.86,
-  "clause": "to a deck of cards.",
-  "scene": 68,
-  "action": "SoloObj3_ClauseB_Check"
- },
- {
-  "n": 317,
-  "img": "Visual_317_Scene69_SoloObj1_ClauseA.png",
-  "t": 804.5,
-  "clause": "Putting a 24-hour",
-  "scene": 69,
-  "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 318,
-  "img": "Visual_318_Scene69_SoloObj1_ClauseB_Check.png",
-  "t": 805.2466666666667,
-  "clause": "slot machine directly",
-  "scene": 69,
-  "action": "SoloObj1_ClauseB_Check"
- },
- {
-  "n": 319,
-  "img": "Visual_319_Scene69_SoloObj2_ClauseA.png",
-  "t": 806,
-  "clause": "inside your pocket.",
-  "scene": 69,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 320,
-  "img": "Visual_320_Scene69_SoloObj2_ClauseB_Check.png",
-  "t": 806.74,
-  "clause": "inside your pocket.",
-  "scene": 69,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
   "n": 321,
   "img": "Visual_321_Scene69_SoloObj3_ClauseA.png",
-  "t": 807.44,
+  "t": 799.04,
   "clause": "inside your pocket.",
   "scene": 69,
   "action": "SoloObj3_ClauseA"
@@ -2570,9 +2330,65 @@
  {
   "n": 322,
   "img": "Visual_322_Scene69_SoloObj3_ClauseB_Check.png",
-  "t": 808.16,
+  "t": 799.98,
   "clause": "inside your pocket.",
   "scene": 69,
+  "action": "SoloObj3_ClauseB_Check"
+ },
+ {
+  "n": 311,
+  "img": "Visual_311_Scene68_SoloObj1_ClauseA.png",
+  "t": 801.46,
+  "clause": "Finally came",
+  "scene": 68,
+  "action": "SoloObj1_ClauseA"
+ },
+ {
+  "n": 312,
+  "img": "Visual_312_Scene68_SoloObj1_ClauseB_Check.png",
+  "t": 802.6,
+  "clause": "the smartphone \u2014",
+  "scene": 68,
+  "action": "SoloObj1_ClauseB_Check"
+ },
+ {
+  "n": 319,
+  "img": "Visual_319_Scene69_SoloObj2_ClauseA.png",
+  "t": 803.26,
+  "clause": "inside your pocket.",
+  "scene": 69,
+  "action": "SoloObj2_ClauseA"
+ },
+ {
+  "n": 313,
+  "img": "Visual_313_Scene68_SoloObj2_ClauseA.png",
+  "t": 804.5,
+  "clause": "taking the casino",
+  "scene": 68,
+  "action": "SoloObj2_ClauseA"
+ },
+ {
+  "n": 314,
+  "img": "Visual_314_Scene68_SoloObj2_ClauseB_Check.png",
+  "t": 805.84,
+  "clause": "out of the desert",
+  "scene": 68,
+  "action": "SoloObj2_ClauseB_Check"
+ },
+ {
+  "n": 315,
+  "img": "Visual_315_Scene68_SoloObj3_ClauseA.png",
+  "t": 806.74,
+  "clause": "and shrinking it",
+  "scene": 68,
+  "action": "SoloObj3_ClauseA"
+ },
+ {
+  "n": 316,
+  "img": "Visual_316_Scene68_SoloObj3_ClauseB_Check.png",
+  "t": 807.76,
+  "clause": "to a deck of cards.",
+  "scene": 68,
   "action": "SoloObj3_ClauseB_Check"
  },
  {
@@ -2592,41 +2408,9 @@
   "action": "SoloObj1_ClauseB_Check"
  },
  {
-  "n": 325,
-  "img": "Visual_325_Scene70_SoloObj2_ClauseA.png",
-  "t": 810.86,
-  "clause": "refreshing a",
-  "scene": 70,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 326,
-  "img": "Visual_326_Scene70_SoloObj2_ClauseB_Loop.png",
-  "t": 811.64,
-  "clause": "screen at midnight,",
-  "scene": 70,
-  "action": "SoloObj2_ClauseB_Loop"
- },
- {
-  "n": 327,
-  "img": "Visual_327_Scene70_SoloObj3_ClauseA.png",
-  "t": 812.408,
-  "clause": "opening one more pack,",
-  "scene": 70,
-  "action": "SoloObj3_ClauseA"
- },
- {
-  "n": 328,
-  "img": "Visual_328_Scene70_SoloObj3_ClauseB_Check.png",
-  "t": 813.2,
-  "clause": "or checking 100 times...",
-  "scene": 70,
-  "action": "SoloObj3_ClauseB_Check"
- },
- {
   "n": 329,
   "img": "Visual_329_Scene71_SoloObj1_ClauseA.png",
-  "t": 814.08,
+  "t": 810.86,
   "clause": "...12:00 AM",
   "scene": 71,
   "action": "SoloObj1_ClauseA"
@@ -2634,7 +2418,7 @@
  {
   "n": 330,
   "img": "Visual_330_Scene71_SoloObj1_ClauseB_Loop.png",
-  "t": 814.9,
+  "t": 812.16,
   "clause": "midnight scrolling,",
   "scene": 71,
   "action": "SoloObj1_ClauseB_Loop"
@@ -2642,23 +2426,23 @@
  {
   "n": 331,
   "img": "Visual_331_Scene71_SoloObj2_ClauseA.png",
-  "t": 815.5,
+  "t": 813.2,
   "clause": "loot packs,",
   "scene": 71,
   "action": "SoloObj2_ClauseA"
  },
  {
-  "n": 332,
-  "img": "Visual_332_Scene71_SoloObj2_ClauseB_Check.png",
-  "t": 816.1800000000001,
-  "clause": "and constant",
-  "scene": 71,
-  "action": "SoloObj2_ClauseB_Check"
+  "n": 325,
+  "img": "Visual_325_Scene70_SoloObj2_ClauseA.png",
+  "t": 814.08,
+  "clause": "refreshing a",
+  "scene": 70,
+  "action": "SoloObj2_ClauseA"
  },
  {
   "n": 333,
   "img": "Visual_333_Scene71_SoloObj3_ClauseA.png",
-  "t": 816.8,
+  "t": 815.12,
   "clause": "phone checks.",
   "scene": 71,
   "action": "SoloObj3_ClauseA"
@@ -2666,10 +2450,18 @@
  {
   "n": 334,
   "img": "Visual_334_Scene71_SoloObj3_ClauseB_Check.png",
-  "t": 817.4,
+  "t": 816.34,
   "clause": "phone checks.",
   "scene": 71,
   "action": "SoloObj3_ClauseB_Check"
+ },
+ {
+  "n": 327,
+  "img": "Visual_327_Scene70_SoloObj3_ClauseA.png",
+  "t": 817.12,
+  "clause": "opening one more pack,",
+  "scene": 70,
+  "action": "SoloObj3_ClauseA"
  },
  {
   "n": 335,
@@ -2680,12 +2472,28 @@
   "action": "Brain_NothingBrokenInside"
  },
  {
+  "n": 338,
+  "img": "Visual_338_Scene73_SoloObj1_ClauseA.png",
+  "t": 819.26,
+  "clause": "Your brain is",
+  "scene": 73,
+  "action": "SoloObj1_ClauseA"
+ },
+ {
   "n": 336,
   "img": "Visual_336_Scene72_Brain_NotAWeakMind.png",
   "t": 819.96,
   "clause": "You don't have a weak mind.",
   "scene": 72,
   "action": "Brain_NotAWeakMind"
+ },
+ {
+  "n": 340,
+  "img": "Visual_340_Scene73_SoloObj2_ClauseA.png",
+  "t": 820.74,
+  "clause": "job it was built to do:",
+  "scene": 73,
+  "action": "SoloObj2_ClauseA"
  },
  {
   "n": 337,
@@ -2696,41 +2504,9 @@
   "action": "Bush_CheckOneMoreBush"
  },
  {
-  "n": 338,
-  "img": "Visual_338_Scene73_SoloObj1_ClauseA.png",
-  "t": 823.66,
-  "clause": "Your brain is",
-  "scene": 73,
-  "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 339,
-  "img": "Visual_339_Scene73_SoloObj1_ClauseB_Check.png",
-  "t": 824.3,
-  "clause": "doing the exact",
-  "scene": 73,
-  "action": "SoloObj1_ClauseB_Check"
- },
- {
-  "n": 340,
-  "img": "Visual_340_Scene73_SoloObj2_ClauseA.png",
-  "t": 825.04,
-  "clause": "job it was built to do:",
-  "scene": 73,
-  "action": "SoloObj2_ClauseA"
- },
- {
-  "n": 341,
-  "img": "Visual_341_Scene73_SoloObj2_ClauseB_Check.png",
-  "t": 825.78,
-  "clause": "checking one more berry",
-  "scene": 73,
-  "action": "SoloObj2_ClauseB_Check"
- },
- {
   "n": 342,
   "img": "Visual_342_Scene73_SoloObj3_ClauseA.png",
-  "t": 826.6,
+  "t": 824.72,
   "clause": "bush in the Ice Age",
   "scene": 73,
   "action": "SoloObj3_ClauseA"
@@ -2760,17 +2536,9 @@
   "action": "Phone_PullDownAgainLoop"
  },
  {
-  "n": 346,
-  "img": "Visual_346_Scene74_Campfire_SameAsCaveFire.png",
-  "t": 832.46,
-  "clause": "for the exact same reason a hunter-gatherer rolled a bone by the fire.",
-  "scene": 74,
-  "action": "Campfire_SameAsCaveFire"
- },
- {
   "n": 347,
   "img": "Visual_347_Scene75_SoloObj1_ClauseA.png",
-  "t": 833.92,
+  "t": 832.02,
   "clause": "...a hunter-gatherer rolled",
   "scene": 75,
   "action": "SoloObj1_ClauseA"
@@ -2778,7 +2546,7 @@
  {
   "n": 348,
   "img": "Visual_348_Scene75_SoloObj1_ClauseB_Check.png",
-  "t": 835.2,
+  "t": 833.24,
   "clause": "a sheep's ankle bone",
   "scene": 75,
   "action": "SoloObj1_ClauseB_Check"
@@ -2786,7 +2554,7 @@
  {
   "n": 349,
   "img": "Visual_349_Scene75_SoloObj2_ClauseA.png",
-  "t": 836.3,
+  "t": 834.04,
   "clause": "beside a cave",
   "scene": 75,
   "action": "SoloObj2_ClauseA"
@@ -2794,10 +2562,18 @@
  {
   "n": 350,
   "img": "Visual_350_Scene75_SoloObj2_ClauseB_Loop.png",
-  "t": 837.14,
+  "t": 835.74,
   "clause": "fire 40,000 years ago.",
   "scene": 75,
   "action": "SoloObj2_ClauseB_Loop"
+ },
+ {
+  "n": 346,
+  "img": "Visual_346_Scene74_Campfire_SameAsCaveFire.png",
+  "t": 837.56,
+  "clause": "for the exact same reason a hunter-gatherer rolled a bone by the fire.",
+  "scene": 74,
+  "action": "Campfire_SameAsCaveFire"
  },
  {
   "n": 351,
@@ -2816,9 +2592,17 @@
   "action": "SoloObj1_ClauseB_Check"
  },
  {
+  "n": 355,
+  "img": "Visual_355_Scene77_SoloObj1_ClauseA.png",
+  "t": 841.52,
+  "clause": "...studying your dopamine",
+  "scene": 77,
+  "action": "SoloObj1_ClauseA"
+ },
+ {
   "n": 353,
   "img": "Visual_353_Scene76_SoloObj2_ClauseA.png",
-  "t": 841.36,
+  "t": 842.44,
   "clause": "the bone didn't have a",
   "scene": 76,
   "action": "SoloObj2_ClauseA"
@@ -2826,26 +2610,10 @@
  {
   "n": 354,
   "img": "Visual_354_Scene76_SoloObj2_ClauseB_Check.png",
-  "t": 842.44,
+  "t": 844.34,
   "clause": "team of engineers behind it...",
   "scene": 76,
   "action": "SoloObj2_ClauseB_Check"
- },
- {
-  "n": 355,
-  "img": "Visual_355_Scene77_SoloObj1_ClauseA.png",
-  "t": 844.34,
-  "clause": "...studying your dopamine",
-  "scene": 77,
-  "action": "SoloObj1_ClauseA"
- },
- {
-  "n": 356,
-  "img": "Visual_356_Scene77_SoloObj1_ClauseB_Check.png",
-  "t": 844.96,
-  "clause": "and making sure",
-  "scene": 77,
-  "action": "SoloObj1_ClauseB_Check"
  },
  {
   "n": 357,

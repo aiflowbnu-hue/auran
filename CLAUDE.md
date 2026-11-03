@@ -29,3 +29,11 @@ The renderer in `projects/sentinel-hypothesis/` (`build_edit.py` + `render.js`) 
 
 - `tools/ai33.py`: ai33.pro client (sfx, tts, image). Needs the API key in the `AI33_KEY` environment variable; never commit it.
 - Speech-to-text: `POST https://api.ai33.pro/v1/task/speech-to-text`, poll `GET /v1/task/{id}`, download `metadata.json_url`.
+
+## Text layers I add myself (owner's feedback on dopamine-layered)
+
+- No full captions. Only a few key words (1-3) as a small hand-lettered label beside the object, with a short curved
+  callout line, like the "CHEMICAL ITCH!" labels in the earlier image sets. Font: Patrick Hand, upper case, slight tilt.
+- Labels are hand-picked per visual (`labels.txt`) and must match what the image shows; skip images that already have text.
+- Check every image against its spoken words; fix timing by hand where the guide is off (`timing.txt`).
+  See `projects/dopamine-layered/` (`build_edit.py`, `compose.py`, `render_lossless.py`).
