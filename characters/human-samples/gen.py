@@ -533,7 +533,7 @@ def render(svgs):
 if __name__ == "__main__":
     os.makedirs(os.path.join(HERE, "poses"), exist_ok=True)
     jobs = []
-    for kind, title, poses in (("modern", "MODERN HUMAN", MODERN_POSES), ("ancient", "ANCIENT HUMAN", ANCIENT_POSES)):
+    for kind, title, poses in (("modern", "MODERN HUMAN", MODERN_POSES),):     # ancient humans: ancient.py
         svg = sheet(kind, title, poses)
         open(os.path.join(HERE, f"{kind}_sheet.svg"), "w").write(svg)
         jobs.append((svg, os.path.join(HERE, f"{kind}_sheet.png"), False))
