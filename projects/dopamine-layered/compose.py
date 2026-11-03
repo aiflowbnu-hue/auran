@@ -166,7 +166,7 @@ if lo_t == 0:
 for c in cuts:
     c["fx"], c["sfx"] = [], []
 json.dump({"fps": 30, "size": [W, H], "voiceover": "assets/voiceover.mp3", "music": "assets/music.mp3",
-           "music_volume": 0.16, "tail": 1.5, "range": [lo_t, hi_t], "cuts": cuts},
+           "music_volume": 0.16, "tail": 1.5, "range": [lo_t, hi_t if len(sys.argv) > 2 else 1e9], "cuts": cuts},
           open(os.path.join(HERE, "edit.json"), "w"), indent=1)
 late = [(c["n"], c["label"]) for c in cuts if c.get("label") and round(c["start"] * 30) / 30 > c["word_t"]]
 print(f"{len(cuts)} cuts, {sum(1 for c in cuts if c.get('label'))} labels; no room for: {skipped}; late labels: {late}")
