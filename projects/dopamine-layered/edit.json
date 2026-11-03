@@ -1,0 +1,233 @@
+{
+ "fps": 30,
+ "size": [
+  1920,
+  1080
+ ],
+ "voiceover": "assets/voiceover.mp3",
+ "music": "assets/music.mp3",
+ "music_volume": 0.16,
+ "tail": 1.5,
+ "range": [
+  0.0,
+  46.0
+ ],
+ "cuts": [
+  {
+   "img": "build/composed/001_0.png",
+   "start": 0.0,
+   "n": 1,
+   "text": "Think about the last time",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/002_0.png",
+   "start": 1.08,
+   "n": 2,
+   "text": "you opened an app on your phone,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/003_0.png",
+   "start": 2.78,
+   "n": 3,
+   "text": "saw nothing new,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/004_0.png",
+   "start": 3.94,
+   "n": 4,
+   "text": "and pulled your thumb down the screen",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/004_1.png",
+   "start": 5.56,
+   "n": 4,
+   "text": "to refresh it.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/005_0.png",
+   "start": 6.46,
+   "n": 5,
+   "text": "A little spinning wheel appeared for a second.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/006_0.png",
+   "start": 8.62,
+   "n": 6,
+   "text": "Maybe a new notification popped up.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/007_0.png",
+   "start": 10.72,
+   "n": 7,
+   "text": "Maybe nothing did.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/008_0.png",
+   "start": 12.22,
+   "n": 8,
+   "text": "So a few minutes later,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/009_0.png",
+   "start": 13.44,
+   "n": 9,
+   "text": "you pulled your thumb down again.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/010_0.png",
+   "start": 15.4,
+   "n": 10,
+   "text": "A social media feed,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/011_0.png",
+   "start": 16.8,
+   "n": 11,
+   "text": "a video game loot box,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/012_0.png",
+   "start": 18.48,
+   "n": 12,
+   "text": "a crypto chart,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/013_0.png",
+   "start": 19.62,
+   "n": 13,
+   "text": "a dating app swipe.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/014_0.png",
+   "start": 21.26,
+   "n": 14,
+   "text": "None of them look like a casino.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/015_0.png",
+   "start": 23.04,
+   "n": 15,
+   "text": "Yet every single time your",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/016_0.png",
+   "start": 24.54,
+   "n": 16,
+   "text": "thumb pulls down that screen,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/017_0.png",
+   "start": 26.52,
+   "n": 17,
+   "text": "your brain is doing the exact same",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/018_0.png",
+   "start": 28.52,
+   "n": 18,
+   "text": "thing a gambler does in front of",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/018_1.png",
+   "start": 30.48,
+   "n": 18,
+   "text": "a slot machine at three in the morning.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/018_2.png",
+   "start": 33.28,
+   "n": 18,
+   "text": "That urge to check,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/018_3.png",
+   "start": 34.74,
+   "n": 18,
+   "text": "to roll, to see what happens next",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/018_4.png",
+   "start": 37.22,
+   "n": 18,
+   "text": "is one of the oldest instincts inside you.",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/019_0.png",
+   "start": 40.16,
+   "n": 19,
+   "text": "Forty thousand years ago,",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/020_0.png",
+   "start": 41.84,
+   "n": 20,
+   "text": "an ancestor of yours walked",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/021_0.png",
+   "start": 43.54,
+   "n": 21,
+   "text": "through an Ice Age forest",
+   "fx": [],
+   "sfx": []
+  },
+  {
+   "img": "build/composed/022_0.png",
+   "start": 45.26,
+   "n": 22,
+   "text": "with the exact",
+   "fx": [],
+   "sfx": []
+  }
+ ]
+}
